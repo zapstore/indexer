@@ -1,0 +1,57 @@
+signal:
+  android:
+    name: Signal
+    license: MIT
+    repository: https://github.com/signalapp/Signal-Android
+    version: ['https://updates.signal.org/android/latest.json', '.versionName', '.*']
+    artifacts:
+      - https://updates.signal.org/android/Signal-Android-website-prod-universal-release-$v.apk
+
+tor:
+  android:
+    name: Tor Browser
+    repository: https://gitlab.torproject.org/tpo/core/tor/
+    version: ['https://www.torproject.org/download', 'a[href$=apk]', 'href', '%v']
+    artifacts:
+      - https://dist.torproject.org/torbrowser/13.5.6/tor-browser-android-aarch64-$v.apk
+
+camelus:
+  android:
+    name: Camelus
+    repository: https://github.com/leo-lox/camelus
+    artifacts:
+      - https://camelus.app/downloads/app-release.apk
+
+grayjay:
+  android:
+    name: Grayjay
+    repository: https://gitlab.futo.org/videostreaming/grayjay
+    version: ['https://gitlab.futo.org/api/v4/projects/videostreaming%2Fgrayjay/repository/tags', '.[0].name', '.*']
+    artifacts:
+      - https://releases.grayjay.app/app-arm64-v8a-release.apk
+      # - https://releases.grayjay.app/app-universal-release.apk
+
+fcast:
+  android:
+    name: FCast
+    repository: https://gitlab.futo.org/videostreaming/fcast
+    version: ['https://gitlab.futo.org/api/v4/projects/videostreaming%2Ffcast/releases/permalink/latest', '.tag_name', '.*']
+    artifacts:
+      - https://releases.grayjay.app/fcast-release.apk
+
+voiceinput:
+  android:
+    name: FUTO Voice Input
+    description: The Voice Input app that respects your privacy.
+    repository: https://gitlab.futo.org/alex/voiceinput
+    version: ['https://voiceinput.futo.org', 'a.url-link + p', '', '%v']
+    artifacts:
+      - https://voiceinput.futo.org/VoiceInput/standalone.apk
+
+antennapod:
+  android:
+    name: AntennaPod
+    repository: https://github.com/AntennaPod/AntennaPod
+    version: ['https://f-droid.org/packages/de.danoeh.antennapod/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+    artifacts:
+      - https://f-droid.org/repo/de.danoeh.antennapod_$v.apk

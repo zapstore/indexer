@@ -1,0 +1,1211 @@
+mutiny:
+  android:
+    repository: https://github.com/mutinywallet/mutiny-web
+    builder: npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg
+    artifacts:
+      - mutiny-wallet-fdroid-universal-v%v.apk
+
+0xchat:
+  android:
+    repository: https://github.com/0xchat-app/0xchat-app-main
+    builder: npub1tm99pgz2lth724jeld6gzz6zv48zy6xp4n9xu5uqrwvx9km54qaqkkxn72
+    artifacts:
+      - v%v-(beta|release)(\.\d)?.apk
+
+primal:
+  android:
+    repository: https://github.com/PrimalHQ/primal-android-app
+    builder: npub12vkcxr0luzwp8e673v29eqjhrr7p9vqq8asav85swaepclllj09sylpugg
+    artifacts:
+      - primal-%v.apk
+
+btcmap:
+  android:
+    repository: https://github.com/teambtcmap/btcmap-android
+    builder: npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq
+    name: BTC Map
+    artifacts:
+      - btcmap-%v.apk
+
+minibits:
+  android:
+    repository: https://github.com/minibits-cash/minibits_wallet
+    builder: npub1kvaln6tm0re4d99q9e4ma788wpvnw0jzkz595cljtfgwhldd75xsj9tkzv
+    artifacts:
+      - app-arm64-v8a-release.apk
+      # - app-armeabi-v7a-release.apk
+      # - app-universal-release.apk
+      # - app-x86-release.apk
+      # - app-x86_64-release.apk
+
+spring:
+  android:
+    repository: https://github.com/nostrband/nostr-universe
+    builder: npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy
+    name: Spring Browser
+    artifacts:
+      - spring-nostr-browser-v%v.apk
+
+simplex:
+  android:
+    repository: https://github.com/simplex-chat/simplex-chat
+    builder: npub1exv22uulqnmlluszc4yk92jhs2e5ajcs6mu3t00a6avzjcalj9csm7d828
+    artifacts:
+      - simplex.apk
+      # - simplex-armv7a.apk
+
+zeus:
+  android:
+    repository: https://github.com/ZeusLN/zeus
+    builder: npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5
+    artifacts:
+      - zeus-v%v-arm64-v8a.apk
+      # - zeus-v%v-armeabi-v7a.apk
+      # - zeus-v%v-universal.apk
+      # - zeus-v%v-x86.apk
+      # - zeus-v%v-x86_64.apk 
+
+phoenix:
+  android:
+    repository: https://github.com/acinq/phoenix
+    name: Phoenix Wallet
+    artifacts:
+      - phoenix-\d+-%v-mainnet.apk
+
+protonmail:
+  android:
+    repository: https://github.com/protonmail/android-mail
+    name: Proton Mail
+    artifacts:
+      - ProtonMail-.*.apk
+
+innertune:
+  android:
+    repository: https://github.com/z-huang/InnerTune
+    artifacts:
+      - InnerTune_v%v_foss.apk
+
+harmony:
+  android:
+    repository: https://github.com/anandnet/Harmony-Music
+    name: Harmony Music
+    artifacts:
+      - harmonymusicv%v-arm64-v8a.apk
+      # - harmonymusicv%v-armeabi-v7a.apk 
+      # - harmonymusicv%v.apk
+      # - harmonymusicv%v.AppImage
+      # - harmonymusicv%v.deb
+      # - harmonymusicv%v.exe
+      # - harmonymusicv%v.rpm
+
+bluewallet:
+  android:
+    repository: https://github.com/bluewallet/bluewallet
+    artifacts:
+      - BlueWallet-%v-\d+.apk
+      # - BlueWallet.%v.\d+.ipa
+      # - BlueWallet.%v.dmg
+
+nutstash:
+  android:
+    repository: https://github.com/gandlafbtc/nutstash-wallet
+    builder: npub1cj6ndx5akfazux7f0vjl4fyx9k0ulf682p437fe03a9ndwqjm0tqj886t6
+    artifacts:
+      - app-release.apk
+      # - nutstash_%v_aarch64.dmg
+      # - nutstash_%v_amd64.AppImage
+      # - nutstash_%v_amd64.deb
+      # - nutstash_%v_x64-setup.exe
+      # - nutstash_%v_x64.dmg
+      # - nutstash_%v_x64_en-US.msi
+
+aqua:
+  android:
+    repository: https://github.com/aquawallet/aqua-wallet
+    builder: npub1ajlrwgfj4yerhqf7ady03h7wmtk2qr3gs7h3sxcx83k05yld36sswpzx3q
+    artifacts:
+      - .*.apk
+
+robosats:
+  android:
+    repository: https://github.com/robosats/robosats
+    builder: npub1p2psats79rypr8lpnl9t5qdekfp700x660qsgw284xvq4s09lqrqqk3m82
+    name: Robosats
+    artifacts:      
+      - robosats-v(\d+\.\d+\.\d+\.alpha)-arm64-v8a.apk
+      # - robosats-desktop-v%v-linux-x64.zip
+      # - robosats-desktop-v%v-mac-darwin-x64.zip
+      # - robosats-desktop-v%v-win32-ia32.zip
+      # - robosats-v%v.alpha-armeabi-v7a.apk
+      # - robosats-v%v.alpha-universal.apk
+      # - robosats-v%v.alpha-x86.apk
+
+permission_pilot:
+  android:
+    repository: https://github.com/d4rken-org/permission-pilot
+    artifacts:
+      - eu.darken.myperm-v(\d+\.\d+\.\d+-rc\d+)-\d+-FOSS-RELEASE-[a-f0-9]+.apk
+
+ytdlnis:
+  android:
+    repository: https://github.com/deniscerri/ytdlnis
+    name: YTDLnis
+    artifacts:
+      - YTDLnis-.*-arm64-v8a-release.apk
+      # - YTDLnis-.*-armeabi-v7a-release.apk
+      # - YTDLnis-.*-universal-release.apk
+      # - YTDLnis-.*-x86-release.apk
+      # - YTDLnis-.*-x86_64-release.apk 
+
+ntfy:
+  android:
+    repository: https://github.com/binwiederhier/ntfy-android
+    name: ntfy
+    artifacts:
+      - ntfy-%v-fdroid-release.apk
+
+keepass:
+  android:
+    repository: https://github.com/Kunzisoft/KeePassDX
+    artifacts:
+      - KeePassDX-%v-free.apk
+
+foxrss:
+  android:
+    repository: https://github.com/16arpi/Fox-RSS
+    artifacts:
+      - rss-%v.signed.apk
+
+greenwallet:
+  android:
+    repository: https://github.com/Blockstream/green_android
+    builder: npub1jg552aulj07skd6e7y2hu0vl5g8nl5jvfw8jhn6jpjk0vjd0waksvl6n8n
+    name: Green Wallet
+    artifacts:
+      - BlockstreamGreen-v%v-productionGoogle-release.apk
+
+ente:
+  android:
+    repository: https://github.com/ente-io/ente
+    artifacts:
+      - ente-photos-v%v.apk
+      # - ente-photos-v%v-installer.exe
+      # - ente-photos-v%v-windows.zip
+      # - ente-photos-v%v-x86_64.AppImage
+      # - ente-photos-v%v-x86_64.deb
+      # - ente-photos-v%v-x86_64.rpm
+      # - ente-photos-v%v.dmg 
+
+obsidian:
+  android:
+    # no repository as it is not FOSS
+    release_repository: https://github.com/obsidianmd/obsidian-releases
+    artifacts:
+      - Obsidian-%v.apk
+      # - Obsidian-%v-arm64.AppImage
+      # - Obsidian-%v.AppImage
+      # - Obsidian-%v.dmg
+      # - Obsidian-%v.exe
+      # - obsidian_%v_amd64.deb
+
+simplelogin:
+  android:
+    repository: https://github.com/simple-login/Simple-Login-Android
+    artifacts:
+      - simplelogin-fdroid-%v.apk
+
+deadhash:
+  android:
+    repository: https://github.com/CodeDead/DeadHash-android
+    artifacts:
+      - app-release.apk
+
+logseq:
+  android:
+    repository: https://github.com/logseq/logseq
+    artifacts:
+      - Logseq-android-%v.apk
+
+bitwarden:
+  android:
+    repository: https://github.com/bitwarden/mobile
+    name: Bitwarden
+    artifacts:
+      - com.x8bit.bitwarden-fdroid.apk
+
+voyage:
+  android:
+    repository: https://github.com/dluvian/voyage
+    builder: npub1useke4f9maul5nf67dj0m9sq6jcsmnjzzk4ycvldwl4qss35fvgqjdk5ks
+    name: Voyage
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+nunchuk:
+  android:
+    repository: https://github.com/nunchuk-io/nunchuk-android
+    builder: npub1cvqlzvmjercdn0ypsmv8f7j9lge6ahsnueh5rparh53wuswftv4q49yjt3
+    artifacts:
+      - .*.apk
+
+nostros:
+  android:
+    repository: https://github.com/koalasat/nostros
+    builder: npub1v3tgrwwsv7c6xckyhm5dmluc05jxd4yeqhpxew87chn0kua0tjzqc6yvjh
+    artifacts:
+      - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-arm64-v8a.apk
+      # - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-armeabi-v7a.apk
+      # - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-universal.apk 
+
+mollyim:
+  android:
+    repository: https://github.com/mollyim/mollyim-android
+    name: Molly IM
+    artifacts:
+      - Molly-v(\d+\.\d+\.\d+-\d+)-FOSS.apk
+
+tubular:
+  android:
+    repository: https://github.com/polymorphicshade/Tubular
+    artifacts:
+      - tubular_v%v.apk
+
+fossify_notes:
+  android:
+    repository: https://github.com/FossifyOrg/Notes
+    name: Fossify Notes
+    artifacts:
+      - notes-\d+-foss-release.apk
+
+fossify_music_player:
+  android:
+    repository: https://github.com/FossifyOrg/Music-Player
+    artifacts:
+      - musicplayer-\d+-foss-release.apk
+
+fossify_file_manager:
+  android:
+    repository: https://github.com/FossifyOrg/File-Manager
+    artifacts:
+      - file-manager-\d+-foss-release.apk
+
+fossify_phone:
+  android:
+    repository: https://github.com/FossifyOrg/Phone
+    artifacts:
+      - phone-\d+-foss-release.apk
+
+fossify_gallery:
+  android:
+    repository: https://github.com/FossifyOrg/Gallery
+    artifacts:
+      - gallery-\d+-foss-release.apk
+
+fossify_voice_recorder:
+  android:
+    repository: https://github.com/FossifyOrg/Voice-Recorder
+    artifacts:
+      - voicerecorder-\d+-foss-release.apk
+
+fossify_contacts:
+  android:
+    repository: https://github.com/FossifyOrg/Contacts
+    artifacts:
+      - contacts-\d+-foss-release.apk
+
+fossify_clock:
+  android:
+    repository: https://github.com/FossifyOrg/Clock
+    artifacts:
+      - clock-\d+-foss-release.apk
+
+fossify_calendar:
+  android:
+    repository: https://github.com/FossifyOrg/Calendar
+    artifacts:
+      - calendar-\d+-foss-release.apk
+
+fossify_keyboard:
+  android:
+    repository: https://github.com/FossifyOrg/Keyboard
+    artifacts:
+      - keyboard-\d+-foss-release.apk
+
+localsend:
+  android:
+    repository: https://github.com/localsend/localsend
+    artifacts:
+      - LocalSend-%v-android-arm64v8.apk
+      # - LocalSend-%v-android-arm32v7.apk
+      # - LocalSend-%v-android-x64.apk
+      # - LocalSend-%v-linux-arm-64.deb
+      # - LocalSend-%v-linux-x86-64.AppImage
+      # - LocalSend-%v-linux-x86-64.deb
+      # - LocalSend-%v-windows-x86-64.exe
+
+blackhawky_clock:
+  android:
+    repository: https://github.com/BlackyHawky/Clock
+    artifacts:
+      - Clock_%v-release.apk
+
+birday:
+  android:
+    repository: https://github.com/m-i-n-a-r/birday
+    name: Birday
+    artifacts:
+      - Birday-\d+.apk
+
+yetcalc:
+  android:
+    repository: https://github.com/Yet-Zio/yetCalc
+    artifacts:
+      - yetCalc-v%v.apk
+
+opencalc:
+  android:
+    repository: https://github.com/Darkempire78/OpenCalc
+    artifacts:
+      - OpenCalc.v.*.apk
+
+cromite:
+  android:
+    repository: https://github.com/uazo/cromite
+    artifacts:
+      - arm64_ChromePublic.apk
+
+duckduckgo:
+  android:
+    repository: https://github.com/duckduckgo/Android
+    name: DuckDuckGo Browser
+    artifacts:
+      - duckduckgo-%v-play-release.apk
+
+privacy_qrscanner:
+  android:
+    repository: https://github.com/SecUSo/privacy-friendly-qr-scanner
+    artifacts:
+      - pfa-qr-scanner-release-v%v.apk
+
+catima:
+  android:
+    repository: https://github.com/CatimaLoyalty/Android
+    artifacts:
+      - app-release.apk
+
+binaryeye:
+  android:
+    repository: https://github.com/markusfisch/BinaryEye
+    artifacts:
+      - app-release.apk
+
+autoclicker:
+  android:
+    repository: https://github.com/Nain57/Smart-AutoClicker
+    artifacts:
+      - smartautoclicker-fDroid-release.apk
+
+homeassistant:
+  android:
+    repository: https://github.com/home-assistant/android
+    artifacts:
+      - app-full-release.apk
+      - app-minimal-release.apk
+      - automotive-full-release.apk
+      - automotive-minimal-release.apk
+
+easer:
+  android:
+    repository: https://github.com/renyuneyun/Easer
+    artifacts:
+      - Easer-v.*.apk
+
+kotatsu:
+  android:
+    repository: https://github.com/KotatsuApp/Kotatsu
+    artifacts:
+      - kotatsu-.*.apk
+
+bangumi:
+  android:
+    repository: https://github.com/czy0729/Bangumi
+    artifacts:
+      - bangumi_v%v_arm64-v8a.apk
+
+aniyomi:
+  android:
+    repository: https://github.com/aniyomiorg/aniyomi
+    artifacts:
+      - aniyomi-arm64-v8a-v.*.apk
+      # - aniyomi-armeabi-v7a-v0.16.4.3.apk
+      # - aniyomi-v0.16.4.3.apk
+      # - aniyomi-x86-v0.16.4.3.apk
+      # - aniyomi-x86_64-v0.16.4.3.apk
+
+trackercontrol:
+  android:
+    repository: https://github.com/TrackerControl/tracker-control-android
+    artifacts:
+      - TrackerControl-githubRelease-latest.apk
+
+blokada:
+  android:
+    repository: https://github.com/blokadaorg/blokada
+    artifacts:
+      - blokada5-android.v.*.apk
+
+adaway:
+  android:
+    repository: https://github.com/AdAway/AdAway
+    artifacts:
+      - AdAway-%v-\d+.apk
+
+mysterium:
+  android:
+    repository: https://github.com/mysteriumnetwork/mysterium-vpn-mobile
+    artifacts:
+      - myst.apk
+
+amnezia:
+  android:
+    repository: https://github.com/amnezia-vpn/amnezia-client
+    artifacts:
+      - AmneziaVPN_.*_arm64-v8a.apk
+      # - AmneziaVPN_.*_armeabi-v7a.apk
+      # - AmneziaVPN_.*.dmg
+      # - AmneziaVPN_.*_for_old_macos.dmg
+      # - AmneziaVPN_.*_x64.exe
+      # - AmneziaVPN_.*_x86.apk
+      # - AmneziaVPN_.*_x86_64.apk
+
+ivpn:
+  android:
+    repository: https://github.com/ivpn/android-app
+    artifacts:
+      - IVPNv%vsite.apk
+
+wormhole_william:
+  android:
+    repository: https://github.com/psanford/wormhole-william-mobile
+    artifacts:
+      - wormhole-william.release.apk
+
+termux:
+  android:
+    repository: https://github.com/termux/termux-app
+    artifacts:
+      - termux-app_v.*github-debug_arm64-v8a.apk
+      # - termux-app_v.*github-debug_armeabi-v7a.apk
+      # - termux-app_v.*github-debug_universal.apk
+      # - termux-app_v.*github-debug_x86.apk
+      # - termux-app_v.*github-debug_x86_64.apk
+
+syncthing:
+  android:
+    repository: https://github.com/syncthing/syncthing-android
+    artifacts:
+      - app-release.apk
+
+protonvpn:
+  android:
+    repository: https://github.com/protonvpn/android-app
+    name: Proton VPN
+    artifacts:
+      - ProtonVPN-.*.-production-vanilla-direct-release.apk
+
+openboard:
+  android:
+    repository: https://github.com/openboard-team/openboard
+    name: OpenBoard
+    artifacts:
+      - app-release.apk
+
+nekogram:
+  android:
+    repository: https://github.com/Nekogram/Nekogram
+    artifacts:
+      - Nekogram-%v-\d+-arm64-v8a.apk
+      # - Nekogram-%v-\d+-armeabi-v7a.apk
+      # - Nekogram-%v-\d+-universal.apk
+      # - Nekogram-%v-\d+-x86.apk
+      # - Nekogram-%v-\d+-x86_64.apk
+
+material_files:
+  android:
+    repository: https://github.com/zhanghai/MaterialFiles
+    artifacts:
+      - app-release-universal.apk
+
+heliboard:
+  android:
+    repository: https://github.com/Helium314/HeliBoard
+    artifacts:
+      - HeliBoard_%v-release.apk
+
+breezy_weather:
+  android:
+    repository: https://github.com/breezy-weather/breezy-weather
+    name: Breezy Weather
+    artifacts:
+      - breezy-weather-arm64-v8a-v%v_standard.apk
+      # - breezy-weather-armeabi-v7a-v%v_standard.apk
+      # - breezy-weather-v%v_freenet.apk
+      # - breezy-weather-v%v_standard.apk
+      # - breezy-weather-x86-v%v_standard.apk
+      # - breezy-weather-x86_64-v%v_standard.apk
+
+obtainium:
+  android:
+    repository: https://github.com/imranr98/obtainium
+    artifacts:
+      - app-arm64-v8a-release.apk
+      # - app-armeabi-v7a-release.apk
+
+organicmaps:
+  android:
+    repository: https://github.com/organicmaps/organicmaps
+    name: Organic Maps
+    artifacts:
+      - OrganicMaps-\d+-web-release.apk
+
+freerse:
+  android:
+    repository: https://github.com/Freerse/Freerse
+    builder: npub129z0az8lgffuvsywazww07hx75qas3veh3dazsq56z8y39v86khs2uy5gm
+    artifacts:
+      - app-release_%v.apk
+
+phiola:
+  android:
+    repository: https://github.com/stsaz/phiola
+    artifacts:
+      - phiola-%v-android-arm64.apk
+
+noice:
+  android:
+    repository: https://github.com/trynoice/android-app
+    name: Noice
+    artifacts:
+      - noice-full.apk
+      # - noice-free.apk
+
+moonlight:
+  android:
+    repository: https://github.com/moonlight-stream/moonlight-android
+    artifacts:
+      - app-nonRoot-release.apk
+
+exodus_privacy:
+  android:
+    repository: https://github.com/Exodus-Privacy/exodus-android-app
+    artifacts:
+      - exodus-android-app_release-v%v
+
+oxen:
+  android:
+    repository: https://github.com/oxen-io/session-android
+    artifacts:
+      - session-%v-arm64-v8a.apk
+      # - session-%v-armeabi-v7a.apk
+
+megalodon:
+  android:
+    repository: https://github.com/sk22/megalodon
+    artifacts:
+      - megalodon-fdroid.apk
+
+mastodon:
+  android:
+    repository: https://github.com/mastodon/mastodon-android
+    artifacts:
+      - mastodon-githubRelease.apk
+
+jellyfin:
+  android:
+    repository: https://github.com/jellyfin/jellyfin-android
+    artifacts:
+      - jellyfin-android-v2.6.2-libre-release.apk
+
+newpipe:
+  android:
+    repository: https://github.com/TeamNewPipe/NewPipe
+    artifacts:
+      - NewPipe_v%v.apk
+
+enuts:
+  android:
+    repository: https://github.com/cashubtc/eNuts
+    builder: npub1dx5q2el8nd4eh3eg9t2e25fd7zuqg7zxz6ldkc3uzgh66ss2yc6st288sj
+    description: eNuts is a privacy-focused custodial wallet that not only allows you to perform lightning transactions but also private Ecash transactions using the Cashu protocol.\n It comes with a basic Nostr integration because we believe Ecash and Nostr are a match made in heaven. Ecash combined with Nostr's inherent resistance to censorship creates a potent combination.
+    artifacts:
+      - enuts-v.*.apk
+      # - enuts-v.*.ipa
+
+bitkey:
+  android:
+    repository: https://github.com/proto-at-block/bitkey
+    builder: npub1tcnvkw8fu29zspw54tuhfrk0tkzn6qdupmc45slt4zmase3dzqask6ctu0
+    name: Bitkey
+    artifacts:
+      - Bitkey-app-%v.apk
+
+anysoftkeyboard:
+  android:
+    repository: https://github.com/AnySoftKeyboard/AnySoftKeyboard
+    name: AnySoftKeyboard
+    artifacts:
+      - ime-app-\d+.apk
+
+lawnchair:
+  android:
+    repository: https://github.com/lawnchairlauncher/lawnchair
+    name: Lawnchair
+    artifacts:
+      - Lawnchair.*.apk
+
+immich:
+  android:
+    repository: https://github.com/immich-app/immich
+    name: Immich
+    artifacts:
+      - app-arm64-v8a-release.apk
+      # - app-release.apk
+
+mihon:
+  android:
+    repository: https://github.com/mihonapp/mihon
+    name: Mihon
+    artifacts:
+      - mihon-arm64-v8a-v%v.apk
+      # - mihon-v%v.apk
+
+titanius:
+  android:
+    repository: https://github.com/dsolonenko/titanius-launcher
+    name: Titanius Launcher
+    artifacts:
+      - titanius-launcher-%v.apk
+
+davx5:
+  android:
+    repository: https://github.com/bitfireAT/davx5-ose
+    name: DAVx⁵
+    artifacts:
+      - davx5-ose-.*-release.apk
+
+icsx5:
+  android:
+    repository: https://github.com/bitfireAT/icsx5
+    name: ICSx⁵
+    artifacts:
+      - icsx5-.*-release.apk
+
+jtxboard:
+  android:
+    repository: https://github.com/TechbeeAT/jtxBoard
+    name: jtx Board
+    artifacts:
+      - jtxBoard-v%v.apk
+
+pobya:
+  android:
+    repository: https://github.com/ICTrust/PObY-A
+    name: PObY-A
+    artifacts:
+      - PObY-A_v%v.apk
+
+adguard:
+  android:
+    repository: https://github.com/AdguardTeam/AdguardForAndroid
+    name: AdGuard
+    artifacts:
+      - adguard-%v-release.apk
+
+saber:
+  android:
+    repository: https://github.com/adil192/saber
+    name: Saber
+    artifacts:
+      - Saber_FOSS_v%v.apk
+      # - Saber_v%v.apk
+      # - SaberInstaller_v%v.exe
+      # - Saber-%v-x86_64.AppImage
+
+hail:
+  android:
+    repository: https://github.com/aistra0528/Hail
+    name: Hail
+    artifacts:
+      - Hail-v%v.apk
+
+keyguard:
+  android:
+    repository: https://github.com/AChep/keyguard-app
+    name: Keyguard
+    artifacts:
+      - androidApp-.*.apk
+
+aegis:
+  android:
+    repository: https://github.com/beemdevelopment/aegis
+    name: Aegis
+    artifacts:
+      - aegis-v%v.apk
+
+thunderbird:
+  android:
+    repository: https://github.com/thunderbird/thunderbird-android
+    name: K-9 Mail
+    artifacts:
+      - k9-.*.apk
+
+meshtastic:
+  android:
+    repository: https://github.com/meshtastic/Meshtastic-Android
+    name: Meshtastic
+    artifacts:
+      - fdroidRelease-%v.apk
+
+cakewallet:
+  android:
+    repository: https://github.com/cake-tech/cake_wallet
+    name: Cake Wallet
+    artifacts:
+      - Cake_Wallet_v%v-arm64-v8a.apk
+      # - Cake_Wallet_v%v_\d+.apk
+      # - Cake_Wallet_v%v_Linux.flatpak
+      # - Cake_Wallet_v%v_Windows.exe
+
+nextcloud:
+  android:
+    repository: https://github.com/nextcloud/android
+    name: Nextcloud
+    artifacts:
+      - nextcloud-\d+.apk
+
+winlator:
+  android:
+    repository: https://github.com/brunodev85/winlator
+    name: Winlator
+    artifacts:
+      - Winlator_.*.apk
+
+xmanager:
+  android:
+    repository: https://github.com/Team-xManager/xManager
+    name: xManager
+    artifacts:
+      - xManager.apk
+
+vespucci:
+  android:
+    repository: https://github.com/MarcusWolschon/osmeditor4android
+    name: Vespucci
+    artifacts:
+      - vespucci-.*-signed.apk
+
+odintools:
+  android:
+    repository: https://github.com/langerhans/OdinTools
+    name: Odin Tools
+    artifacts:
+      - OdinTools-.*.apk
+
+ffupdater:
+  android:
+    repository: https://github.com/Tobi823/ffupdater
+    name: FFUpdater
+    artifacts:
+      - ffupdater-release.apk
+
+aves:
+  android:
+    repository: https://github.com/deckerst/aves
+    name: Aves
+    artifacts:
+      - app-izzy-arm64-v8a-release.apk
+      # - app-izzy-armeabi-v7a-release.apk
+      # there is no universal libre APK
+
+florisboard:
+  android:
+    repository: https://github.com/florisboard/florisboard
+    name: FlorisBoard
+    artifacts:
+      - florisboard-.*-release.apk
+
+appverifier:
+  android:
+    repository: https://github.com/soupslurpr/AppVerifier
+    name: AppVerifier
+    artifacts:
+      - AppVerifier-%v.apk
+
+fairemail:
+  android:
+    repository: https://github.com/M66B/FairEmail
+    name: FairEmail
+    artifacts:
+      - FairEmail-v.*.apk
+
+element:
+  android:
+    repository: https://github.com/element-hq/element-android
+    name: Element
+    artifacts:
+      - vector-gplay-arm64-v8a-release-signed.apk
+      # - vector-gplay-armeabi-v7a-release-signed.apk
+      # no universal APK
+
+keymapper:
+  android:
+    repository: https://github.com/keymapperorg/KeyMapper
+    name: Key Mapper
+    artifacts:
+      - keymapper-.*.apk
+
+readyou:
+  android:
+    repository: https://github.com/ashinch/readyou
+    name: Read You
+    artifacts:
+      - ReadYou-.*.apk
+
+infinity_reddit:
+  android:
+    repository: https://github.com/Docile-Alligator/Infinity-For-Reddit
+    name: Infinity for Reddit
+    artifacts:
+      - Infinity-v%v.apk
+
+markor:
+  android:
+    repository: https://github.com/gsantner/markor
+    name: Markor
+    artifacts:
+      - net.gsantner.markor-v\d+-%v-flavorDefault-release.apk
+
+cryptomator:
+  android:
+    repository: https://github.com/cryptomator/android
+    name: Cryptomator
+    artifacts:
+      # - Cryptomator-%v_signed.apk
+      - Cryptomator-%v_lite_signed.apk
+
+sonic3air:
+  android:
+    repository: https://github.com/Eukaryot/sonic3air
+    name: Sonic 3 A.I.R.
+    artifacts:
+      - sonic3air_game.apk
+      # - sonic3air_mac_240202.dmg
+
+floccus:
+  android:
+    repository: https://github.com/floccusaddon/floccus
+    artifacts:
+      - floccus-build-v%v.apk
+      # - floccus-build-v%v.xpi
+
+koreader:
+  android:
+    repository: https://github.com/koreader/koreader
+    name: KOReader
+    artifacts:
+      - koreader-android-arm64-v%v.apk 
+      # - koreader-android-x86-v%v.apk 
+      # - koreader-android-arm-v%v.apk
+      # - koreader-%v-amd64.deb 
+      # - koreader-%v-arm64.deb 
+      # - koreader-appimage-x86_64-linux-gnu-v%v.AppImage
+
+libretorrent:
+  android:
+    repository: https://github.com/proninyaroslav/libretorrent
+    name: LibreTorrent
+    artifacts:
+      - LibreTorrent-%v-arm64-v8a.apk
+      # - LibreTorrent-%v-armeabi-v7a.apk
+      # - LibreTorrent-%v-x86.apk
+      # - LibreTorrent-%v-x86_64.apk
+
+transistor:
+  android:
+    repository: https://github.com/y20k/transistor # archived
+    name: Transistor
+    artifacts:
+      - transistor-app-release-%v.apk
+
+imagetoolbox:
+  android:
+    repository: https://github.com/T8RIN/ImageToolbox
+    name: Image Toolbox
+    artifacts:
+      - image-toolbox-%v-.*-arm64-v8a.apk
+      # - image-toolbox-%v-.*-armeabi-v7a.apk
+      # - image-toolbox-%v-.*-universal.apk
+      # - image-toolbox-%v-.*-x86_64.apk
+
+sockstun:
+  android:
+    repository: https://github.com/heiher/sockstun
+    name: SocksTun
+    artifacts:
+      - hev.sockstun-%v-release.apk
+
+satworth:
+  android:
+    repository: https://github.com/0ceanslim/satworth
+    builder: npub1zmc6qyqdfnllhnzzxr5wpepfpnzcf8q6m3jdveflmgruqvd3qa9sjv7f60
+    name: SatWorth
+    description: How many sats in a dollar? Get real-time Bitcoin prices in fiat, effortlessly convert fiat to satoshis, and calculate Bitcoin values with ease.
+    artifacts:
+      - SatWorth.v%v.apk
+
+windscribe:
+  android:
+    repository: https://github.com/Windscribe/Android-App
+    name: Windscribe
+    artifacts:
+      - windscribe_mobile.apk
+      # - windscribe_tv.apk
+
+volt:
+  android:
+    repository: https://github.com/Zero-1729/volt
+    name: Volt Wallet
+    artifacts:
+      - volt-%v.apk
+
+mullvad:
+  android:
+    repository: https://github.com/mullvad/mullvadvpn-app
+    name: Mullvad VPN
+    artifacts:
+      - MullvadVPN-.*.apk
+
+bravenewpipe:
+  android:
+    repository: https://github.com/bravenewpipe/NewPipe
+    artifacts:
+      - BraveNewPipe_v.*.apk
+      # - BraveNewPipe_conscrypt_v.*.apk
+
+stackernews:
+  android:
+    repository: https://github.com/felipebueno/stacker_news
+    name: Stacker News
+    builder: npub1w9633rznen8qe056xfx97kqyzvv6faygsfnv4cwccuhyucuz5ukqc29am0
+    artifacts:
+      - app-arm64-v8a-prod-release.apk
+      # - app-armeabi-v7a-prod-release.apk
+      # - app-x86_64-prod-release.apk
+
+blink:
+  android:
+    name: Blink
+    repository: https://github.com/GaloyMoney/blink-mobile
+    builder: npub13ljnkd633c7maxatymv3y2fqq8vt3qk7j3tt0vytv90eztwgha9qmfcfhw
+    artifacts:
+      - app-arm64-v8a-release.apk
+      # - app-armeabi-v7a-release.apk
+      # - app-x86-release.apk
+      # - app-x86_64-release.apk
+
+uhabits:
+  android:
+    repository: https://github.com/isoron/uhabits
+    artifacts:
+      - loop-%v-release.apk
+
+openvideoeditor:
+  android:
+    repository: https://github.com/devhyper/open-video-editor
+    artifacts:
+      - app-release.apk
+
+superimage:
+  android:
+    repository: https://github.com/Lucchetto/SuperImage # archived
+    artifacts:
+      - app-free-release.apk
+
+wavlake:
+  android:
+    name: Wavlake
+    builder: npub1yfg0d955c2jrj2080ew7pa4xrtj7x7s7umt28wh0zurwmxgpyj9shwv6vg
+    repository: https://github.com/wavlake/mobile
+    artifacts:
+      - application-.*.apk
+
+blixt-wallet:
+  android:
+    name: Blixt Wallet
+    builder: npub1v4v57fu60zvc9d2uq23cey4fnwvxlzga9q2vta2n6xalu03rs57s0mxwu8
+    repository: https://github.com/hsjoberg/blixt-wallet
+    artifacts:
+      - blixt-wallet-mainnet-v%v.apk
+      # - blixt-wallet-testnet-v%v.apk
+
+appmanager:
+  android:
+    repository: https://github.com/MuntashirAkon/AppManager
+    artifacts:
+      - AppManager_v%v.apk
+
+clearclipboard:
+  android:
+    repository: https://github.com/amnesica/ClearClipboard
+    artifacts:
+      - com.amnesica.clearclipboard_v%v-release.apk
+
+cpu-info:
+  android:
+    repository: https://github.com/kamgurgul/cpu-info
+    artifacts:
+      - androidApp-release.apk
+
+mpv-android:
+  android:
+    repository: https://github.com/mpv-android/mpv-android
+    artifacts:
+      - app-default-arm64-v8a-release.apk
+      # - app-default-armeabi-v7a-release.apk
+
+orbot:
+  android:
+    repository: https://github.com/guardianproject/orbot
+    artifacts:
+      - Orbot-17.3.2-RC-1-tor-.*-fullperm-arm64-v8a-release.apk
+      # - Orbot-17.3.2-RC-1-tor-.*-fullperm-universal-release.apk
+
+pcapdroid:
+  android:
+    repository: https://github.com/emanuele-f/PCAPdroid
+    artifacts:
+      - PCAPdroid_v%v.apk
+
+holesail:
+  android:
+    name: Holesail
+    builder: npub1h5t3asu90f2x48rxtcqkjvwhza7m6kngs7vjyanx8xqyswc6es2s4645z5
+    repository: https://github.com/holesail/holesail
+    artifacts:
+      - Holesail-go-android-v.*.apk
+      # - holesail-linux-arm64-unsigned
+      # - holesail-linux-x64-unsigned
+      # - holesail-macos-arm64-unsigned
+      # - holesail-win-arm64-unsigned.exe
+      # - holesail-win-x64-unsigned.exe
+
+breez:
+  android:
+    name: Breez
+    builder: npub1ey6qdmvzcgcsr883m9nspzz0mm037l26xtardzcskfsvc6gc7jssm9szvp
+    repository: https://github.com/breez/breezmobile
+    artifacts:
+      - .*.apk
+
+blitz:
+  android:
+    name: Blitz Wallet
+    repository: https://github.com/BlakeKaufman/BlitzWallet
+    artifacts:
+      - blitzBeta-V%v.apk
+
+orgzly:
+  android:
+    name: Orgzly Revived
+    repository: https://github.com/orgzly-revived/orgzly-android-revived
+    artifacts:
+      - orgzly-revived-fdroid-.*.apk
+
+keychat:
+  android:
+    name: Keychat
+    repository: https://github.com/keychat-io/keychat-app
+    builder: npub1h0uj825jgcr9lzxyp37ehasuenq070707pj63je07n8mkcsg3u0qnsrwx8
+    artifacts:
+      - keychat-arm64-v8a-v%v-release.apk
+      # - keychat-universal-v%v-release.apk
+
+transcribro:
+  android:
+    name: Transcribro
+    repository: https://github.com/soupslurpr/Transcribro
+    artifacts:
+      - Transcribro-.*.apk
+
+brave:
+  android:
+    name: Brave
+    repository: https://github.com/brave/brave-browser
+    artifacts:
+      - Bravearm64Universal.apk 
+      # - Brave-Browser-Beta-arm64.dmg
+      # - Brave-Browser-Beta-x64.dmg 
+      # - brave-browser-beta_%v_amd64.deb 
+      # - brave-browser-beta_%v_arm64.deb
+      # - brave-core-ios-%v.ipa
+      # - BraveBrowserBetaSetup.exe
+
+fedi:
+  android:
+    name: Fedi
+    builder: npub1uq70uqgas9pyhds2zt57kr9se8rg3s68ztphjnq82ts8rzeknmeql7u0c2
+    repository: https://github.com/fedixyz/fedi
+    artifacts:
+      - app-production-release-%v-.*.apk
+
+envoy:
+  android:
+    name: Envoy
+    repository: https://github.com/Foundation-Devices/envoy
+    builder: npub1s0vtkgej33n7ec4d7ycxmwt78up8hpfa30d0yfksrshq7t82mchqynpq6j
+    artifacts:
+      - envoy-%v.apk
+
+edge:
+  android:
+    name: Edge
+    repository: https://github.com/edgeapp/edge-react-gui
+    artifacts:
+      - .*.apk
+
+bull:
+  android:
+    name: Bull Bitcoin
+    repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
+    builder: npub1t289s8ck5qfwynf2vsq49t2kypvvkpj7rhegayrur0ag9s2sezaqgunkzs
+    artifacts:
+      - bullbitcoin-v%v.apk
+
+mediagallery:
+  android:
+    name: Gallery
+    repository: https://github.com/IacobIonut01/Gallery
+    artifacts:
+      - Gallery-%v-\d+.apk
+
+keet:
+  android:
+    name: Keet
+    release_repository: https://github.com/holepunchto/keet-mobile-releases
+    # non-foss, so no repository
+    artifacts:
+      - keet-%v-\d+.apk
+
+futo_keyboard:
+  android:
+    name: FUTO Keyboard
+    repository: https://github.com/futo-org/android-keyboard
+    artifacts:
+      - keyboard-.*.apk
+
+iceraven:
+  android:
+    name: Iceraven Browser
+    repository: https://github.com/fork-maintainers/iceraven-browser
+    artifacts:
+      - iceraven-%v-browser-arm64-v8a-forkRelease.apk

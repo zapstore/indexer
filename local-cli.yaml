@@ -1,0 +1,12 @@
+apktool:
+  cli:
+    name: Apktool
+    summary: A tool for reverse engineering Android apk files
+    repository: https://github.com/iBotPeaches/Apktool
+    artifacts:
+      apktool_%v_macos.zip:
+        platforms: [darwin-arm64, darwin-x86_64]
+        executables: [apktool, apktool.jar]
+      apktool_%v_linux.tar.gz:
+        platforms: [linux-x86_64, linux-aarch64]
+        executables: [apktool, apktool.jar]

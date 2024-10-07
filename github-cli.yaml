@@ -1,0 +1,116 @@
+fzf:
+  cli:
+    name: fzf
+    repository: https://github.com/junegunn/fzf
+    artifacts:
+      fzf-%v-darwin_arm64.tar.gz:
+        platforms: [darwin-arm64]
+      fzf-%v-darwin_amd64.tar.gz:
+        platforms: [darwin-x86_64]
+      fzf-%v-linux_amd64.tar.gz:
+        platforms: [linux-x86_64]
+      fzf-%v-linux_arm64.tar.gz:
+        platforms: [linux-aarch64]
+
+pandoc:
+  cli:
+    name: pandoc
+    repository: https://github.com/jgm/pandoc
+    artifacts:
+      (pandoc-%v-arm64)-macOS.zip:
+        platforms: [darwin-arm64]
+        executables: [$1/bin/pandoc]
+      # pandoc-%v-x86_64-macOS.zip:
+      #   platforms: [darwin-x86_64]
+      # pandoc-%v-linux-arm64.tar.gz:
+      #   platforms: [linux-aarch64]
+      # pandoc-%v-linux-amd64.tar.gz:
+      #   platforms: [linux-x86_64]
+      # pandoc-3.4-arm64-macOS.pkg (MacOS GUI)
+
+phoenixd:
+  cli:
+    name: phoenixd
+    repository: https://github.com/acinq/phoenixd
+    artifacts:
+      phoenix-%v-macos-arm64.zip:
+        platforms: [darwin-arm64]
+        executables: [phoenix-%v-macos-arm64/phoenixd, phoenix-%v-macos-arm64/phoenix-cli]
+      phoenix-%v-macos-x64.zip:
+        platforms: [darwin-x86_64]
+        executables: [phoenix-%v-macos-x64/phoenixd, phoenix-%v-macos-x64/phoenix-cli]
+      phoenix-%v-linux-x64.zip:
+        platforms: [linux-x86_64]
+        executables: [phoenix-%v-linux-x64/phoenixd, phoenix-%v-linux-x64/phoenix-cli]
+
+yt-dlp:
+  cli:
+    name: yt-dlp
+    repository: https://github.com/yt-dlp/yt-dlp
+    artifacts:
+      yt-dlp_macos:
+        platforms: [darwin-arm64]
+      yt-dlp_linux_aarch64:
+        platforms: [linux-aarch64]
+      yt-dlp_macos_legacy:
+        platforms: [darwin-x86_64]
+      yt-dlp_linux:
+        platforms: [linux-x86_64]
+
+jq:
+  cli:
+    name: jq
+    repository: https://github.com/jqlang/jq
+    artifacts:
+      jq-macos-arm64:
+        platforms: [darwin-arm64]
+      jq-macos-amd64:
+        platforms: [darwin-x86_64]
+      jq-linux-arm64:
+        platforms: [linux-aarch64]
+      jq-linux-amd64:
+        platforms: [linux-x86_64]
+
+xq:
+  cli:
+    name: xq
+    repository: https://github.com/sibprogrammer/xq
+    artifacts:
+      xq_%v_darwin_arm64.tar.gz:
+        platforms: [darwin-arm64]
+      xq_%v_darwin_amd64.tar.gz:
+        platforms: [darwin-x86_64]
+      xq_%v_linux_arm64.tar.gz:
+        platforms: [linux-aarch64]
+      xq_%v_linux_amd64.tar.gz:
+        platforms: [linux-x86_64]
+
+nak:
+  cli:
+    name: nak
+    summary: the nostr army knife
+    repository: https://github.com/fiatjaf/nak
+    builder: npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6
+    artifacts:
+      nak-v%v-darwin-arm64:
+        platforms: [darwin-arm64]
+      nak-v%v-darwin-amd64:
+        platforms: [darwin-x86_64]
+      nak-v%v-linux-arm64:
+        platforms: [linux-aarch64]
+      nak-v%v-linux-amd64:
+        platforms: [linux-x86_64]
+
+zola:
+  cli:
+    name: Zola
+    summary: Your one-stop static site engine
+    repository: https://github.com/getzola/zola
+    artifacts:
+      zola-v%v-aarch64-apple-darwin.tar.gz:
+        platforms: [darwin-arm64]
+      zola-v%v-x86_64-apple-darwin.tar.gz:
+        platforms: [darwin-x86_64]
+      zola-v%v-x86_64-unknown-linux-gnu.tar.gz:
+        platforms: [linux-x86_64]
+
