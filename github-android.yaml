@@ -1210,3 +1210,16 @@ iceraven:
     repository: https://github.com/fork-maintainers/iceraven-browser
     artifacts:
       - iceraven-%v-browser-arm64-v8a-forkRelease.apk
+
+standardnotes:
+  android:
+    name: Standard Notes
+    repository: https://github.com/standardnotes/app
+    artifacts:
+      - app-prod-release.apk
+
+tutanota:
+  android:
+    repository: https://github.com/tutao/tutanota
+    artifacts:
+      - tutanota-app-tutao-release-.*.apk
