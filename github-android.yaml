@@ -243,6 +243,7 @@ voyage:
 
 nunchuk:
   android:
+    name: Nunchuk Wallet
     repository: https://github.com/nunchuk-io/nunchuk-android
     builder: npub1cvqlzvmjercdn0ypsmv8f7j9lge6ahsnueh5rparh53wuswftv4q49yjt3
     artifacts:

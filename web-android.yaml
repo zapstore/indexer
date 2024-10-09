@@ -1,8 +1,7 @@
 signal:
   android:
-    name: Signal
-    license: MIT
     repository: https://github.com/signalapp/Signal-Android
+    license: AGPL-3.0-only
     version: ['https://updates.signal.org/android/latest.json', '.versionName', '.*']
     artifacts:
       - https://updates.signal.org/android/Signal-Android-website-prod-universal-release-$v.apk
@@ -55,3 +54,9 @@ antennapod:
     version: ['https://f-droid.org/packages/de.danoeh.antennapod/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
     artifacts:
       - https://f-droid.org/repo/de.danoeh.antennapod_$v.apk
+
+whatsapp:
+  android:
+    version: ['https://www.whatsapp.com/android', 'a[data-ms*="Android_PackageInstaller_Hero_Link"]', 'href', 'https://scontent.whatsapp.net/v/(.*)']
+    artifacts:
+      - https://scontent.whatsapp.net/v/$v
