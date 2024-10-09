@@ -512,7 +512,7 @@ protonvpn:
     repository: https://github.com/protonvpn/android-app
     name: Proton VPN
     artifacts:
-      - ProtonVPN-.*.-production-vanilla-direct-release.apk
+      - ProtonVPN-\d+\.\d+\.\d+\.\d+.apk
 
 openboard:
   android:
