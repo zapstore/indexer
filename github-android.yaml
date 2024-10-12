@@ -7,6 +7,7 @@ mutiny:
 
 0xchat:
   android:
+    name: 0xchat
     repository: https://github.com/0xchat-app/0xchat-app-main
     developer: npub1tm99pgz2lth724jeld6gzz6zv48zy6xp4n9xu5uqrwvx9km54qaqkkxn72
     artifacts:
@@ -1216,3 +1217,9 @@ tutanota:
     repository: https://github.com/tutao/tutanota
     artifacts:
       - tutanota-app-tutao-release-.*.apk
+
+documentscanner:
+  android:
+    repository: https://github.com/Akylas/OSS-DocumentScanner
+    artifacts:
+      - app-arm64-v8a-release.apk
