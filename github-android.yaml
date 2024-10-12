@@ -858,13 +858,6 @@ element:
       # - vector-gplay-armeabi-v7a-release-signed.apk
       # no universal APK
 
-keymapper:
-  android:
-    repository: https://github.com/keymapperorg/KeyMapper
-    name: Key Mapper
-    artifacts:
-      - keymapper-.*.apk
-
 readyou:
   android:
     repository: https://github.com/ashinch/readyou
