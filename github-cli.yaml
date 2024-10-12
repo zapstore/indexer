@@ -33,15 +33,15 @@ phoenixd:
     name: phoenixd
     repository: https://github.com/acinq/phoenixd
     artifacts:
-      phoenix-%v-macos-arm64.zip:
+      (phoenix-%v-macos-arm64).zip:
         platforms: [darwin-arm64]
-        executables: [phoenix-%v-macos-arm64/phoenixd, phoenix-%v-macos-arm64/phoenix-cli]
-      phoenix-%v-macos-x64.zip:
+        executables: [$1/phoenixd, $1/phoenix-cli]
+      (phoenix-%v-macos-x64).zip:
         platforms: [darwin-x86_64]
-        executables: [phoenix-%v-macos-x64/phoenixd, phoenix-%v-macos-x64/phoenix-cli]
-      phoenix-%v-linux-x64.zip:
+        executables: [$1/phoenixd, $1/phoenix-cli]
+      (phoenix-%v-linux-x64).zip:
         platforms: [linux-x86_64]
-        executables: [phoenix-%v-linux-x64/phoenixd, phoenix-%v-linux-x64/phoenix-cli]
+        executables: [$1/phoenixd, $1/phoenix-cli]
 
 yt-dlp:
   cli:

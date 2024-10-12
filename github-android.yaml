@@ -5,14 +5,6 @@ mutiny:
     artifacts:
       - mutiny-wallet-fdroid-universal-v%v.apk
 
-0xchat:
-  android:
-    name: 0xchat
-    repository: https://github.com/0xchat-app/0xchat-app-main
-    developer: npub1tm99pgz2lth724jeld6gzz6zv48zy6xp4n9xu5uqrwvx9km54qaqkkxn72
-    artifacts:
-      - v%v-(beta|release)(\.\d)?.apk
-
 primal:
   android:
     repository: https://github.com/PrimalHQ/primal-android-app
