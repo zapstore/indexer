@@ -90,7 +90,7 @@ nak:
     name: nak
     summary: the nostr army knife
     repository: https://github.com/fiatjaf/nak
-    builder: npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6
+    developer: npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6
     artifacts:
       nak-v%v-darwin-arm64:
         platforms: [darwin-arm64]

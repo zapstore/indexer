@@ -6,13 +6,13 @@ signal:
     artifacts:
       - https://updates.signal.org/android/Signal-Android-website-prod-universal-release-$v.apk
 
-tor:
+torbrowser:
   android:
     name: Tor Browser
     repository: https://gitlab.torproject.org/tpo/core/tor/
-    version: ['https://www.torproject.org/download', 'a[href$=apk]', 'href', '%v']
+    version: ['https://www.torproject.org/download', 'a[href$="apk"]', 'href', '%v']
     artifacts:
-      - https://dist.torproject.org/torbrowser/13.5.6/tor-browser-android-aarch64-$v.apk
+      - https://dist.torproject.org/torbrowser/$v/tor-browser-android-aarch64-$v.apk
 
 camelus:
   android:
@@ -54,6 +54,14 @@ antennapod:
     version: ['https://f-droid.org/packages/de.danoeh.antennapod/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
     artifacts:
       - https://f-droid.org/repo/de.danoeh.antennapod_$v.apk
+
+# podverse:
+#   android:
+#     name: Podverse
+#     repository: https://github.com/podverse/podverse-rn
+#     version: ['https://f-droid.org/packages/com.podverse.fdroid/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+#     artifacts:
+#       - https://f-droid.org/repo/com.podverse.fdroid_$v.apk
 
 whatsapp:
   android:

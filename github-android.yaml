@@ -1,28 +1,28 @@
 mutiny:
   android:
     repository: https://github.com/mutinywallet/mutiny-web
-    builder: npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg
+    developer: npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg
     artifacts:
       - mutiny-wallet-fdroid-universal-v%v.apk
 
 0xchat:
   android:
     repository: https://github.com/0xchat-app/0xchat-app-main
-    builder: npub1tm99pgz2lth724jeld6gzz6zv48zy6xp4n9xu5uqrwvx9km54qaqkkxn72
+    developer: npub1tm99pgz2lth724jeld6gzz6zv48zy6xp4n9xu5uqrwvx9km54qaqkkxn72
     artifacts:
       - v%v-(beta|release)(\.\d)?.apk
 
 primal:
   android:
     repository: https://github.com/PrimalHQ/primal-android-app
-    builder: npub12vkcxr0luzwp8e673v29eqjhrr7p9vqq8asav85swaepclllj09sylpugg
+    developer: npub12vkcxr0luzwp8e673v29eqjhrr7p9vqq8asav85swaepclllj09sylpugg
     artifacts:
       - primal-%v.apk
 
 btcmap:
   android:
     repository: https://github.com/teambtcmap/btcmap-android
-    builder: npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq
+    developer: npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq
     name: BTC Map
     artifacts:
       - btcmap-%v.apk
@@ -30,7 +30,7 @@ btcmap:
 minibits:
   android:
     repository: https://github.com/minibits-cash/minibits_wallet
-    builder: npub1kvaln6tm0re4d99q9e4ma788wpvnw0jzkz595cljtfgwhldd75xsj9tkzv
+    developer: npub1kvaln6tm0re4d99q9e4ma788wpvnw0jzkz595cljtfgwhldd75xsj9tkzv
     artifacts:
       - app-arm64-v8a-release.apk
       # - app-armeabi-v7a-release.apk
@@ -41,7 +41,7 @@ minibits:
 spring:
   android:
     repository: https://github.com/nostrband/nostr-universe
-    builder: npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy
+    developer: npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy
     name: Spring Browser
     artifacts:
       - spring-nostr-browser-v%v.apk
@@ -49,7 +49,7 @@ spring:
 simplex:
   android:
     repository: https://github.com/simplex-chat/simplex-chat
-    builder: npub1exv22uulqnmlluszc4yk92jhs2e5ajcs6mu3t00a6avzjcalj9csm7d828
+    developer: npub1exv22uulqnmlluszc4yk92jhs2e5ajcs6mu3t00a6avzjcalj9csm7d828
     artifacts:
       - simplex.apk
       # - simplex-armv7a.apk
@@ -57,7 +57,7 @@ simplex:
 zeus:
   android:
     repository: https://github.com/ZeusLN/zeus
-    builder: npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5
+    developer: npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5
     artifacts:
       - zeus-v%v-arm64-v8a.apk
       # - zeus-v%v-armeabi-v7a.apk
@@ -109,7 +109,7 @@ bluewallet:
 nutstash:
   android:
     repository: https://github.com/gandlafbtc/nutstash-wallet
-    builder: npub1cj6ndx5akfazux7f0vjl4fyx9k0ulf682p437fe03a9ndwqjm0tqj886t6
+    developer: npub1cj6ndx5akfazux7f0vjl4fyx9k0ulf682p437fe03a9ndwqjm0tqj886t6
     artifacts:
       - app-release.apk
       # - nutstash_%v_aarch64.dmg
@@ -122,14 +122,14 @@ nutstash:
 aqua:
   android:
     repository: https://github.com/aquawallet/aqua-wallet
-    builder: npub1ajlrwgfj4yerhqf7ady03h7wmtk2qr3gs7h3sxcx83k05yld36sswpzx3q
+    developer: npub1ajlrwgfj4yerhqf7ady03h7wmtk2qr3gs7h3sxcx83k05yld36sswpzx3q
     artifacts:
       - .*.apk
 
 robosats:
   android:
     repository: https://github.com/robosats/robosats
-    builder: npub1p2psats79rypr8lpnl9t5qdekfp700x660qsgw284xvq4s09lqrqqk3m82
+    developer: npub1p2psats79rypr8lpnl9t5qdekfp700x660qsgw284xvq4s09lqrqqk3m82
     name: Robosats
     artifacts:      
       - robosats-v(\d+\.\d+\.\d+\.alpha)-arm64-v8a.apk
@@ -179,7 +179,7 @@ foxrss:
 greenwallet:
   android:
     repository: https://github.com/Blockstream/green_android
-    builder: npub1jg552aulj07skd6e7y2hu0vl5g8nl5jvfw8jhn6jpjk0vjd0waksvl6n8n
+    developer: npub1jg552aulj07skd6e7y2hu0vl5g8nl5jvfw8jhn6jpjk0vjd0waksvl6n8n
     name: Green Wallet
     artifacts:
       - BlockstreamGreen-v%v-productionGoogle-release.apk
@@ -236,7 +236,7 @@ bitwarden:
 voyage:
   android:
     repository: https://github.com/dluvian/voyage
-    builder: npub1useke4f9maul5nf67dj0m9sq6jcsmnjzzk4ycvldwl4qss35fvgqjdk5ks
+    developer: npub1useke4f9maul5nf67dj0m9sq6jcsmnjzzk4ycvldwl4qss35fvgqjdk5ks
     name: Voyage
     artifacts:
       - app-arm64-v8a-release.apk
@@ -245,14 +245,14 @@ nunchuk:
   android:
     name: Nunchuk Wallet
     repository: https://github.com/nunchuk-io/nunchuk-android
-    builder: npub1cvqlzvmjercdn0ypsmv8f7j9lge6ahsnueh5rparh53wuswftv4q49yjt3
+    developer: npub1cvqlzvmjercdn0ypsmv8f7j9lge6ahsnueh5rparh53wuswftv4q49yjt3
     artifacts:
       - .*.apk
 
 nostros:
   android:
     repository: https://github.com/koalasat/nostros
-    builder: npub1v3tgrwwsv7c6xckyhm5dmluc05jxd4yeqhpxew87chn0kua0tjzqc6yvjh
+    developer: npub1v3tgrwwsv7c6xckyhm5dmluc05jxd4yeqhpxew87chn0kua0tjzqc6yvjh
     artifacts:
       - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-arm64-v8a.apk
       # - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-armeabi-v7a.apk
@@ -572,7 +572,7 @@ organicmaps:
 freerse:
   android:
     repository: https://github.com/Freerse/Freerse
-    builder: npub129z0az8lgffuvsywazww07hx75qas3veh3dazsq56z8y39v86khs2uy5gm
+    developer: npub129z0az8lgffuvsywazww07hx75qas3veh3dazsq56z8y39v86khs2uy5gm
     artifacts:
       - app-release_%v.apk
 
@@ -636,7 +636,7 @@ newpipe:
 enuts:
   android:
     repository: https://github.com/cashubtc/eNuts
-    builder: npub1dx5q2el8nd4eh3eg9t2e25fd7zuqg7zxz6ldkc3uzgh66ss2yc6st288sj
+    developer: npub1dx5q2el8nd4eh3eg9t2e25fd7zuqg7zxz6ldkc3uzgh66ss2yc6st288sj
     description: eNuts is a privacy-focused custodial wallet that not only allows you to perform lightning transactions but also private Ecash transactions using the Cashu protocol.\n It comes with a basic Nostr integration because we believe Ecash and Nostr are a match made in heaven. Ecash combined with Nostr's inherent resistance to censorship creates a potent combination.
     artifacts:
       - enuts-v.*.apk
@@ -645,7 +645,7 @@ enuts:
 bitkey:
   android:
     repository: https://github.com/proto-at-block/bitkey
-    builder: npub1tcnvkw8fu29zspw54tuhfrk0tkzn6qdupmc45slt4zmase3dzqask6ctu0
+    developer: npub1tcnvkw8fu29zspw54tuhfrk0tkzn6qdupmc45slt4zmase3dzqask6ctu0
     name: Bitkey
     artifacts:
       - Bitkey-app-%v.apk
@@ -958,7 +958,7 @@ sockstun:
 satworth:
   android:
     repository: https://github.com/0ceanslim/satworth
-    builder: npub1zmc6qyqdfnllhnzzxr5wpepfpnzcf8q6m3jdveflmgruqvd3qa9sjv7f60
+    developer: npub1zmc6qyqdfnllhnzzxr5wpepfpnzcf8q6m3jdveflmgruqvd3qa9sjv7f60
     name: SatWorth
     description: How many sats in a dollar? Get real-time Bitcoin prices in fiat, effortlessly convert fiat to satoshis, and calculate Bitcoin values with ease.
     artifacts:
@@ -997,7 +997,7 @@ stackernews:
   android:
     repository: https://github.com/felipebueno/stacker_news
     name: Stacker News
-    builder: npub1w9633rznen8qe056xfx97kqyzvv6faygsfnv4cwccuhyucuz5ukqc29am0
+    developer: npub1w9633rznen8qe056xfx97kqyzvv6faygsfnv4cwccuhyucuz5ukqc29am0
     artifacts:
       - app-arm64-v8a-prod-release.apk
       # - app-armeabi-v7a-prod-release.apk
@@ -1007,7 +1007,7 @@ blink:
   android:
     name: Blink
     repository: https://github.com/GaloyMoney/blink-mobile
-    builder: npub13ljnkd633c7maxatymv3y2fqq8vt3qk7j3tt0vytv90eztwgha9qmfcfhw
+    developer: npub13ljnkd633c7maxatymv3y2fqq8vt3qk7j3tt0vytv90eztwgha9qmfcfhw
     artifacts:
       - app-arm64-v8a-release.apk
       # - app-armeabi-v7a-release.apk
@@ -1035,7 +1035,7 @@ superimage:
 wavlake:
   android:
     name: Wavlake
-    builder: npub1yfg0d955c2jrj2080ew7pa4xrtj7x7s7umt28wh0zurwmxgpyj9shwv6vg
+    developer: npub1yfg0d955c2jrj2080ew7pa4xrtj7x7s7umt28wh0zurwmxgpyj9shwv6vg
     repository: https://github.com/wavlake/mobile
     artifacts:
       - application-.*.apk
@@ -1043,7 +1043,7 @@ wavlake:
 blixt-wallet:
   android:
     name: Blixt Wallet
-    builder: npub1v4v57fu60zvc9d2uq23cey4fnwvxlzga9q2vta2n6xalu03rs57s0mxwu8
+    developer: npub1v4v57fu60zvc9d2uq23cey4fnwvxlzga9q2vta2n6xalu03rs57s0mxwu8
     repository: https://github.com/hsjoberg/blixt-wallet
     artifacts:
       - blixt-wallet-mainnet-v%v.apk
@@ -1090,7 +1090,7 @@ pcapdroid:
 holesail:
   android:
     name: Holesail
-    builder: npub1h5t3asu90f2x48rxtcqkjvwhza7m6kngs7vjyanx8xqyswc6es2s4645z5
+    developer: npub1h5t3asu90f2x48rxtcqkjvwhza7m6kngs7vjyanx8xqyswc6es2s4645z5
     repository: https://github.com/holesail/holesail
     artifacts:
       - Holesail-go-android-v.*.apk
@@ -1103,7 +1103,7 @@ holesail:
 breez:
   android:
     name: Breez
-    builder: npub1ey6qdmvzcgcsr883m9nspzz0mm037l26xtardzcskfsvc6gc7jssm9szvp
+    developer: npub1ey6qdmvzcgcsr883m9nspzz0mm037l26xtardzcskfsvc6gc7jssm9szvp
     repository: https://github.com/breez/breezmobile
     artifacts:
       - .*.apk
@@ -1126,7 +1126,7 @@ keychat:
   android:
     name: Keychat
     repository: https://github.com/keychat-io/keychat-app
-    builder: npub1h0uj825jgcr9lzxyp37ehasuenq070707pj63je07n8mkcsg3u0qnsrwx8
+    developer: npub1h0uj825jgcr9lzxyp37ehasuenq070707pj63je07n8mkcsg3u0qnsrwx8
     artifacts:
       - keychat-arm64-v8a-v%v-release.apk
       # - keychat-universal-v%v-release.apk
@@ -1154,7 +1154,7 @@ brave:
 fedi:
   android:
     name: Fedi
-    builder: npub1uq70uqgas9pyhds2zt57kr9se8rg3s68ztphjnq82ts8rzeknmeql7u0c2
+    developer: npub1uq70uqgas9pyhds2zt57kr9se8rg3s68ztphjnq82ts8rzeknmeql7u0c2
     repository: https://github.com/fedixyz/fedi
     artifacts:
       - app-production-release-%v-.*.apk
@@ -1163,7 +1163,7 @@ envoy:
   android:
     name: Envoy
     repository: https://github.com/Foundation-Devices/envoy
-    builder: npub1s0vtkgej33n7ec4d7ycxmwt78up8hpfa30d0yfksrshq7t82mchqynpq6j
+    developer: npub1s0vtkgej33n7ec4d7ycxmwt78up8hpfa30d0yfksrshq7t82mchqynpq6j
     artifacts:
       - envoy-%v.apk
 
@@ -1178,7 +1178,7 @@ bull:
   android:
     name: Bull Bitcoin
     repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
-    builder: npub1t289s8ck5qfwynf2vsq49t2kypvvkpj7rhegayrur0ag9s2sezaqgunkzs
+    developer: npub1t289s8ck5qfwynf2vsq49t2kypvvkpj7rhegayrur0ag9s2sezaqgunkzs
     artifacts:
       - bullbitcoin-v%v.apk
 
