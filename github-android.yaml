@@ -406,9 +406,6 @@ homeassistant:
     repository: https://github.com/home-assistant/android
     artifacts:
       - app-full-release.apk
-      - app-minimal-release.apk
-      - automotive-full-release.apk
-      - automotive-minimal-release.apk
 
 easer:
   android:
