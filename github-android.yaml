@@ -401,8 +401,8 @@ autoclicker:
       - smartautoclicker-fDroid-release.apk
 
 homeassistant:
-  name: Home Assistant
   android:
+    name: Home Assistant
     repository: https://github.com/home-assistant/android
     artifacts:
       - app-full-release.apk
@@ -497,8 +497,8 @@ termux:
       # - termux-app_v.*github-debug_x86_64.apk
 
 syncthing:
-  name: Syncthing
   android:
+    name: Syncthing
     repository: https://github.com/syncthing/syncthing-android
     artifacts:
       - app-release.apk
@@ -618,8 +618,8 @@ mastodon:
       - mastodon-githubRelease.apk
 
 jellyfin:
-  name: Jellyfin
   android:
+    name: Jellyfin
     repository: https://github.com/jellyfin/jellyfin-android
     artifacts:
       - jellyfin-android-v2.6.2-libre-release.apk
@@ -1209,15 +1209,15 @@ standardnotes:
       - app-prod-release.apk
 
 tutanota:
-  name: Tutanota
   android:
+    name: Tutanota
     repository: https://github.com/tutao/tutanota
     artifacts:
       - tutanota-app-tutao-release-.*.apk
 
 documentscanner:
-  name: OSS Document Scanner
   android:
+    name: OSS Document Scanner
     repository: https://github.com/Akylas/OSS-DocumentScanner
     artifacts:
       - app-arm64-v8a-release.apk
