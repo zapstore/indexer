@@ -114,6 +114,7 @@ nutstash:
 
 aqua:
   android:
+    name: Aqua Wallet
     repository: https://github.com/aquawallet/aqua-wallet
     developer: npub1ajlrwgfj4yerhqf7ady03h7wmtk2qr3gs7h3sxcx83k05yld36sswpzx3q
     artifacts:
@@ -400,6 +401,7 @@ autoclicker:
       - smartautoclicker-fDroid-release.apk
 
 homeassistant:
+  name: Home Assistant
   android:
     repository: https://github.com/home-assistant/android
     artifacts:
@@ -495,6 +497,7 @@ termux:
       # - termux-app_v.*github-debug_x86_64.apk
 
 syncthing:
+  name: Syncthing
   android:
     repository: https://github.com/syncthing/syncthing-android
     artifacts:
@@ -615,6 +618,7 @@ mastodon:
       - mastodon-githubRelease.apk
 
 jellyfin:
+  name: Jellyfin
   android:
     repository: https://github.com/jellyfin/jellyfin-android
     artifacts:
@@ -1205,12 +1209,14 @@ standardnotes:
       - app-prod-release.apk
 
 tutanota:
+  name: Tutanota
   android:
     repository: https://github.com/tutao/tutanota
     artifacts:
       - tutanota-app-tutao-release-.*.apk
 
 documentscanner:
+  name: OSS Document Scanner
   android:
     repository: https://github.com/Akylas/OSS-DocumentScanner
     artifacts:
