@@ -1218,3 +1218,10 @@ documentscanner:
     repository: https://github.com/Akylas/OSS-DocumentScanner
     artifacts:
       - app-arm64-v8a-release.apk
+
+zmninja:
+  android:
+    name: zmNinja
+    repository: https://github.com/ZoneMinder/zmNinja
+    artifacts:
+      - .*.apk
