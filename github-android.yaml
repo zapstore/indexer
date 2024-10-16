@@ -204,6 +204,7 @@ obsidian:
 
 simplelogin:
   android:
+    name: SimpleLogin
     repository: https://github.com/simple-login/Simple-Login-Android
     artifacts:
       - simplelogin-fdroid-%v.apk
@@ -396,6 +397,7 @@ binaryeye:
 
 autoclicker:
   android:
+    name: Smart AutoClicker
     repository: https://github.com/Nain57/Smart-AutoClicker
     artifacts:
       - smartautoclicker-fDroid-release.apk
@@ -437,6 +439,7 @@ aniyomi:
 
 trackercontrol:
   android:
+    name: TrackerControl
     repository: https://github.com/TrackerControl/tracker-control-android
     artifacts:
       - TrackerControl-githubRelease-latest.apk
@@ -597,6 +600,7 @@ exodus_privacy:
 
 oxen:
   android:
+    name: Session
     repository: https://github.com/oxen-io/session-android
     artifacts:
       - session-%v-arm64-v8a.apk
@@ -1050,12 +1054,14 @@ clearclipboard:
 
 cpu-info:
   android:
+    name: CPU Info
     repository: https://github.com/kamgurgul/cpu-info
     artifacts:
       - androidApp-release.apk
 
 mpv-android:
   android:
+    name: mpv
     repository: https://github.com/mpv-android/mpv-android
     artifacts:
       - app-default-arm64-v8a-release.apk
@@ -1225,3 +1231,10 @@ zmninja:
     repository: https://github.com/ZoneMinder/zmNinja
     artifacts:
       - .*.apk
+
+rocdroid:
+  android:
+    name: Roc Streaming
+    repository: https://github.com/roc-streaming/roc-droid
+    artifacts:
+      - roc-droid-.*.apk
