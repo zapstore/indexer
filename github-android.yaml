@@ -1238,3 +1238,10 @@ rocdroid:
     repository: https://github.com/roc-streaming/roc-droid
     artifacts:
       - roc-droid-.*.apk
+
+sideband:
+  android:
+    name: Sideband
+    repository: https://github.com/markqvist/Sideband
+    artifacts:
+      - Sideband-%v.apk
