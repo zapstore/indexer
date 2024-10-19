@@ -539,7 +539,7 @@ heliboard:
     artifacts:
       - HeliBoard_%v-release.apk
 
-breezy_weather:
+breezy:
   android:
     repository: https://github.com/breezy-weather/breezy-weather
     name: Breezy Weather
@@ -598,7 +598,7 @@ exodus_privacy:
     artifacts:
       - exodus-android-app_release-v%v
 
-oxen:
+session:
   android:
     name: Session
     repository: https://github.com/oxen-io/session-android
@@ -1031,7 +1031,7 @@ wavlake:
     artifacts:
       - application-.*.apk
 
-blixt-wallet:
+blixt:
   android:
     name: Blixt Wallet
     developer: npub1v4v57fu60zvc9d2uq23cey4fnwvxlzga9q2vta2n6xalu03rs57s0mxwu8
@@ -1052,14 +1052,14 @@ clearclipboard:
     artifacts:
       - com.amnesica.clearclipboard_v%v-release.apk
 
-cpu-info:
+cpuinfo:
   android:
     name: CPU Info
     repository: https://github.com/kamgurgul/cpu-info
     artifacts:
       - androidApp-release.apk
 
-mpv-android:
+mpv:
   android:
     name: mpv
     repository: https://github.com/mpv-android/mpv-android
@@ -1232,7 +1232,7 @@ zmninja:
     artifacts:
       - .*.apk
 
-rocdroid:
+roc:
   android:
     name: Roc Streaming
     repository: https://github.com/roc-streaming/roc-droid
