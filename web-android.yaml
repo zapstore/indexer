@@ -72,6 +72,6 @@ whatsapp:
 fountain:
   android:
     repository: https://notopen.source
-    version: ['https://fountain.fm', 'a', 'href', '.*'] # cant find it, put whatever
+    version: ['https://fountain.fm', 'a', 'tabIndex', '.*'] # cant find it, put whatever
     artifacts:
       - https://fountain.fm/apk
