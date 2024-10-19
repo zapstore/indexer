@@ -68,3 +68,10 @@ whatsapp:
     version: ['https://www.whatsapp.com/android', 'a[data-ms*="Android_PackageInstaller_Hero_Link"]', 'href', 'https://scontent.whatsapp.net/v/(.*)']
     artifacts:
       - https://scontent.whatsapp.net/v/$v
+
+fountain:
+  android:
+    repository: https://notopen.source
+    version: ['https://fountain.fm', 'a', 'href', '.*'] # cant find it, put whatever
+    artifacts:
+      - https://fountain.fm/apk
