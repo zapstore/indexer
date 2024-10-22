@@ -101,6 +101,7 @@ bluewallet:
 
 nutstash:
   android:
+    name: Nutstash
     repository: https://github.com/gandlafbtc/nutstash-wallet
     developer: npub1cj6ndx5akfazux7f0vjl4fyx9k0ulf682p437fe03a9ndwqjm0tqj886t6
     artifacts:
