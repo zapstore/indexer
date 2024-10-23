@@ -7,6 +7,7 @@ mutiny:
 
 primal:
   android:
+    name: Primal
     repository: https://github.com/PrimalHQ/primal-android-app
     developer: npub12vkcxr0luzwp8e673v29eqjhrr7p9vqq8asav85swaepclllj09sylpugg
     artifacts:
@@ -22,6 +23,7 @@ btcmap:
 
 minibits:
   android:
+    name: Minibits Wallet
     repository: https://github.com/minibits-cash/minibits_wallet
     developer: npub1kvaln6tm0re4d99q9e4ma788wpvnw0jzkz595cljtfgwhldd75xsj9tkzv
     artifacts:
@@ -247,6 +249,7 @@ nunchuk:
 
 nostros:
   android:
+    name: Nostros
     repository: https://github.com/koalasat/nostros
     developer: npub1v3tgrwwsv7c6xckyhm5dmluc05jxd4yeqhpxew87chn0kua0tjzqc6yvjh
     artifacts:
@@ -365,12 +368,6 @@ opencalc:
     artifacts:
       - OpenCalc.v.*.apk
 
-cromite:
-  android:
-    repository: https://github.com/uazo/cromite
-    artifacts:
-      - arm64_ChromePublic.apk
-
 duckduckgo:
   android:
     repository: https://github.com/duckduckgo/Android
@@ -380,6 +377,7 @@ duckduckgo:
 
 privacy_qrscanner:
   android:
+    name: Privacy Friendly QR Scanner
     repository: https://github.com/SecUSo/privacy-friendly-qr-scanner
     artifacts:
       - pfa-qr-scanner-release-v%v.apk
@@ -575,6 +573,7 @@ freerse:
 
 phiola:
   android:
+    name: Phiola
     repository: https://github.com/stsaz/phiola
     artifacts:
       - phiola-%v-android-arm64.apk
@@ -589,6 +588,7 @@ noice:
 
 moonlight:
   android:
+    name: Moonlight
     repository: https://github.com/moonlight-stream/moonlight-android
     artifacts:
       - app-nonRoot-release.apk
@@ -1008,6 +1008,7 @@ blink:
 
 uhabits:
   android:
+    name: Loop Habit Tracker
     repository: https://github.com/isoron/uhabits
     artifacts:
       - loop-%v-release.apk
