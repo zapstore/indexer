@@ -71,6 +71,6 @@ whatsapp:
 
 fountain:
   android:
-    version: ['https://fountain.fm', 'a', 'tabIndex', '.*'] # cant find it, put whatever
+    version: ['https://fountain.fm/apk', 'location', 'https://storage.googleapis.com/fountain-fm-builds/android/fountain-(.*).apk']
     artifacts:
-      - https://fountain.fm/apk
+      - https://storage.googleapis.com/fountain-fm-builds/android/fountain-$v.apk
