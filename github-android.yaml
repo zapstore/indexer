@@ -857,6 +857,13 @@ element:
       # - vector-gplay-armeabi-v7a-release-signed.apk
       # no universal APK
 
+elementx:
+  android:
+    repository: https://github.com/element-hq/element-x-android
+    name: Element X
+    artifacts:
+      - app-fdroid-arm64-v8a-release-signed.apk
+
 readyou:
   android:
     repository: https://github.com/ashinch/readyou
@@ -1247,3 +1254,17 @@ sideband:
     repository: https://github.com/markqvist/Sideband
     artifacts:
       - Sideband-%v.apk
+
+iyox_wormhole:
+  android:
+    name: iyox Wormhole
+    repository: https://github.com/iyox-studios/iyox-Wormhole
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+music_recognizer:
+  android:
+    name: Music Recognizer
+    repository: https://github.com/aleksey-saenko/MusicRecognizer
+    artifacts:
+      -  Audile_v%v_github.apk 
