@@ -55,6 +55,15 @@ antennapod:
     artifacts:
       - https://f-droid.org/repo/de.danoeh.antennapod_$v.apk
 
+tasks:
+  android:
+    name: Tasks.org
+    description: Private, ad-free task lists! Optional sync with Google Tasks, CalDAV or EteSync!
+    repository: https://github.com/tasks/tasks
+    version: ['https://f-droid.org/packages/org.tasks/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+    artifacts:
+      - https://f-droid.org/repo/org.tasks_$v.apk
+
 # podverse:
 #   android:
 #     name: Podverse
@@ -71,6 +80,14 @@ whatsapp:
 
 fountain:
   android:
+    name: Whatsapp
     version: ['https://fountain.fm/apk', 'location', 'https://storage.googleapis.com/fountain-fm-builds/android/fountain-(.*).apk']
     artifacts:
       - https://storage.googleapis.com/fountain-fm-builds/android/fountain-$v.apk
+
+wireguard:
+  android:
+    name: Wireguard
+    version: ['https://download.wireguard.com/android-client/', 'a[href$="apk"]', 'href', '%v']
+    artifacts:
+      - https://download.wireguard.com/android-client/com.wireguard.android-$v.apk

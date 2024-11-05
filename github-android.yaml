@@ -495,6 +495,7 @@ termux:
       # - termux-app_v.*github-debug_x86.apk
       # - termux-app_v.*github-debug_x86_64.apk
 
+# TODO: moving to Catfriend1 fork
 syncthing:
   android:
     name: Syncthing
@@ -1262,9 +1263,79 @@ iyox_wormhole:
     artifacts:
       - app-arm64-v8a-release.apk
 
-music_recognizer:
+audile:
   android:
-    name: Music Recognizer
+    name: Audile
     repository: https://github.com/aleksey-saenko/MusicRecognizer
     artifacts:
-      -  Audile_v%v_github.apk 
+      - Audile_v%v_github.apk
+
+redreader:
+  android:
+    name: Red Reader
+    repository: https://github.com/QuantumBadger/RedReader
+    artifacts:
+      - RedReader-v%v.apk
+
+neobackup:
+  android:
+    name: Neo Backup
+    description: backup manager for android
+    repository: https://github.com/NeoApplications/Neo-Backup
+    artifacts:
+      - Neo_Backup_\d+_release.apk
+
+news_android:
+  android:
+    name: Nextcloud News
+    description: Android client for the Nextcloud news/feed reader app
+    repository: https://github.com/nextcloud/news-android
+    artifacts:
+      - News-Android-App-oss-release.apk
+
+quillpad:
+  android:
+    name: Quillpad
+    description: Take beautiful markdown notes and stay organized with task lists
+    repository: https://github.com/quillpad/quillpad
+    artifacts:
+      - quillpad-%v.apk
+
+joplin:
+  android:
+    name: Joplin
+    description: Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device.
+    repository: https://github.com/laurent22/joplin
+    release_repository: https://github.com/laurent22/joplin-android
+    artifacts:
+      - joplin-v%v.apk
+
+feedme:
+  android:
+    name: FeedMe
+    repository: https://github.com/seazon/FeedMe
+    artifacts:
+      - app-release-%v.apk
+
+feeder:
+  android:
+    name: Feeder
+    repository: https://github.com/spacecowboy/Feeder
+    artifacts:
+      - app-release.apk
+
+chan:
+  android:
+    name: Chan
+    description: Flutter imageboard browser for iOS and Android
+    repository: https://github.com/moffatman/chan
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+chronos:
+  android:
+    name: Chronos
+    repository: https://github.com/meenbeese/Chronos
+    artifacts:
+      - app-release.apk
+
