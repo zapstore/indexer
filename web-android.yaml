@@ -80,7 +80,7 @@ whatsapp:
 
 fountain:
   android:
-    name: Whatsapp
+    name: Fountain
     version: ['https://fountain.fm/apk', 'location', 'https://storage.googleapis.com/fountain-fm-builds/android/fountain-(.*).apk']
     artifacts:
       - https://storage.googleapis.com/fountain-fm-builds/android/fountain-$v.apk
