@@ -10,16 +10,9 @@ torbrowser:
   android:
     name: Tor Browser
     repository: https://gitlab.torproject.org/tpo/core/tor/
-    version: ['https://www.torproject.org/download', 'a[href$="apk"]', 'href', '%v']
+    version: ['https://www.torproject.org/download/', 'a[href$="apk"]', 'href', '%v']
     artifacts:
       - https://dist.torproject.org/torbrowser/$v/tor-browser-android-aarch64-$v.apk
-
-camelus:
-  android:
-    name: Camelus
-    repository: https://github.com/leo-lox/camelus
-    artifacts:
-      - https://camelus.app/downloads/app-release.apk
 
 grayjay:
   android:
