@@ -27,7 +27,7 @@ fcast:
   android:
     name: FCast
     repository: https://gitlab.futo.org/videostreaming/fcast
-    version: ['https://gitlab.futo.org/api/v4/projects/videostreaming%2Ffcast/releases/permalink/latest', '.tag_name', '.*']
+    version: ['https://gitlab.futo.org/api/v4/projects/videostreaming%2Ffcast/releases', '.[0].tag_name', '.*']
     artifacts:
       - https://releases.grayjay.app/fcast-release.apk
 
@@ -57,20 +57,6 @@ tasks:
     artifacts:
       - https://f-droid.org/repo/org.tasks_$v.apk
 
-# podverse:
-#   android:
-#     name: Podverse
-#     repository: https://github.com/podverse/podverse-rn
-#     version: ['https://f-droid.org/packages/com.podverse.fdroid/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
-#     artifacts:
-#       - https://f-droid.org/repo/com.podverse.fdroid_$v.apk
-
-whatsapp:
-  android:
-    version: ['https://www.whatsapp.com/android', 'a[data-ms*="Android_PackageInstaller_Hero_Link"]', 'href', 'https://scontent.whatsapp.net/v/(.*)']
-    artifacts:
-      - https://scontent.whatsapp.net/v/$v
-
 fountain:
   android:
     name: Fountain
@@ -81,6 +67,21 @@ fountain:
 wireguard:
   android:
     name: Wireguard
+    repository: https://github.com/WireGuard/wireguard-android
     version: ['https://download.wireguard.com/android-client/', 'a[href$="apk"]', 'href', '%v']
     artifacts:
       - https://download.wireguard.com/android-client/com.wireguard.android-$v.apk
+
+# podverse:
+#   android:
+#     name: Podverse
+#     repository: https://github.com/podverse/podverse-rn
+#     version: ['https://f-droid.org/packages/com.podverse.fdroid/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+#     artifacts:
+#       - https://f-droid.org/repo/com.podverse.fdroid_$v.apk
+
+# whatsapp:
+#   android:
+#     version: ['https://www.whatsapp.com/android', 'a[data-ms*="Android_PackageInstaller_Hero_Link"]', 'href', 'https://scontent.whatsapp.net/v/(.*)']
+#     artifacts:
+#       - https://scontent.whatsapp.net/v/$v
