@@ -74,6 +74,14 @@ wireguard:
     artifacts:
       - https://download.wireguard.com/android-client/com.wireguard.android-$v.apk
 
+opencamera:
+  android:
+    name: Open Camera
+    repository: https://sourceforge.net/projects/opencamera/
+    version: ['https://f-droid.org/packages/net.sourceforge.opencamera/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+    artifacts:
+      - https://f-droid.org/repo/net.sourceforge.opencamera_$v.apk
+
 # podverse:
 #   android:
 #     name: Podverse

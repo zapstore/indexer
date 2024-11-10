@@ -123,20 +123,6 @@ aqua:
     artifacts:
       - .*.apk
 
-robosats:
-  android:
-    repository: https://github.com/robosats/robosats
-    developer: npub1p2psats79rypr8lpnl9t5qdekfp700x660qsgw284xvq4s09lqrqqk3m82
-    name: Robosats
-    artifacts:      
-      - robosats-v(\d+\.\d+\.\d+\.alpha)-arm64-v8a.apk
-      # - robosats-desktop-v%v-linux-x64.zip
-      # - robosats-desktop-v%v-mac-darwin-x64.zip
-      # - robosats-desktop-v%v-win32-ia32.zip
-      # - robosats-v%v.alpha-armeabi-v7a.apk
-      # - robosats-v%v.alpha-universal.apk
-      # - robosats-v%v.alpha-x86.apk
-
 permission_pilot:
   android:
     repository: https://github.com/d4rken-org/permission-pilot
