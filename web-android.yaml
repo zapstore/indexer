@@ -59,6 +59,14 @@ tasks:
     artifacts:
       - https://f-droid.org/repo/org.tasks_$v.apk
 
+opentracks:
+  android:
+    name: OpenTracks
+    repository: https://github.com/OpenTracksApp/OpenTracks
+    version: ['https://f-droid.org/packages/de.dennisguse.opentracks/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+    artifacts:
+      - https://f-droid.org/repo/de.dennisguse.opentracks_$v.apk
+
 fountain:
   android:
     name: Fountain
