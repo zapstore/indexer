@@ -1328,6 +1328,6 @@ chronos:
 stashpay:
   android:
     name: StashPay
-    release_repository: https://github.com/onionmill/stashpay-bin
+    repository: https://github.com/onionmill/stashpay
     artifacts:
       - stashpay-%v.apk
