@@ -1,3 +1,10 @@
+zapstore:
+  android:
+    repository: https://github.com/zapstore/zapstore
+    name: Zapstore
+    artifacts:
+      - zapstore-%v.apk
+      
 mutiny:
   android:
     repository: https://github.com/mutinywallet/mutiny-web
