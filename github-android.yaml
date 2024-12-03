@@ -1338,3 +1338,10 @@ stashpay:
     repository: https://github.com/onionmill/stashpay
     artifacts:
       - stashpay-%v.apk
+
+mercurygram:
+  android:
+    name: Mercurygram
+    repository: https://github.com/Mercurygram/Mercurygram
+    artifacts:
+      - app-release.apk
