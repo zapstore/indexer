@@ -1345,3 +1345,17 @@ mercurygram:
     repository: https://github.com/Mercurygram/Mercurygram
     artifacts:
       - app-release.apk
+
+olauncher:
+  android:
+    name: Olauncher
+    repository: https://github.com/tanujnotes/Olauncher
+    artifacts:
+      - Olauncher-v%v.apk
+
+lichess:
+  android:
+    name: Lichess
+    repository: https://github.com/lichess-org/mobile
+    artifacts:
+      - .*.apk
