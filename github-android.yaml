@@ -1359,3 +1359,17 @@ lichess:
     repository: https://github.com/lichess-org/mobile
     artifacts:
       - .*.apk
+
+nextcloud_passwords:
+  android:
+    name: Nextcloud Passwords
+    repository: https://github.com/hegocre/NextcloudPasswords
+    artifacts:
+      - nextcloud_passwords-v%v-arm64-v8a-release.apk
+
+nextcloud_news:
+  android:
+    name: Nextcloud News
+    repository: https://github.com/nextcloud/news-android
+    artifacts:
+      - News-Android-App-oss-release.apk
