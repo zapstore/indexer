@@ -749,9 +749,9 @@ aegis:
 thunderbird:
   android:
     repository: https://github.com/thunderbird/thunderbird-android
-    name: K-9 Mail
+    name: Thunderbird
     artifacts:
-      - k9-.*.apk
+      - thunderbird-%v.apk
 
 meshtastic:
   android:
