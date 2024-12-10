@@ -56,17 +56,6 @@ simplex:
       - simplex.apk
       # - simplex-armv7a.apk
 
-zeus:
-  android:
-    repository: https://github.com/ZeusLN/zeus
-    developer: npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5
-    artifacts:
-      - zeus-v%v-arm64-v8a.apk
-      # - zeus-v%v-armeabi-v7a.apk
-      # - zeus-v%v-universal.apk
-      # - zeus-v%v-x86.apk
-      # - zeus-v%v-x86_64.apk 
-
 phoenix:
   android:
     repository: https://github.com/acinq/phoenix
