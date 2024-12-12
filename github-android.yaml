@@ -1355,3 +1355,10 @@ nextcloud_passwords:
     repository: https://github.com/hegocre/NextcloudPasswords
     artifacts:
       - nextcloud_passwords-v%v-arm64-v8a-release.apk
+
+flyingcarpet:
+  android:
+    name: Flying Carpet
+    repository: https://github.com/spieglt/FlyingCarpet
+    artifacts:
+      - android_FlyingCarpet_%v.apk

@@ -99,21 +99,20 @@ xq:
       xq_%v_linux_amd64.tar.gz:
         platforms: [linux-x86_64]
 
-nak:
-  cli:
-    name: nak
-    summary: the nostr army knife
-    repository: https://github.com/fiatjaf/nak
-    developer: npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6
-    artifacts:
-      nak-v%v-darwin-arm64:
-        platforms: [darwin-arm64]
-      nak-v%v-darwin-amd64:
-        platforms: [darwin-x86_64]
-      nak-v%v-linux-arm64:
-        platforms: [linux-aarch64]
-      nak-v%v-linux-amd64:
-        platforms: [linux-x86_64]
+# nak:
+#   cli:
+#     name: nak
+#     repository: https://github.com/fiatjaf/nak
+#     developer: npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6
+#     artifacts:
+#       nak-v%v-darwin-arm64:
+#         platforms: [darwin-arm64]
+#       nak-v%v-darwin-amd64:
+#         platforms: [darwin-x86_64]
+#       nak-v%v-linux-arm64:
+#         platforms: [linux-aarch64]
+#       nak-v%v-linux-amd64:
+#         platforms: [linux-x86_64]
 
 zola:
   cli:
