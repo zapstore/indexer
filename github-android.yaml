@@ -1362,3 +1362,10 @@ flyingcarpet:
     repository: https://github.com/spieglt/FlyingCarpet
     artifacts:
       - android_FlyingCarpet_%v.apk
+
+rimusic:
+  android:
+    name: RiMusic
+    repository: https://github.com/fast4x/RiMusic
+    artifacts:
+      - app-foss-release.apk
