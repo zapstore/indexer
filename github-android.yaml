@@ -1136,14 +1136,6 @@ brave:
       # - brave-core-ios-%v.ipa
       # - BraveBrowserBetaSetup.exe
 
-fedi:
-  android:
-    name: Fedi
-    developer: npub1uq70uqgas9pyhds2zt57kr9se8rg3s68ztphjnq82ts8rzeknmeql7u0c2
-    repository: https://github.com/fedixyz/fedi
-    artifacts:
-      - app-production-release-%v-.*.apk
-
 envoy:
   android:
     name: Envoy
@@ -1369,3 +1361,10 @@ rimusic:
     repository: https://github.com/fast4x/RiMusic
     artifacts:
       - app-foss-release.apk
+
+bitcoin_keeper:
+  android:
+    name: Bitcoin Keeper
+    repository: https://github.com/bithyve/bitcoin-keeper
+    artifacts:
+      - Bitcoin_Keeper_v%v.apk
