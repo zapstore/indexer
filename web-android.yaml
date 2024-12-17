@@ -99,6 +99,14 @@ fedi:
     artifacts:
       - https://apk.fedi.xyz/app-production-release-$v.apk
 
+keyman:
+  android:
+    name: Keyman
+    repository: https://github.com/keymanapp/keyman
+    version: ['https://keyman.com/downloads/', 'a[href$="apk"]', 'href', '%v']
+    artifacts:
+      - https://downloads.keyman.com/android/stable/$v/keyman-$v.apk
+
 # podverse:
 #   android:
 #     name: Podverse
