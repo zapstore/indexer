@@ -1368,3 +1368,10 @@ bitcoin_keeper:
     repository: https://github.com/bithyve/bitcoin-keeper
     artifacts:
       - Bitcoin_Keeper_v%v.apk
+
+medito:
+  android:
+    name: Medito
+    repository: https://github.com/meditohq/medito-app
+    artifacts:
+      - medito-v%v.apk
