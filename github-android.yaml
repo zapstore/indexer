@@ -213,6 +213,13 @@ bitwarden:
     artifacts:
       - com.x8bit.bitwarden-fdroid.apk
 
+bitwarden_authenticator:
+  android:
+    repository: http://github.com/bitwarden/authenticator-android
+    name: Bitwarden Authenticator
+    artifacts:
+      - com.bitwarden.authenticator.apk
+
 voyage:
   android:
     repository: https://github.com/dluvian/voyage
