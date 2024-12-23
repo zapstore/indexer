@@ -208,7 +208,7 @@ logseq:
 
 bitwarden:
   android:
-    repository: https://github.com/bitwarden/mobile
+    repository: https://github.com/bitwarden/android
     name: Bitwarden
     artifacts:
       - com.x8bit.bitwarden-fdroid.apk
