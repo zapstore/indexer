@@ -107,6 +107,14 @@ keyman:
     artifacts:
       - https://downloads.keyman.com/android/stable/$v/keyman-$v.apk
 
+aurora:
+  android:
+    name: Aurora Store
+    repository: https://gitlab.com/AuroraOSS/AuroraStore
+    version: ['https://gitlab.com/api/v4/projects/AuroraOSS%2FAuroraStore/releases/permalink/latest', 'location', '/api/v4/projects/6922885/releases/(%v)']
+    artifacts:
+      - "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-$v.apk"
+
 # podverse:
 #   android:
 #     name: Podverse
