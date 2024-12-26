@@ -1375,3 +1375,10 @@ bitcoin_keeper:
     repository: https://github.com/bithyve/bitcoin-keeper
     artifacts:
       - Bitcoin_Keeper_v%v.apk
+
+exch:
+  android:
+    name: eXch
+    repository: https://github.com/pitonite/exch_cx
+    artifacts:
+      - exch-cx-v1.4.0-18000-signed.apk
