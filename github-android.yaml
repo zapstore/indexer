@@ -1389,3 +1389,10 @@ freetube:
     repository: https://github.com/MarmadileManteater/FreeTubeAndroid
     artifacts:
       - freetube-.*.apk
+
+addy:
+  android:
+    name: Addy
+    repository: https://github.com/anonaddy/addy-android
+    artifacts:
+      - .*.apk
