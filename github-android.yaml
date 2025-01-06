@@ -1381,4 +1381,11 @@ exch:
     name: eXch
     repository: https://github.com/pitonite/exch_cx
     artifacts:
-      - exch-cx-v1.4.0-18000-signed.apk
+      - exch-cx-v.*.apk
+
+freetube:
+  android:
+    name: FreeTube
+    repository: https://github.com/MarmadileManteater/FreeTubeAndroid
+    artifacts:
+      - freetube-.*.apk
