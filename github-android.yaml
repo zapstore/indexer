@@ -1396,3 +1396,10 @@ addy:
     repository: https://github.com/anonaddy/addy-android
     artifacts:
       - .*.apk
+
+nextcloud_talk:
+  android:
+    name: Nextcloud Talk
+    repository: https://github.com/nextcloud/talk-android
+    artifacts:
+      - nextcloud-talk-20.1.0.apk
