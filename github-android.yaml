@@ -211,7 +211,7 @@ bitwarden:
     repository: https://github.com/bitwarden/android
     name: Bitwarden
     artifacts:
-      - com.x8bit.bitwarden-fdroid.apk
+      - com.x8bit.bitwarden-fdroid.apk$
 
 bitwarden_authenticator:
   android:
