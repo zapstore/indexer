@@ -20,14 +20,6 @@ primal:
     artifacts:
       - primal-%v.apk
 
-btcmap:
-  android:
-    repository: https://github.com/teambtcmap/btcmap-android
-    developer: npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq
-    name: BTC Map
-    artifacts:
-      - btcmap-%v.apk
-
 minibits:
   android:
     name: Minibits Wallet
