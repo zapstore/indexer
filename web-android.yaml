@@ -115,6 +115,22 @@ aurora:
     artifacts:
       - "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-$v.apk"
 
+#electrum:
+#  android:
+#    name: Electrum
+#    repository: https://github.com/spesmilo/electrum
+#    version: ['']
+#    artifacts:
+#      - "https://download.electrum.org/$v/Electrum-$v-arm64-v8a-release.apk"
+
+#ironfox:
+#  android:
+#    name: Ironfox
+#    repository: https://gitlab.com/ironfox-oss/IronFox
+#    version: ['']
+#    artifacts:
+#      - "https://gitlab.com/ironfox-oss/IronFox/-/releases/v$v/downloads/arm64-v8a.apk"
+      
 # podverse:
 #   android:
 #     name: Podverse
