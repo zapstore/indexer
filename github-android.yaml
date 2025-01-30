@@ -476,11 +476,10 @@ termux:
       # - termux-app_v.*github-debug_x86.apk
       # - termux-app_v.*github-debug_x86_64.apk
 
-# TODO: moving to Catfriend1 fork
 syncthing:
   android:
     name: Syncthing
-    repository: https://github.com/syncthing/syncthing-android
+    repository: https://github.com/Catfriend1/syncthing-android
     artifacts:
       - app-release.apk
 
