@@ -113,7 +113,7 @@ aurora:
     repository: https://gitlab.com/AuroraOSS/AuroraStore
     version: ['https://gitlab.com/api/v4/projects/AuroraOSS%2FAuroraStore/releases/permalink/latest', 'location', '/api/v4/projects/6922885/releases/(%v)']
     artifacts:
-      - "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-$v.apk"
+      - https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-$v.apk
 
 electrum:
  android:
@@ -121,7 +121,7 @@ electrum:
    repository: https://github.com/spesmilo/electrum
    version: ['https://electrum.org/', 'h2', '', 'Electrum-(%v)']
    artifacts:
-     - "https://download.electrum.org/$v/Electrum-$v-arm64-v8a-release.apk"
+     - https://download.electrum.org/$v/Electrum-$v-arm64-v8a-release.apk
 
 ironfox:
  android:
@@ -129,7 +129,15 @@ ironfox:
    repository: https://gitlab.com/ironfox-oss/IronFox
    version: ['https://gitlab.com/api/v4/projects/ironfox-oss%2FIronFox/releases/permalink/latest', 'location', '/api/v4/projects/65779408/releases/v(%v)']
    artifacts:
-     - "https://gitlab.com/api/v4/projects/65779408/packages/generic/apk/$v/IronFox-v$v-arm64-v8a.apk"
+     - https://gitlab.com/api/v4/projects/65779408/packages/generic/apk/$v/IronFox-v$v-arm64-v8a.apk
+
+briar:
+  android:
+    name: Briar
+    repository: https://code.briarproject.org/briar/briar
+    version: ['https://briarproject.org', '#release-text', '', '%v']
+    artifacts:
+      - https://briarproject.org/apk/briar.apk
 
 # podverse:
 #   android:
