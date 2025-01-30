@@ -1403,3 +1403,137 @@ bitkit:
     developer: npub13ndpm2hm9hud4azsq5euhf5mv3d05r90wymwxsd7rdn29609hhvqp60svh
     artifacts:
       - app-arm64-v8a-release.apk
+
+chatterui:
+  android:
+    name: Chatter UI
+    repository: https://github.com/Vali-98/ChatterUI
+    artifacts:
+      - .*.apk
+
+bitbox:
+  android:
+    name: Bitbox
+    repository: https://github.com/BitBoxSwiss/bitbox-wallet-app
+    artifacts:
+      - BitBox-%v-android.apk
+
+swissbitcoinpay:
+  android:
+    name: Swiss Bitcoin Pay
+    repository: https://github.com/swissbitcoinpay/app
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+boltnfc:
+  android:
+    name: Boltcard NFC Programming
+    repository: https://github.com/boltcard/bolt-nfc-android-app
+    artifacts:
+      - app-release.apk
+
+unexpected_keyboard:
+  android:
+    name: Unexpected Keyboard
+    repository: https://github.com/Julow/Unexpected-Keyboard
+    artifacts:
+      - juloo.keyboard2.apk
+
+wgtunnel:
+  android:
+    name: WG Tunnel
+    repository: https://github.com/zaneschepke/wgtunnel
+    artifacts:
+      - wgtunnel-fdroid-release-%v.apk
+
+yubico:
+  android:
+    name: Yubico Authenticator
+    repository: https://github.com/Yubico/yubioath-flutter
+    artifacts:
+      - yubico-authenticator-%v-android.apk
+
+anki:
+  android:
+    name: AnkiDroid
+    repository: https://github.com/ankidroid/anki-android
+    artifacts:
+      - AnkiDroid-%v-arm64-v8a.apk
+
+familygem:
+  android:
+    name: Family Gem
+    repository: https://github.com/michelesalvador/FamilyGem
+    artifacts:
+     - Family_Gem_%v.apk
+
+boltcard:
+  android:
+    name: Bolt Card Wallet
+    repository: https://github.com/boltcard/boltcard-wallet
+    artifacts:
+      - app-release.apk
+
+boltcardtools:
+  android:
+    name: BoltCard Terminal Tools
+    repository: https://github.com/SwissBitcoinPay/boltcard-tools-terminal
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+chooser:
+  android:
+    name: Chooser
+    repository: https://github.com/UrAvgCode/Chooser
+    artifacts:
+      - chooser-v%v.apk
+
+finamp:
+  android:
+    name: Finamp
+    repository: https://github.com/jmshrv/finamp
+    artifacts:
+      - app-release.apk
+
+omgsoundboard:
+  android:
+    name: OMGSoundboard
+    repository: https://github.com/omgsoundboard/android-app
+    artifacts:
+      - OMGSoundboard_Foss_.*.apk
+
+paperless:
+  android:
+    name: Paperless
+    repository: https://github.com/astubenbord/paperless-mobile
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+pdfdocscan:
+  android:
+    name: PDF Doc Scan
+    repository: https://github.com/littletrickster/pdf-doc-scan
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+quickdic:
+  android:
+    name: QuickDic
+    repository: https://github.com/rdoeffinger/dictionary
+    artifacts:
+      - Dictionary-v%v.apk
+
+streetcomplete:
+  android:
+    name: Street Complete
+    repository: https://github.com/streetcomplete/streetcomplete
+    artifacts:
+      - StreetComplete-v%v.apk
+
+streetmeasure:
+  android:
+    name: Street Measure
+    repository: https://github.com/streetcomplete/streetmeasure
+    artifacts:
+      - StreetMeasure-v%v.apk
+
