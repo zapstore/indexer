@@ -1395,3 +1395,11 @@ nextcloud_talk:
     repository: https://github.com/nextcloud/talk-android
     artifacts:
       - nextcloud-talk-20.1.0.apk
+
+bitkit:
+  android:
+    name: Bitkit
+    repository: https://github.com/synonymdev/bitkit
+    developer: npub13ndpm2hm9hud4azsq5euhf5mv3d05r90wymwxsd7rdn29609hhvqp60svh
+    artifacts:
+      - app-arm64-v8a-release.apk
