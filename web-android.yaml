@@ -127,7 +127,7 @@ ironfox:
  android:
    name: Ironfox
    repository: https://gitlab.com/ironfox-oss/IronFox
-   version: ['https://gitlab.com/api/v4/projects/ironfox-oss%2FIronFox/releases/permalink/latest', 'location', '/api/v4/projects/65779408/releases/v(\d+\.\d+(?:\.\d+\-\d+)?)']
+   version: ['https://gitlab.com/api/v4/projects/ironfox-oss%2FIronFox/releases/permalink/latest', 'location', '/api/v4/projects/65779408/releases/v(\d+\.\d+(?:\.\d+(?:\-\d+))?)']
    artifacts:
      - https://gitlab.com/api/v4/projects/65779408/packages/generic/apk/$v/IronFox-v$v-arm64-v8a.apk
 
