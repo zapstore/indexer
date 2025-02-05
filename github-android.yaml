@@ -481,7 +481,7 @@ syncthing:
     name: Syncthing
     repository: https://github.com/Catfriend1/syncthing-android
     artifacts:
-      - app-release.apk
+      - .*github.*.apk
 
 protonvpn:
   android:
@@ -1535,4 +1535,3 @@ streetmeasure:
     repository: https://github.com/streetcomplete/streetmeasure
     artifacts:
       - StreetMeasure-v%v.apk
-
