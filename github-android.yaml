@@ -1535,3 +1535,11 @@ streetmeasure:
     repository: https://github.com/streetcomplete/streetmeasure
     artifacts:
       - StreetMeasure-v%v.apk
+
+audiobookshelf:
+  android:
+    name: Audiobookshelf
+    repository: https://github.com/advplyr/audiobookshelf
+    release_repository: https://github.com/advplyr/audiobookshelf-app
+    artifacts:
+      - app-release.apk
