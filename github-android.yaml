@@ -1543,3 +1543,10 @@ audiobookshelf:
     release_repository: https://github.com/advplyr/audiobookshelf-app
     artifacts:
       - app-release.apk
+
+bluesky:
+  android:
+    name: Bluesky
+    repository: https://github.com/bluesky-social/social-app
+    artifacts:
+      - .*.apk$
