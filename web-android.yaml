@@ -139,6 +139,14 @@ briar:
     artifacts:
       - https://briarproject.org/apk/briar.apk
 
+vlc:
+  android:
+    name: VLC
+    repository: https://github.com/videolan/vlc-android
+    version: ['https://get.videolan.org/vlc-android/last/', 'a[href$="apk"]', 'href', '%v']
+    artifacts:
+      - https://get.videolan.org/vlc-android/last/VLC-Android-$v-arm64-v8a.apk
+
 # podverse:
 #   android:
 #     name: Podverse

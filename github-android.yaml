@@ -1550,3 +1550,11 @@ bluesky:
     repository: https://github.com/bluesky-social/social-app
     artifacts:
       - .*.apk$
+
+nostrmo:
+  android:
+    name: Nostrmo
+    developer: npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk
+    repository: https://github.com/haorendashu/nostrmo
+    artifacts:
+      - app-arm64-v8a-release.apk
