@@ -1558,3 +1558,10 @@ nostrmo:
     repository: https://github.com/haorendashu/nostrmo
     artifacts:
       - app-arm64-v8a-release.apk
+
+notesnook:
+  android:
+    name: Notesnook
+    repository: https://github.com/streetwriters/notesnook
+    artifacts:
+      - notesnook-arm64-v8a.apk
