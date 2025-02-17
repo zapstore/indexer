@@ -312,6 +312,13 @@ fossify_keyboard:
     artifacts:
       - keyboard-\d+-foss-release.apk
 
+fossify_messages:
+  android:
+    name: Fossify Messages
+    repository: https://github.com/FossifyOrg/Messages
+    artifacts:
+      - messages-\d+-foss-release.apk
+
 localsend:
   android:
     repository: https://github.com/localsend/localsend
@@ -1565,3 +1572,60 @@ notesnook:
     repository: https://github.com/streetwriters/notesnook
     artifacts:
       - notesnook-arm64-v8a.apk
+
+auxio:
+  android:
+    name: Auxio
+    repository: https://github.com/oxygencobalt/auxio
+    artifacts:
+      - Auxio.*.apk
+
+openlib:
+  android:
+    name: Openlib
+    repository: https://github.com/oxygencobalt/auxio
+    artifacts:
+      - openlib-arm64-v8a-.*.apk
+
+photoprism:
+  android:
+    name: Gallery for PhotoPrism
+    repository: https://github.com/Radiokot/photoprism-android-client
+    artifacts:
+      - ua.com.radiokot.photoprism-%v.apk
+
+pipepipe:
+  android:
+    name: PipePipe
+    repository: https://github.com/infinityloop1308/pipepipe
+    artifacts:
+      - PipePipe_%v-arm64-v8a-release.apk
+
+bookstory:
+  android:
+    name: Book's Story
+    repository: https://github.com/acclorite/book-story
+    artifacts:
+      - .*.apk
+
+lawnchairrelease:
+  android:
+    name: LawnchairRelease
+    repository: https://github.com/goooler/lawnchairrelease
+    artifacts:
+      - Lawnchair.*.apk
+
+arcticons:
+  android:
+    name: Arcticons
+    repository: https://github.com/Arcticons-Team/Arcticons
+    artifacts:
+      - Arcticons-%v-normal-release.apk
+
+popcorntime:
+  android:
+    name: Popcorn Time
+    repository: https://github.com/popcorn-official/popcorn-android
+    artifacts:
+      - mobile-arm-release-%v.apk
+

@@ -147,6 +147,14 @@ vlc:
     artifacts:
       - https://get.videolan.org/vlc-android/last/VLC-Android-$v-arm64-v8a.apk
 
+# Since they don't publish the latest version we resort to scraping the latest publishing date from Google Play, it will probably break soon
+# protonwallet:
+#   android:
+#     name: Proton Wallet
+#     version: ['https://play.google.com/store/apps/details?id=me.proton.wallet.android', 'div[data-g-id=description]+div div:nth-child(2)', '.*']
+#     artifacts:
+#       - https://proton.me/download/WalletAndroid/ProtonWallet-Android.apk
+
 # podverse:
 #   android:
 #     name: Podverse
