@@ -1583,7 +1583,7 @@ auxio:
 openlib:
   android:
     name: Openlib
-    repository: https://github.com/oxygencobalt/auxio
+    repository: https://github.com/dstark5/Openlib
     artifacts:
       - openlib-arm64-v8a-.*.apk
 
