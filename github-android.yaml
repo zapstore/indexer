@@ -1632,7 +1632,7 @@ popcorntime:
 mempal:
   android:
     name: Mempal
-    repository: https://github.com/aeonBTC/Mempal/
+    repository: https://github.com/aeonBTC/Mempal
     artifacts:
       - mempal-v%v.apk
 
