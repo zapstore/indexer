@@ -1629,3 +1629,16 @@ popcorntime:
     artifacts:
       - mobile-arm-release-%v.apk
 
+mempal:
+  android:
+    name: Mempal
+    repository: https://github.com/aeonBTC/Mempal/
+    artifacts:
+      - mempal-v%v.apk
+
+squawker:
+  android:
+    name: Squawker
+    repository: https://github.com/j-fbriere/squawker
+    artifacts:
+      - squawker-v%v.apk
