@@ -1642,3 +1642,10 @@ squawker:
     repository: https://github.com/j-fbriere/squawker
     artifacts:
       - squawker-v%v.apk
+
+rethink:
+  android:
+    name: Rethink DNS + Firewall
+    repository: https://github.com/celzero/rethink-app
+    artifacts:
+      - rethink-\d+.apk
