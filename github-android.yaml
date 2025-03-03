@@ -155,17 +155,18 @@ greenwallet:
     artifacts:
       - BlockstreamGreen-v%v-productionGoogle-release.apk
 
-ente:
+ente_photos:
   android:
     repository: https://github.com/ente-io/ente
     artifacts:
       - ente-photos-v%v.apk
-      # - ente-photos-v%v-installer.exe
-      # - ente-photos-v%v-windows.zip
-      # - ente-photos-v%v-x86_64.AppImage
-      # - ente-photos-v%v-x86_64.deb
-      # - ente-photos-v%v-x86_64.rpm
-      # - ente-photos-v%v.dmg 
+
+ente_auth:
+  android:
+    name: Ente Auth
+    repository: https://github.com/ente-io/ente
+    artifacts:
+      - ente-auth-v%v.apk
 
 obsidian:
   android:
@@ -1649,3 +1650,101 @@ rethink:
     repository: https://github.com/celzero/rethink-app
     artifacts:
       - rethink-\d+.apk
+
+deltachat:
+  android:
+    name: Delta Chat
+    repository: https://github.com/deltachat/deltachat-android
+    artifacts:
+      - deltachat-gplay-release-%v.apk
+
+blade:
+  android:
+    name: Blade Player
+    repository: https://github.com/vhaudiquet/BladePlayer
+    artifacts:
+      - blade-%v.apk
+
+simple_keyboard:
+  android:
+    name: Simple Keyboard
+    repository: https://github.com/rkkr/simple-keyboard
+    artifacts:
+      - app-release.apk
+
+amaze:
+  android:
+    name: Amaze File Manager
+    repository: https://github.com/TeamAmaze/AmazeFileManager
+    artifacts:
+      - app-fdroid-release.apk
+
+stratumauth:
+  android:
+    name: Stratum Auth
+    repository: https://github.com/stratumauth/app
+    artifacts:
+      - com.stratumauth.app-arm64-v8a.fdroid.apk
+
+freeotpplus:
+  android:
+    name: Free OTP Plus
+    repository: https://github.com/helloworld1/FreeOTPPlus
+    artifacts:
+      - app-release.apk
+
+aliucord:
+  android:
+    name: Aliucord
+    repository: https://github.com/Aliucord/Aliucord
+    artifacts:
+      - Installer-release.apk
+
+clipious:
+  android:
+    name: Clipious
+    repository: https://github.com/lamarios/clipious
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+skytube:
+  android:
+    name: SkyTube
+    repository: https://github.com/SkyTubeTeam/SkyTube
+    artifacts:
+      - SkyTube-Oss-%v.apk
+
+opentracks:
+  android:
+    name: OpenTracks
+    repository: https://github.com/OpenTracksApp/OpenTracks
+    artifacts:
+      - de.dennisguse.opentracks.playstore_v%v.apk
+
+stingle:
+  android:
+    name: Stingle Photos
+    repository: https://github.com/stingle/stingle-photos-android
+    artifacts:
+      - StinglePhotos-fdroid-release.apk
+
+libretube:
+  android:
+    name: LibreTube
+    repository: https://github.com/libre-tube/LibreTube
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+exiferaser:
+  android:
+    name: ExifEraser
+    repository: https://github.com/Tommy-Geenexus/exif-eraser
+    artifacts:
+      - app-release.apk
+
+cromite:
+  android:
+    name: Cromite Browser
+    repository: https://github.com/uazo/cromite
+    artifacts:
+      - arm64_ChromePublic.apk

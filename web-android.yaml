@@ -59,14 +59,6 @@ tasks:
     artifacts:
       - https://f-droid.org/repo/org.tasks_$v.apk
 
-opentracks:
-  android:
-    name: OpenTracks
-    repository: https://github.com/OpenTracksApp/OpenTracks
-    version: ['https://f-droid.org/packages/de.dennisguse.opentracks/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
-    artifacts:
-      - https://f-droid.org/repo/de.dennisguse.opentracks_$v.apk
-
 fountain:
   android:
     name: Fountain
@@ -146,6 +138,15 @@ vlc:
     version: ['https://get.videolan.org/vlc-android/last/', 'a[href$="apk"]', 'href', '%v']
     artifacts:
       - https://get.videolan.org/vlc-android/last/VLC-Android-$v-arm64-v8a.apk
+
+bluemoon:
+ android:
+   name: Bluemoon
+   repository: https://gitlab.com/ngrob/bluemoon-android
+   version: ['https://gitlab.com/api/v4/projects/ngrob%2Fbluemoon-android/releases/permalink/latest', 'location', '/api/v4/projects/53095773/releases/v(.*)']
+   artifacts:
+     - https://gitlab.com/ngrob/bluemoon-android/-/releases/v$v/downloads/bluemoon-v$v.apk
+
 
 # Since they don't publish the latest version we resort to scraping the latest publishing date from Google Play, it will probably break soon
 # protonwallet:
