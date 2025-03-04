@@ -1752,9 +1752,14 @@ cromite:
 anymex:
   android:
     name: AnymeX
-    repository: https://github.com/RyanYuuki/AnymeX/
+    repository: https://github.com/RyanYuuki/AnymeX
     artifacts:
       - AnymeX-Android-arm64.apk
       - AnymeX-Android-armeabi-v7a.apk
-      - AnymeX-Android-universal.apk
-      - AnymeX-Android-x86_64.apk
+
+dantotsu:
+  android:
+    name: Dantotsu
+    repository: https://github.com/rebelonion/Dantotsu
+    artifacts:
+      - app-release.apk
