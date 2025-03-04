@@ -1748,3 +1748,18 @@ cromite:
     repository: https://github.com/uazo/cromite
     artifacts:
       - arm64_ChromePublic.apk
+
+anymex:
+  android:
+    name: AnymeX
+    repository: https://github.com/RyanYuuki/AnymeX
+    artifacts:
+      - AnymeX-Android-arm64.apk
+      - AnymeX-Android-armeabi-v7a.apk
+
+dantotsu:
+  android:
+    name: Dantotsu
+    repository: https://github.com/rebelonion/Dantotsu
+    artifacts:
+      - app-release.apk
