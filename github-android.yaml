@@ -1819,6 +1819,13 @@ animiru:
     artifacts:
       - Animiru-arm64-v8a-v%v.apk
 
+komikku:
+  android:
+    name: Komikku
+    repository: https://github.com/komikku-app/komikku
+    artifacts:
+      - Komikku-arm64-v8a-v%v.apk
+
 shiru:
   android:
     name: Shiru
@@ -1840,4 +1847,44 @@ mangayomi:
     artifacts:
       - Mangayomi-v%v-android-arm64-v8a.apk
 
+kotatsu:
+  android:
+    name: Kotatsu
+    repository: https://github.com/KotatsuApp/Kotatsu
+    artifacts:
+      - kotatsu-%v-release.apk
 
+lnreader:
+  android:
+    name: LNReader
+    repository: https://github.com/LNReader/lnreader
+    artifacts:
+      - LNReader-v%v.apk
+
+animetv:
+  android:
+    name: AnimeTV
+    repository: https://github.com/amarullz/AnimeTV
+    artifacts:
+      - animetv-%v.apk
+
+quicknovel:
+  android:
+    name: QuickNovel
+    repository: https://github.com/LagradOst/QuickNovel
+    artifacts:
+      - %v.apk
+
+azyx:
+  android:
+    name: Azyx
+    repository: https://github.com/reyyuuki/Azyx
+    artifacts:
+      - Azyx-Android-arm64.apk
+
+noveldesuka:
+  android:
+    name: NovelDesuka
+    repository: https://github.com/nanihadesuka/NovelDokusha
+    artifacts:
+      - NovelDokusha_v%v_full.apk
