@@ -1818,3 +1818,26 @@ animiru:
     repository: https://github.com/quickdesh/Animiru
     artifacts:
       - Animiru-arm64-v8a-v%v.apk
+
+shiru:
+  android:
+    name: Shiru
+    repository: https://github.com/RockinChaos/Shiru
+    artifacts:
+      - android-Shiru-v%v-arm64-v8a.apk
+
+migu:
+  android:
+    name: Migu
+    repository: https://github.com/NoCrypt/migu
+    artifacts:
+      - android-Migu-v%v-arm64-v8a.apk
+
+mangayomi:
+  android:
+    name: Mangayomi
+    repository: https://github.com/kodjodevf/mangayomi
+    artifacts:
+      - Mangayomi-v%v-android-arm64-v8a.apk
+
+
