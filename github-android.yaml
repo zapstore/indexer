@@ -1888,3 +1888,10 @@ noveldesuka:
     repository: https://github.com/nanihadesuka/NovelDokusha
     artifacts:
       - NovelDokusha_v%v_full.apk
+
+shosetsu:
+  android:
+    name: shosetsu
+    repository: https://gitlab.com/shosetsuorg/shosetsu
+    artifacts:
+      - shosetsu-v%v.apk
