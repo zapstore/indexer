@@ -147,6 +147,14 @@ bluemoon:
    artifacts:
      - https://gitlab.com/ngrob/bluemoon-android/-/releases/v$v/downloads/bluemoon-v$v.apk
 
+sherpa_tts:
+  android:
+    name: 
+    repository: https://github.com/woheller69/ttsengine
+    version: ['https://f-droid.org/packages/org.woheller69.ttsengine/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
+    artifacts:
+      - https://f-droid.org/repo/org.woheller69.ttsengine_$v.apk
+
 
 # Since they don't publish the latest version we resort to scraping the latest publishing date from Google Play, it will probably break soon
 # protonwallet:
