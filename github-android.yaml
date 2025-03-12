@@ -821,7 +821,7 @@ florisboard:
     repository: https://github.com/florisboard/florisboard
     name: FlorisBoard
     artifacts:
-      - florisboard-.*-release.apk
+      - florisboard-%v-stable.apk
 
 appverifier:
   android:
