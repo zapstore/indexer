@@ -149,7 +149,7 @@ bluemoon:
 
 sherpa_tts:
   android:
-    name: 
+    name: Sherpa TTS
     repository: https://github.com/woheller69/ttsengine
     version: ['https://f-droid.org/packages/org.woheller69.ttsengine/', '.package-version-header a[name]:nth-child(2)', 'name', '.*']
     artifacts:
