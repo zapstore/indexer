@@ -1163,7 +1163,7 @@ bull:
     repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
     developer: npub1t289s8ck5qfwynf2vsq49t2kypvvkpj7rhegayrur0ag9s2sezaqgunkzs
     artifacts:
-      - bullbitcoin-v%v.apk
+      - bullbitcoin-%v.apk
 
 mediagallery:
   android:
