@@ -1762,3 +1762,136 @@ dantotsu:
     repository: https://github.com/rebelonion/Dantotsu
     artifacts:
       - app-release.apk
+
+dartotsu:
+  android:
+    name: Dartotsu
+    repository: https://github.com/aayush2622/Dartotsu
+    artifacts:
+      - Dartotsu_Android_arm64-v8a_v%v.apk
+
+tachiyomiJ2K:
+  android:
+    name: TachiyomiJ2K
+    repository: https://github.com/Jays2Kings/tachiyomiJ2K
+    artifacts:
+      - tachiyomij2k-arm64-v8a-v%v.apk
+
+tachiyomiaz:
+  android:
+    name: TachiyomiAZ
+    repository: https://github.com/az4521/tachiyomiAZ
+    artifacts:
+      - app.apk
+      
+tachiyomisy:
+  android:
+    name: TachiyomiSY
+    repository: https://github.com/jobobby04/TachiyomiSY
+    artifacts:
+      - TachiyomiSY-arm64-v8a-v%v.apk
+
+neko:
+  android:
+    name: Neko
+    repository: https://github.com/nekomangaorg/Neko
+    artifacts:
+      - neko-arm64-v8a.apk
+      
+yokai:
+  android:
+    name: Yokai
+    repository: https://github.com/null2264/yokai
+    artifacts:
+      - yokai-arm64-v8a-v%v.apk
+
+animetail:
+  android:
+    name: Animetail
+    repository: https://github.com/Animetailapp/Animetail
+    artifacts:
+      - animetail-arm64-v8a-v%v.apk
+
+animiru:
+  android:
+    name: Animiru
+    repository: https://github.com/quickdesh/Animiru
+    artifacts:
+      - Animiru-arm64-v8a-v%v.apk
+
+komikku:
+  android:
+    name: Komikku
+    repository: https://github.com/komikku-app/komikku
+    artifacts:
+      - Komikku-arm64-v8a-v%v.apk
+
+shiru:
+  android:
+    name: Shiru
+    repository: https://github.com/RockinChaos/Shiru
+    artifacts:
+      - android-Shiru-v%v-arm64-v8a.apk
+
+migu:
+  android:
+    name: Migu
+    repository: https://github.com/NoCrypt/migu
+    artifacts:
+      - android-Migu-v%v-arm64-v8a.apk
+
+mangayomi:
+  android:
+    name: Mangayomi
+    repository: https://github.com/kodjodevf/mangayomi
+    artifacts:
+      - Mangayomi-v%v-android-arm64-v8a.apk
+
+kotatsu:
+  android:
+    name: Kotatsu
+    repository: https://github.com/KotatsuApp/Kotatsu
+    artifacts:
+      - kotatsu-%v-release.apk
+
+lnreader:
+  android:
+    name: LNReader
+    repository: https://github.com/LNReader/lnreader
+    artifacts:
+      - LNReader-v%v.apk
+
+animetv:
+  android:
+    name: AnimeTV
+    repository: https://github.com/amarullz/AnimeTV
+    artifacts:
+      - animetv-%v.apk
+
+quicknovel:
+  android:
+    name: QuickNovel
+    repository: https://github.com/LagradOst/QuickNovel
+    artifacts:
+      - %v.apk
+
+azyx:
+  android:
+    name: Azyx
+    repository: https://github.com/reyyuuki/Azyx
+    artifacts:
+      - Azyx-Android-arm64.apk
+
+noveldesuka:
+  android:
+    name: NovelDesuka
+    repository: https://github.com/nanihadesuka/NovelDokusha
+    artifacts:
+      - NovelDokusha_v%v_full.apk
+
+shosetsu:
+  android:
+    name: shosetsu
+    repository: https://gitlab.com/shosetsuorg/shosetsu
+    artifacts:
+      - shosetsu-v%v.apk
