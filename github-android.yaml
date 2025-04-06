@@ -621,15 +621,6 @@ newpipe:
     artifacts:
       - NewPipe_v%v.apk
 
-enuts:
-  android:
-    repository: https://github.com/cashubtc/eNuts
-    developer: npub1dx5q2el8nd4eh3eg9t2e25fd7zuqg7zxz6ldkc3uzgh66ss2yc6st288sj
-    description: eNuts is a privacy-focused custodial wallet that not only allows you to perform lightning transactions but also private Ecash transactions using the Cashu protocol.\n It comes with a basic Nostr integration because we believe Ecash and Nostr are a match made in heaven. Ecash combined with Nostr's inherent resistance to censorship creates a potent combination.
-    artifacts:
-      - enuts-v.*.apk
-      # - enuts-v.*.ipa
-
 bitkey:
   android:
     repository: https://github.com/proto-at-block/bitkey
@@ -1098,13 +1089,6 @@ breez:
     repository: https://github.com/breez/breezmobile
     artifacts:
       - .*.apk
-
-blitz:
-  android:
-    name: Blitz Wallet
-    repository: https://github.com/BlakeKaufman/BlitzWallet
-    artifacts:
-      - blitzBeta-V%v.apk
 
 orgzly:
   android:
