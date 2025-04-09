@@ -1753,3 +1753,10 @@ passwordstore:
     repository: https://github.com/agrahn/Android-Password-Store
     artifacts:
       - APS-free_v%v.apk 
+
+mistybreez:
+  android:
+    name: Misty Breez
+    repository: https://github.com/breez/misty-breez
+    artifacts:
+      - Misty.Breez.\d+.apk
