@@ -1752,7 +1752,7 @@ passwordstore:
     name: Android Password Store
     repository: https://github.com/agrahn/Android-Password-Store
     artifacts:
-      - APS-freeRelease-%v.apk 
+      - APS-free_v%v.apk
 
 mistybreez:
   android:
