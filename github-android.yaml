@@ -1760,3 +1760,17 @@ mistybreez:
     repository: https://github.com/breez/misty-breez
     artifacts:
       - Misty.Breez.\d+.apk
+
+sentinel:
+  android:
+    name: Sentinel
+    repository: https://github.com/wanderingking072/sentinel-android
+    artifacts:
+      - Sentinel_.*.apk
+
+fluffychat:
+  android:
+    name: FluffyChat
+    repository: https://github.com/krille-chan/fluffychat
+    artifacts:
+      - fluffychat.apk
