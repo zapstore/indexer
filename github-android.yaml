@@ -1759,7 +1759,7 @@ mistybreez:
     name: Misty Breez
     repository: https://github.com/breez/misty-breez
     artifacts:
-      - Misty.Breez.\d+.apk
+      -  Misty.Breez.\d+.signed_by_breez.arm64-v8a.apk 
 
 sentinel:
   android:
