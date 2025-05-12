@@ -1766,3 +1766,10 @@ fluffychat:
     repository: https://github.com/krille-chan/fluffychat
     artifacts:
       - fluffychat.apk
+
+pocketpal:
+  android:
+    name: PocketPal AI
+    repository: https://github.com/a-ghorbani/pocketpal-ai
+    artifacts:
+      - app-release.apk
