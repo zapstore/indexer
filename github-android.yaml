@@ -1097,15 +1097,6 @@ orgzly:
     artifacts:
       - orgzly-revived-fdroid-.*.apk
 
-keychat:
-  android:
-    name: Keychat
-    repository: https://github.com/keychat-io/keychat-app
-    developer: npub1h0uj825jgcr9lzxyp37ehasuenq070707pj63je07n8mkcsg3u0qnsrwx8
-    artifacts:
-      - keychat-arm64-v8a-v%v-release.apk
-      # - keychat-universal-v%v-release.apk
-
 transcribro:
   android:
     name: Transcribro
