@@ -1,0 +1,5 @@
+repository: https://github.com/yt-dlp/yt-dlp
+assets:
+  - yt-dlp_linux$
+  - yt-dlp_linux_aarch64
+# macos not working - check universal macos binary mime type

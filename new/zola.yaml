@@ -1,0 +1,7 @@
+name: Zola
+summary: Your one-stop static site engine
+repository: https://github.com/getzola/zola
+assets:
+  - zola-v\d+.\d+.\d+-aarch64-apple-darwin.tar.gz
+  - zola-v\d+.\d+.\d+-aarch64-unknown-linux-gnu.tar.gz
+  - zola-v\d+.\d+.\d+-x86_64-unknown-linux-gnu.tar.gz

@@ -1,0 +1,5 @@
+repository: https://github.com/jqlang/jq
+assets:
+  - jq-macos-arm64
+  - jq-linux-arm64
+  - jq-linux-amd64

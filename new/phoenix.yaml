@@ -1,0 +1,5 @@
+repository: https://github.com/acinq/phoenixd
+assets:
+  - phoenixd-\d+.\d+.\d+-macos-arm64.zip
+  - phoenixd-\d+.\d+.\d+-linux-x64.zip
+  - phoenixd-\d+.\d+.\d+-linux-arm64.zip

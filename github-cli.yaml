@@ -66,8 +66,6 @@ yt-dlp:
         platforms: [darwin-arm64]
       yt-dlp_linux_aarch64:
         platforms: [linux-aarch64]
-      yt-dlp_macos_legacy:
-        platforms: [darwin-x86_64]
       yt-dlp_linux:
         platforms: [linux-x86_64]
 
@@ -92,8 +90,6 @@ xq:
     artifacts:
       xq_%v_darwin_arm64.tar.gz:
         platforms: [darwin-arm64]
-      xq_%v_darwin_amd64.tar.gz:
-        platforms: [darwin-x86_64]
       xq_%v_linux_arm64.tar.gz:
         platforms: [linux-aarch64]
       xq_%v_linux_amd64.tar.gz:
