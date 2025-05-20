@@ -1764,3 +1764,473 @@ pocketpal:
     repository: https://github.com/a-ghorbani/pocketpal-ai
     artifacts:
       - app-release.apk
+
+ultimatum:
+  android:
+    name: Ultimatum
+    repository: https://github.com/gonzazoid/Ultimatum
+    artifacts:
+      - ultimatum_android_%v_arm64.apk
+
+stockticker:
+  android:
+    name: StockTicker
+    repository: https://github.com/premnirmal/StockTicker
+    artifacts:
+      - app-purefoss-debug-v%v.apk
+
+bisq:
+  mobile:
+    name: bisq-mobile
+    repository: https://github.com/bisq-network/bisq-mobile
+    artifacts:
+      - Bisq.Connect-%v.apk
+
+dantotsu:
+  android:
+    name: Dantotsu
+    repository: https://github.com/rebelonion/Dantotsu
+    artifacts:
+      - app-release-%v.apk
+
+cloudstream:
+  android:
+    name: CloudStream
+    repository: https://github.com/recloudstream/cloudstream
+    artifacts:
+      - %v.apk
+
+flixclusive:
+  android:
+    name: Flixclusive
+    repository: https://github.com/flixclusiveorg/Flixclusive
+    artifacts:
+      - flixclusive-release.apk
+
+kafka:
+  android:
+    name: Kafka
+    repository: https://github.com/vipulyaara/Kafka
+    artifacts:
+      - Kafka.for.Internet.Archive-%v.apk
+
+yuyanime:
+  android:
+    name: YuyanIme
+    repository: https://github.com/gurecn/YuyanIme
+    artifacts:
+      - yuyanIme_%v_offline_release.apk
+      - yuyanIme_%v_online_release.apk
+
+quicknovel:
+  android:
+    name: QuickNovel
+    repository: https://github.com/LagradOst/QuickNovel
+    artifacts:
+      - %v.apk
+
+kiwix:
+  android:
+    name: Kiwix
+    repository: https://github.com/kiwix/kiwix-android
+    artifacts:
+      - %v-arm64-v8a-standalone.apk
+
+lnreader:
+  android:
+    name: LNReader
+    repository: https://github.com/LNReader/lnreader
+    artifacts:
+      - LNReader-%v.apk
+
+carta:
+  android:
+    name: Carta
+    repository: https://github.com/innomatica/carta
+    artifacts:
+      - carta-%v.apk
+
+loque:
+  android:
+    name: Loque
+    repository: https://github.com/innomatica/loque
+    artifacts:
+      - loque-%v.apk
+
+sefaria-mobile:
+  android:
+    name: Sefaria-Mobile
+    repository: https://github.com/Sefaria/Sefaria-Mobile
+    artifacts:
+      - app-%v-arm64-v8a-release.apk
+      # app-%v-armeabi-v7a-release.apk
+      # app-%v-x86-release.apk
+      # app-%v-x86_64-release.apk
+
+moviesy:
+  android:
+      name: Moviesy
+      repository: https://github.com/KaustubhPatange/Moviesy
+      artifacts:
+        - Moviesy_v%v.apk
+
+pocketcasts:
+  android:
+      name: Pocket Casts
+      repository: https://github.com/Automattic/pocket-casts-android
+      artifacts:
+        - app-%v.apk
+        # automotive-%v.apk
+        # wear-%v.apk
+
+tetherfi:
+  android:
+      name: TetherFi
+      repository: https://github.com/pyamsoft/tetherfi
+      artifacts:
+        - tetherfi-fdroid-%v.apk
+
+transmissionbtc:
+  android:
+      name: TransmissionBTC
+      repository: https://github.com/AndreyPavlenko/transmissionbtc
+      artifacts:
+        - transmissionbtc-%v-arm64-v8a.apk
+        # transmissionbtc-%v-armeabi-v7a.apk
+        # transmissionbtc-%v-x86.apk
+        # transmissionbtc-%v-x86_64.apk
+
+oblivion:
+  android:
+      name: Oblivion
+      repository: https://github.com/bepass-org/oblivion
+      artifacts:
+        - oblivion-v%v-signed.apk
+
+ranobe:
+  android:
+      name: Ranobe
+      repository: https://github.com/ranobe-org/ranobe
+      artifacts:
+        - ranobe.apk
+
+rtranslator:
+  android:
+      name: RTranslator
+      repository: https://github.com/niedev/RTranslator
+      artifacts:
+        - RTranslator_%v.apk
+
+onlinego:
+  android:
+      name: OnlineGo
+      repository: https://github.com/acristescu/OnlineGo
+      artifacts:
+        - app-release-bitrise-signed-v%v.apk
+
+foxy-droid:
+  android:
+    name: Foxy Droid
+    repository: https://github.com/kitsunyan/foxy-droid
+    artifacts:
+      - foxy-droid-%v.apk
+
+nightscreen:
+  android:
+    name: NightScreen
+    repository: https://github.com/SkyD666/NightScreen
+    artifacts:
+      - app_release_github_%v.apk
+
+aenigma:
+  android:
+    name: Aenigma
+    repository: https://github.com/m3sserschmitt/aenigma-android
+    artifacts:
+      - aenigma-v%v.apk
+
+mahsa-ng:
+  android:
+    name: MahsaNG
+    repository: https://github.com/GFW-knocker/MahsaNG
+    artifacts:
+      - MahsaNG_%v_arm64-v8a.apk
+      # MahsaNG_%v_armeabi-v7a.apk
+      # MahsaNG_%v_universal.apk
+      # MahsaNG_%v_x86.apk
+      # MahsaNG_%v_x86_64.apk
+
+npsreact:
+  android:
+    name: NPSReact
+    repository: https://github.com/100Daisy/NPSReact
+    artifacts:
+      - app-release-%v.apk
+
+iris:
+  android:
+      name: Iris
+      repository: https://github.com/nini22P/iris
+      artifacts:
+        - Iris-%v-android-arm64-v8a.apk
+        # Iris-%v-android-armeabi-v7a.apk
+        # Iris-%v-android-x86_64.apk
+        # Iris-%v-windows.zip
+
+appteka:
+  android:
+    name: AppTeka
+    repository: https://github.com/solkin/appteka-android
+    artifacts:
+      - app-release.apk
+
+apkupdater:
+  android:
+    name: ApkUpdater
+    repository: https://github.com/rumboalla/apkupdater
+    artifacts:
+      - com.apkupdater.ci-release.apk
+
+kiwi-browser:
+  android:
+    name: Kiwi Browser
+    repository: https://github.com/kiwibrowser/src.next
+    artifacts:
+      - com.kiwibrowser.browser.dev-arm64-%v-github.apk
+      # com.kiwibrowser.browser-arm-%v-github.apk
+      # com.kiwibrowser.browser-arm64-%v-github.apk
+      # com.kiwibrowser.browser-x64-%v-github.apk
+      # com.kiwibrowser.browser-x86-%v-github.apk
+      # com.kiwibrowser.browser.dev-arm-%v-github.apk
+      # com.kiwibrowser.browser.dev-x64-%v-github.apk
+      # com.kiwibrowser.browser.dev-x86-%v-github.apk
+
+anx-reader:
+  android:
+    name: Anx Reader
+    repository: https://github.com/Anxcye/anx-reader
+    artifacts:
+      - Anx-Reader-android-beta-%v-arm64-v8a.apk
+      # Anx-Reader-android-beta-%v-armeabi-v7a.apk
+      # Anx-Reader-android-beta-%v-universal.apk
+      # Anx-Reader-android-beta-%v-x86_64.apk
+      # Anx-Reader-ios-beta-%v-unsigned.ipa
+      # Anx-Reader-macos-beta-%v.dmg
+      # Anx-Reader-windows-beta-%v.exe
+
+azahar:
+  android:
+    name: Azahar
+    repository: https://github.com/azahar-emu/azahar
+    artifacts:
+      - azahar-%v-android-universal.apk
+      # azahar-%v-windows-msvc-installer.exe
+      # azahar-%v-windows-msys2-installer.exe
+      # azahar.AppImage
+
+byedpi:
+  android:
+    name: ByeDPI
+    repository: https://github.com/romanvht/ByeDPIAndroid
+    artifacts:
+      - ByeByeDPI.v%v.apk
+
+livine:
+  android:
+    name: Livine
+    repository: https://github.com/Livine-Project/livine
+    artifacts:
+      - app-arm64-v8a-release.apk
+      # app-armeabi-v7a-release.apk
+      # app-x86_64-release.apk
+
+vectras_vm:
+  android:
+    name: Vectras VM
+    repository: https://github.com/xoureldeen/Vectras-VM-Android
+    artifacts:
+      - app-release-universal.apk
+
+extinguish:
+  android:
+    name: Extinguish
+    repository: https://github.com/Moderpach/Extinguish
+    artifacts:
+      - app-release.apk
+
+autopie:
+  android:
+    name: AutoPie
+    repository: https://github.com/cryptrr/AutoPie
+    artifacts:
+      - AutoPie-%v-aarch64.apk
+
+convertit:
+  android:
+    name: Convertit
+    repository: https://github.com/TheByteArray/Convertit
+    artifacts:
+      - app-release.apk
+
+h2byte:
+  android:
+    name: H2Byte
+    repository: https://github.com/TheByteArray/H2Byte
+    artifacts:
+      - app-debug.apk
+
+srb2:
+  android:
+    name: SRB2
+    repository: https://github.com/Lactozilla/SRB2
+    artifacts:
+      - srb2-android-v%v-gameFull-release.apk
+
+awery:
+  android:
+    name: Awery
+    repository: https://github.com/MrBoomDeveloper/Awery
+    artifacts:
+      - app-prod-modern-release-signed.apk
+      # app-prod-legacy-release-signed.apk
+
+flclash:
+  android:
+    name: FlClash
+    repository: https://github.com/chen08209/FlClash
+    artifacts:
+      - FlClash-%v-android-arm64-v8a.apk
+      # FlClash-%v-android-armeabi-v7a.apk
+      # FlClash-%v-android-x86_64.apk
+      # FlClash-%v-linux-amd64.AppImage
+      # FlClash-%v-linux-amd64.deb
+      # FlClash-%v-linux-amd64.rpm
+      # FlClash-%v-linux-arm64.deb
+      # FlClash-%v-macos-amd64.dmg
+      # FlClash-%v-macos-arm64.dmg
+      # FlClash-%v-windows-amd64-setup.exe
+      # FlClash-%v-windows-arm64-setup.exe
+
+ireader:
+  android:
+    name: IReader
+    repository: https://github.com/IReaderorg/IReader
+    artifacts:
+      - android-standard-%v-arm64-v8a-release-unsigned-signed.apk
+      # android-standard-%v-armeabi-v7a-release-unsigned-signed.apk
+      # android-standard-%v-universal-release-unsigned-signed.apk
+      # android-standard-%v-x86-release-unsigned-signed.apk
+      # android-standard-%v-x86_64-release-unsigned-signed.apk
+      # IReader-windows-x64-%v.msi
+      # ireader_%v_amd64.deb
+
+ouisync:
+  android:
+    name: OUISync
+    repository: https://github.com/equalitie/ouisync-app
+    artifacts:
+      - ouisync_%v-*.apk
+      # ouisync_%v-*.apk.sha256
+      # ouisync-cli_%v-*.deb
+      # ouisync-cli_%v-*.deb.sha256
+      # ouisync-gui_%v-*.deb
+      # ouisync-gui_%v-*.deb.sha256
+      # ouisync_%v-*.exe
+      # ouisync_%v-*.exe.sha256
+
+hiddify:
+  android:
+      name: Hiddify
+      repository: https://github.com/hiddify/hiddify-app
+      artifacts:
+        - Hiddify-Android-arm64-v%v.apk
+        # Hiddify-Android-arm7-v%v.apk
+        # Hiddify-Android-universal-v%v.apk
+        # Hiddify-Android-x86_64-v%v.apk
+        # Hiddify-Debian-x64-v%v.deb
+        # Hiddify-iOS-v%v.ipa
+        # Hiddify-Linux-x64-v%v.AppImage
+        # Hiddify-MacOS-Installer-v%v.pkg
+        # Hiddify-MacOS-v%v.dmg
+        # Hiddify-rpm-x64-v%v.rpm
+
+readest:
+  android:
+    name: Readest
+    repository: https://github.com/readest/readest
+    artifacts:
+      - Readest_%v_arm64.apk
+      # Readest_%v_arm64.apk.sig
+      # Readest-%v-1.aarch64.rpm
+      # Readest-%v-1.x86_64.rpm
+      # Readest_%v_aarch64.AppImage
+      # Readest_%v_aarch64.AppImage.sig
+      # Readest_%v_amd64.AppImage
+      # Readest_%v_amd64.AppImage.sig
+      # Readest_%v_amd64.deb
+      # Readest_%v_arm64-portable.exe
+      # Readest_%v_arm64-setup.exe
+      # Readest_%v_arm64-setup.exe.sig
+      # Readest_%v_arm64.deb
+      # Readest_%v_armhf.deb
+      # Readest_%v_universal.apk
+      # Readest_%v_universal.apk.sig
+      # Readest_%v_universal.dmg
+      # Readest_%v_x64-portable.exe
+      # Readest_%v_x64-setup.exe
+      # Readest_%v_x64-setup.exe.sig
+
+qmplay2:
+  android:
+    name: QMPlay2
+    repository: https://github.com/zaps166/QMPlay2
+    artifacts:
+      - QMPlay2-%v-Android-armv7-experimental.apk
+      # QMPlay2-%v-x86_64.AppImage
+      # QMPlay2-macOS-%v.dmg
+      # QMPlay2-src-%v.tar.xz
+      # QMPlay2-Win32-%v-qt5.exe
+      # QMPlay2-Win64-%v-deps.7z
+      # QMPlay2-Win64-%v-portable.7z
+      # QMPlay2-Win64-%v-qt5-portable.7z
+      # QMPlay2-Win64-%v-qt5.exe
+      # QMPlay2-Win64-%v.exe
+
+bisonrelay:
+  android:
+    name: BisonRelay
+    repository: https://github.com/companyzero/bisonrela
+    artifacts:
+      - bisonrelay-android-v%v.apk
+      # BisonRelay-darwin-arm64-v%v.dmg
+      # BisonRelay-v%v.AppImage
+      # bisonrelay-windows-amd64-v%v.exe
+
+servo:
+  android:
+    name: Servo
+    repository: https://github.com/servo/servo-nightly-builds
+    artifacts:
+      - servo-latest.apk
+
+gopeed:
+  android:
+    name: Gopeed
+    repository: https://github.com/GopeedLab/gopeed
+    artifacts:
+      - Gopeed-%v-android-arm64-v8a.apk
+      # Gopeed-%v-android-armeabi-v7a.apk
+      # Gopeed-%v-android-x86_64.apk
+      # Gopeed-%v-android.apk
+      # Gopeed-%v-ios.ipa
+      # Gopeed-%v-linux-amd64.AppImage
+      # Gopeed-%v-linux-amd64.deb
+      # Gopeed-%v-linux-arm64.AppImage
+      # Gopeed-%v-linux-arm64.deb
+      # Gopeed-%v-macos-amd64.dmg
+      # Gopeed-%v-macos-arm64.dmg
+      # Gopeed-%v-macos.dmg
+      # Gopeed-%v-qnap-amd64.qpkg
+      # Gopeed-%v-qnap-arm64.qpkg
+
+      
