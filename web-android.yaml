@@ -177,3 +177,9 @@ sherpa_tts:
 #     version: ['https://www.whatsapp.com/android', 'a[data-ms*="Android_PackageInstaller_Hero_Link"]', 'href', 'https://scontent.whatsapp.net/v/(.*)']
 #     artifacts:
 #       - https://scontent.whatsapp.net/v/$v
+
+bitrefill:
+  android:
+    version: ['https://www.bitrefill.com/mobile-app', 'div:nth-child(3) > div:nth-child(3) > div > h3', '', '%v']
+    artifacts:
+      - https://www.bitrefill.com/public/android-releases/app-release.apk
