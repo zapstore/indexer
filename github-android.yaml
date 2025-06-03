@@ -4,13 +4,6 @@ zapstore:
     name: Zapstore
     artifacts:
       - zapstore-%v.apk
-      
-mutiny:
-  android:
-    repository: https://github.com/mutinywallet/mutiny-web
-    developer: npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg
-    artifacts:
-      - mutiny-wallet-fdroid-universal-v%v.apk
 
 primal:
   android:
