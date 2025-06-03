@@ -1723,19 +1723,12 @@ anymex:
     artifacts:
       - AnymeX-Android-arm64.apk
 
-dantotsu:
-  android:
-    name: Dantotsu
-    repository: https://github.com/rebelonion/Dantotsu
-    artifacts:
-      - app-release.apk
-
 passwordstore:
   android:
     name: Android Password Store
     repository: https://github.com/agrahn/Android-Password-Store
     artifacts:
-      - APS-free_v%v.apk
+      - .*.apk
 
 mistybreez:
   android:
@@ -1777,7 +1770,7 @@ cloudstream:
     name: CloudStream
     repository: https://github.com/recloudstream/cloudstream
     artifacts:
-      - \d+.*.apk
+      - .*.apk
 
 flixclusive:
   android:
