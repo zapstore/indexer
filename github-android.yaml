@@ -2008,7 +2008,7 @@ ouisync:
     name: OUISync
     repository: https://github.com/equalitie/ouisync-app
     artifacts:
-      - ouisync_-*.apk
+      - .*.apk$
 
 hiddify:
   android:
@@ -2027,7 +2027,7 @@ readest:
 bisonrelay:
   android:
     name: BisonRelay
-    repository: https://github.com/companyzero/bisonrela
+    repository: https://github.com/companyzero/bisonrelay
     artifacts:
       - bisonrelay-android-v%v.apk
 
