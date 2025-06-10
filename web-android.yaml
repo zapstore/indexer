@@ -1,11 +1,3 @@
-signal:
-  android:
-    repository: https://github.com/signalapp/Signal-Android
-    license: AGPL-3.0-only
-    version: ['https://updates.signal.org/android/latest.json', '.versionName', '.*']
-    artifacts:
-      - https://updates.signal.org/android/Signal-Android-website-prod-universal-release-$v.apk
-
 torbrowser:
   android:
     name: Tor Browser

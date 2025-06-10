@@ -2044,3 +2044,10 @@ gopeed:
     repository: https://github.com/GopeedLab/gopeed
     artifacts:
       - Gopeed-.*-arm64-v8a.apk
+
+signal:
+  android:
+    name: Signal
+    repository: https://github.com/signalapp/Signal-Android
+    artifacts:
+      - .*.apk
