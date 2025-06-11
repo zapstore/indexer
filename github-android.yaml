@@ -584,10 +584,9 @@ exodus_privacy:
 session:
   android:
     name: Session
-    repository: https://github.com/oxen-io/session-android
+    repository: https://github.com/session-foundation/session-android
     artifacts:
       - session-%v-arm64-v8a.apk
-      # - session-%v-armeabi-v7a.apk
 
 megalodon:
   android:
