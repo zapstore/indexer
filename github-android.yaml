@@ -4,13 +4,6 @@ zapstore:
     name: Zapstore
     artifacts:
       - zapstore-%v.apk
-      
-mutiny:
-  android:
-    repository: https://github.com/mutinywallet/mutiny-web
-    developer: npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg
-    artifacts:
-      - mutiny-wallet-fdroid-universal-v%v.apk
 
 primal:
   android:
@@ -591,10 +584,9 @@ exodus_privacy:
 session:
   android:
     name: Session
-    repository: https://github.com/oxen-io/session-android
+    repository: https://github.com/session-foundation/session-android
     artifacts:
       - session-%v-arm64-v8a.apk
-      # - session-%v-armeabi-v7a.apk
 
 megalodon:
   android:
@@ -620,15 +612,6 @@ newpipe:
     repository: https://github.com/TeamNewPipe/NewPipe
     artifacts:
       - NewPipe_v%v.apk
-
-enuts:
-  android:
-    repository: https://github.com/cashubtc/eNuts
-    developer: npub1dx5q2el8nd4eh3eg9t2e25fd7zuqg7zxz6ldkc3uzgh66ss2yc6st288sj
-    description: eNuts is a privacy-focused custodial wallet that not only allows you to perform lightning transactions but also private Ecash transactions using the Cashu protocol.\n It comes with a basic Nostr integration because we believe Ecash and Nostr are a match made in heaven. Ecash combined with Nostr's inherent resistance to censorship creates a potent combination.
-    artifacts:
-      - enuts-v.*.apk
-      # - enuts-v.*.ipa
 
 bitkey:
   android:
@@ -821,7 +804,7 @@ florisboard:
     repository: https://github.com/florisboard/florisboard
     name: FlorisBoard
     artifacts:
-      - florisboard-.*-release.apk
+      - florisboard-%v-stable.apk
 
 appverifier:
   android:
@@ -1099,28 +1082,12 @@ breez:
     artifacts:
       - .*.apk
 
-blitz:
-  android:
-    name: Blitz Wallet
-    repository: https://github.com/BlakeKaufman/BlitzWallet
-    artifacts:
-      - blitzBeta-V%v.apk
-
 orgzly:
   android:
     name: Orgzly Revived
     repository: https://github.com/orgzly-revived/orgzly-android-revived
     artifacts:
       - orgzly-revived-fdroid-.*.apk
-
-keychat:
-  android:
-    name: Keychat
-    repository: https://github.com/keychat-io/keychat-app
-    developer: npub1h0uj825jgcr9lzxyp37ehasuenq070707pj63je07n8mkcsg3u0qnsrwx8
-    artifacts:
-      - keychat-arm64-v8a-v%v-release.apk
-      # - keychat-universal-v%v-release.apk
 
 transcribro:
   android:
@@ -1163,7 +1130,7 @@ bull:
     repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
     developer: npub1t289s8ck5qfwynf2vsq49t2kypvvkpj7rhegayrur0ag9s2sezaqgunkzs
     artifacts:
-      - bullbitcoin-v%v.apk
+      - bullbitcoin-%v.apk
 
 mediagallery:
   android:
@@ -1559,14 +1526,6 @@ bluesky:
     artifacts:
       - .*.apk$
 
-nostrmo:
-  android:
-    name: Nostrmo
-    developer: npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk
-    repository: https://github.com/haorendashu/nostrmo
-    artifacts:
-      - app-arm64-v8a-release.apk
-
 notesnook:
   android:
     name: Notesnook
@@ -1748,6 +1707,349 @@ cromite:
     repository: https://github.com/uazo/cromite
     artifacts:
       - arm64_ChromePublic.apk
+
+anymex:
+  android:
+    name: AnymeX
+    repository: https://github.com/RyanYuuki/AnymeX
+    artifacts:
+      - AnymeX-Android-arm64.apk
+
+passwordstore:
+  android:
+    name: Android Password Store
+    repository: https://github.com/agrahn/Android-Password-Store
+    artifacts:
+      - .*.apk
+
+mistybreez:
+  android:
+    name: Misty Breez
+    repository: https://github.com/breez/misty-breez
+    artifacts:
+      -  Misty.Breez.\d+.signed_by_breez.arm64-v8a.apk 
+
+sentinel:
+  android:
+    name: Sentinel
+    repository: https://github.com/wanderingking072/sentinel-android
+    artifacts:
+      - Sentinel_.*.apk
+
+fluffychat:
+  android:
+    name: FluffyChat
+    repository: https://github.com/krille-chan/fluffychat
+    artifacts:
+      - fluffychat.apk
+
+pocketpal:
+  android:
+    name: PocketPal AI
+    repository: https://github.com/a-ghorbani/pocketpal-ai
+    artifacts:
+      - app-release.apk
+
+stockticker:
+  android:
+    name: StockTicker
+    repository: https://github.com/premnirmal/StockTicker
+    artifacts:
+      - app-purefoss-debug.apk
+
+cloudstream:
+  android:
+    name: CloudStream
+    repository: https://github.com/recloudstream/cloudstream
+    artifacts:
+      - .*.apk
+
+flixclusive:
+  android:
+    name: Flixclusive
+    repository: https://github.com/flixclusiveorg/Flixclusive
+    artifacts:
+      - flixclusive-release.apk
+
+kafka:
+  android:
+    name: Kafka
+    repository: https://github.com/vipulyaara/Kafka
+    artifacts:
+      - Kafka.for.Internet.Archive.apk
+
+quicknovel:
+  android:
+    name: QuickNovel
+    repository: https://github.com/LagradOst/QuickNovel
+    artifacts:
+      - .*.apk
+
+kiwix:
+  android:
+    name: Kiwix
+    repository: https://github.com/kiwix/kiwix-android
+    artifacts:
+      - .*-arm64-v8a-standalone.apk
+
+lnreader:
+  android:
+    name: LNReader
+    repository: https://github.com/LNReader/lnreader
+    artifacts:
+      - LNReader-.*.apk
+
+carta:
+  android:
+    name: Carta
+    repository: https://github.com/innomatica/carta
+    artifacts:
+      - carta-.*.apk
+
+loque:
+  android:
+    name: Loque
+    repository: https://github.com/innomatica/loque
+    artifacts:
+      - loque-.*.apk
+
+sefaria-mobile:
+  android:
+    name: Sefaria-Mobile
+    repository: https://github.com/Sefaria/Sefaria-Mobile
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+moviesy:
+  android:
+      name: Moviesy
+      repository: https://github.com/KaustubhPatange/Moviesy
+      artifacts:
+        - Moviesy_.*.apk
+
+pocketcasts:
+  android:
+      name: Pocket Casts
+      repository: https://github.com/Automattic/pocket-casts-android
+      artifacts:
+        - app-.*.apk
+
+tetherfi:
+  android:
+      name: TetherFi
+      repository: https://github.com/pyamsoft/tetherfi
+      artifacts:
+        - tetherfi-.*.apk
+
+transmissionbtc:
+  android:
+      name: TransmissionBTC
+      repository: https://github.com/AndreyPavlenko/transmissionbtc
+      artifacts:
+        - transmissionbtc-%v-arm64-v8a.apk
+
+oblivion:
+  android:
+      name: Oblivion
+      repository: https://github.com/bepass-org/oblivion
+      artifacts:
+        - oblivion-.*.apk
+
+ranobe:
+  android:
+      name: Ranobe
+      repository: https://github.com/ranobe-org/ranobe
+      artifacts:
+        - ranobe.apk
+
+rtranslator:
+  android:
+      name: RTranslator
+      repository: https://github.com/niedev/RTranslator
+      artifacts:
+        - RTranslator_.*.apk
+
+onlinego:
+  android:
+      name: OnlineGo
+      repository: https://github.com/acristescu/OnlineGo
+      artifacts:
+        - app-.*.apk
+
+foxy-droid:
+  android:
+    name: Foxy Droid
+    repository: https://github.com/kitsunyan/foxy-droid
+    artifacts:
+      - foxy-droid-%v.apk
+
+nightscreen:
+  android:
+    name: NightScreen
+    repository: https://github.com/SkyD666/NightScreen
+    artifacts:
+      - app_release_github_%v.apk
+
+mahsa-ng:
+  android:
+    name: MahsaNG
+    repository: https://github.com/GFW-knocker/MahsaNG
+    artifacts:
+      - MahsaNG_.*_arm64-v8a.apk
+
+npsreact:
+  android:
+    name: NPSReact
+    repository: https://github.com/100Daisy/NPSReact
+    artifacts:
+      - app-.*.apk
+
+iris:
+  android:
+      name: Iris
+      repository: https://github.com/nini22P/iris
+      artifacts:
+        - Iris-android-arm64-v8a.apk
+
+apkupdater:
+  android:
+    name: ApkUpdater
+    repository: https://github.com/rumboalla/apkupdater
+    artifacts:
+      - com.apkupdater.ci-release.apk
+
+anx-reader:
+  android:
+    name: Anx Reader
+    repository: https://github.com/Anxcye/anx-reader
+    artifacts:
+      - Anx-Reader-android-.*-arm64-v8a.apk
+
+azahar:
+  android:
+    name: Azahar
+    repository: https://github.com/azahar-emu/azahar
+    artifacts:
+      - azahar-%v-android-universal.apk
+
+byedpi:
+  android:
+    name: ByeDPI
+    repository: https://github.com/romanvht/ByeDPIAndroid
+    artifacts:
+      - ByeByeDPI.v%v.apk
+
+livine:
+  android:
+    name: Livine
+    repository: https://github.com/Livine-Project/livine
+    artifacts:
+      - app-arm64-v8a-release.apk
+
+vectras_vm:
+  android:
+    name: Vectras VM
+    repository: https://github.com/xoureldeen/Vectras-VM-Android
+    artifacts:
+      - app-release-universal.apk
+
+extinguish:
+  android:
+    name: Extinguish
+    repository: https://github.com/Moderpach/Extinguish
+    artifacts:
+      - app-release.apk
+
+autopie:
+  android:
+    name: AutoPie
+    repository: https://github.com/cryptrr/AutoPie
+    artifacts:
+      - AutoPie-.*.apk
+
+convertit:
+  android:
+    name: Convertit
+    repository: https://github.com/TheByteArray/Convertit
+    artifacts:
+      - app-release.apk
+
+h2byte:
+  android:
+    name: H2Byte
+    repository: https://github.com/TheByteArray/H2Byte
+    artifacts:
+      - app-debug.apk
+
+awery:
+  android:
+    name: Awery
+    repository: https://github.com/MrBoomDeveloper/Awery
+    artifacts:
+      - app-prod-modern-release-signed.apk
+
+flclash:
+  android:
+    name: FlClash
+    repository: https://github.com/chen08209/FlClash
+    artifacts:
+      - FlClash-.*-android-arm64-v8a.apk
+
+ireader:
+  android:
+    name: IReader
+    repository: https://github.com/IReaderorg/IReader
+    artifacts:
+      - android-standard-arm64-v8a-release-unsigned-signed.apk
+
+ouisync:
+  android:
+    name: OUISync
+    repository: https://github.com/equalitie/ouisync-app
+    artifacts:
+      - .*.apk$
+
+hiddify:
+  android:
+      name: Hiddify
+      repository: https://github.com/hiddify/hiddify-app
+      artifacts:
+        - Hiddify-Android-arm64.apk
+
+readest:
+  android:
+    name: Readest
+    repository: https://github.com/readest/readest
+    artifacts:
+      - Readest_%v_arm64.apk
+
+bisonrelay:
+  android:
+    name: BisonRelay
+    repository: https://github.com/companyzero/bisonrelay
+    artifacts:
+      - bisonrelay-android-v%v.apk
+
+servo:
+  android:
+    name: Servo
+    release_repository: https://github.com/servo/servo-nightly-builds
+    artifacts:
+      - servo-latest.apk
+
+gopeed:
+  android:
+    name: Gopeed
+    repository: https://github.com/GopeedLab/gopeed
+    artifacts:
+      - Gopeed-.*-arm64-v8a.apk
+
+signal:
+  android:
+    name: Signal
+    repository: https://github.com/signalapp/Signal-Android
+    artifacts:
+      - .*.apk
 
 anymex:
   android:
