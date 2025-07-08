@@ -1,0 +1,6 @@
+repository: https://github.com/futo-org/android-keyboard
+assets:
+  - keyboard-.*.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,7 @@
+repository: https://github.com/advplyr/audiobookshelf
+release_repository: https://github.com/advplyr/audiobookshelf-app
+assets:
+  - app-release.apk
+remote_metadata:
+  - github
+  - playstore

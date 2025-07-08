@@ -1,0 +1,7 @@
+repository: https://github.com/NeoApplications/Neo-Backup
+description: backup manager for android
+assets:
+  - Neo_Backup_\d+_release.apk
+remote_metadata:
+  - github
+  - playstore

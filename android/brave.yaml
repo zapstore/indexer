@@ -1,0 +1,6 @@
+repository: https://github.com/brave/brave-browser
+assets:
+  - Bravearm64Universal.apk
+remote_metadata:
+  - github
+  - playstore

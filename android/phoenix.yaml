@@ -1,0 +1,6 @@
+repository: https://github.com/acinq/phoenix
+assets:
+  - phoenix-\d+-.*-mainnet.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/soupslurpr/AppVerifier
+assets:
+  - AppVerifier-.*.apk
+remote_metadata:
+  - github
+  - playstore

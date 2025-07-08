@@ -1,0 +1,6 @@
+repository: https://github.com/oxygencobalt/auxio
+assets:
+  - Auxio.*.apk
+remote_metadata:
+  - github
+  - playstore

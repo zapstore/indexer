@@ -1,0 +1,6 @@
+repository: https://github.com/Yet-Zio/yetCalc
+assets:
+  - yetCalc-v.*.apk
+remote_metadata:
+  - github
+  - playstore

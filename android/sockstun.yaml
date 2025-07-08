@@ -1,0 +1,6 @@
+repository: https://github.com/heiher/sockstun
+assets:
+  - hev.sockstun-.*-release.apk
+remote_metadata:
+  - github
+  - playstore

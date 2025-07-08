@@ -1,0 +1,6 @@
+repository: https://github.com/trynoice/android-app
+assets:
+  - noice-full.apk
+remote_metadata:
+  - github
+  - playstore

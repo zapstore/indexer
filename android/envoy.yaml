@@ -1,0 +1,6 @@
+repository: https://github.com/Foundation-Devices/envoy
+assets:
+  - envoy-.*.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/nextcloud/android
+assets:
+  - nextcloud-\d+.apk
+remote_metadata:
+  - github
+  - playstore

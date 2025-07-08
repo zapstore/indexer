@@ -1,0 +1,6 @@
+repository: https://github.com/premnirmal/StockTicker
+assets:
+  - app-purefoss-debug.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/proninyaroslav/libretorrent
+assets:
+  - LibreTorrent-.*-arm64-v8a.apk
+remote_metadata:
+  - github
+  - playstore

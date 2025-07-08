@@ -1,0 +1,6 @@
+repository: https://github.com/localsend/localsend
+assets:
+  - LocalSend-.*-android-arm64v8.apk
+remote_metadata:
+  - github
+  - playstore

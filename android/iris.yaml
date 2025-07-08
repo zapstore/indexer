@@ -1,0 +1,6 @@
+repository: https://github.com/nini22P/iris
+assets:
+  - Iris-android-arm64-v8a.apk
+remote_metadata:
+  - github
+  - playstore

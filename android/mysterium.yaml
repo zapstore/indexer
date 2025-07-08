@@ -1,0 +1,6 @@
+repository: https://github.com/mysteriumnetwork/mysterium-vpn-mobile
+assets:
+  - myst.apk
+remote_metadata:
+  - github
+  - playstore

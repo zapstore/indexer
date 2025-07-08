@@ -1,0 +1,6 @@
+repository: https://github.com/Exodus-Privacy/exodus-android-app
+assets:
+  - exodus-android-app_release-v.*
+remote_metadata:
+  - github
+  - playstore

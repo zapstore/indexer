@@ -1,0 +1,6 @@
+repository: https://github.com/moonlight-stream/moonlight-android
+assets:
+  - app-nonRoot-release.apk
+remote_metadata:
+  - github
+  - playstore

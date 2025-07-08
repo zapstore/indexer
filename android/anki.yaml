@@ -1,0 +1,6 @@
+repository: https://github.com/ankidroid/anki-android
+assets:
+  - AnkiDroid-.*-arm64-v8a.apk
+remote_metadata:
+  - github
+  - playstore

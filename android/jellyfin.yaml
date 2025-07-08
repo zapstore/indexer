@@ -1,0 +1,6 @@
+repository: https://github.com/jellyfin/jellyfin-android
+assets:
+  - jellyfin-android-v2.6.2-libre-release.apk
+remote_metadata:
+  - github
+  - playstore

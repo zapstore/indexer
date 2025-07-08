@@ -1,0 +1,6 @@
+repository: https://github.com/y20k/transistor
+assets:
+  - transistor-app-release-.*.apk
+remote_metadata:
+  - github
+  - playstore

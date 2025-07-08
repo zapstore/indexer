@@ -1,0 +1,6 @@
+repository: https://github.com/Zero-1729/volt
+assets:
+  - volt-.*.apk
+remote_metadata:
+  - github
+  - playstore

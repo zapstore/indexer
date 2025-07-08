@@ -1,0 +1,6 @@
+repository: https://github.com/roc-streaming/roc-droid
+assets:
+  - roc-droid-.*.apk
+remote_metadata:
+  - github
+  - playstore

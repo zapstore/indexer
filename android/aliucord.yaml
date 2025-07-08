@@ -1,0 +1,6 @@
+repository: https://github.com/Aliucord/Aliucord
+assets:
+  - Installer-release.apk
+remote_metadata:
+  - github
+  - playstore

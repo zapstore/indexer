@@ -1,0 +1,6 @@
+repository: https://github.com/infinityloop1308/pipepipe
+assets:
+  - PipePipe_.*-arm64-v8a-release.apk
+remote_metadata:
+  - github
+  - playstore

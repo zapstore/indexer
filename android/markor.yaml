@@ -1,0 +1,6 @@
+repository: https://github.com/gsantner/markor
+assets:
+  - net.gsantner.markor-v\d+-.*-flavorDefault-release.apk
+remote_metadata:
+  - github
+  - playstore

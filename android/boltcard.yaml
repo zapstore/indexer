@@ -1,0 +1,6 @@
+repository: https://github.com/boltcard/boltcard-wallet
+assets:
+  - app-release.apk
+remote_metadata:
+  - github
+  - playstore

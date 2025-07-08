@@ -1,0 +1,6 @@
+repository: https://github.com/IacobIonut01/Gallery
+assets:
+  - Gallery-.*-\d+.apk
+remote_metadata:
+  - github
+  - playstore

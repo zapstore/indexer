@@ -1,0 +1,6 @@
+repository: https://github.com/koreader/koreader
+assets:
+  - koreader-android-arm64-v.*.apk
+remote_metadata:
+  - github
+  - playstore

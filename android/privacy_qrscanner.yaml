@@ -1,0 +1,6 @@
+repository: https://github.com/SecUSo/privacy-friendly-qr-scanner
+assets:
+  - pfa-qr-scanner-release-v.*.apk
+remote_metadata:
+  - github
+  - playstore

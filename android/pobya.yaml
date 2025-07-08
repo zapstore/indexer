@@ -1,0 +1,6 @@
+repository: https://github.com/ICTrust/PObY-A
+assets:
+  - PObY-A_v.*.apk
+remote_metadata:
+  - github
+  - playstore

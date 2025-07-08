@@ -1,0 +1,6 @@
+repository: https://github.com/PrimalHQ/primal-android-app
+assets:
+  - primal-.*.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/spieglt/FlyingCarpet
+assets:
+  - android_FlyingCarpet_.*.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/onionmill/stashpay
+assets:
+  - stashpay-.*.apk
+remote_metadata:
+  - github
+  - playstore

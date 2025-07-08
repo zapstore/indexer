@@ -1,0 +1,6 @@
+repository: https://github.com/psanford/wormhole-william-mobile
+assets:
+  - wormhole-william.release.apk
+remote_metadata:
+  - github
+  - playstore

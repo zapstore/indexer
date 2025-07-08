@@ -1,0 +1,6 @@
+repository: https://github.com/FossifyOrg/File-Manager
+assets:
+  - file-manager-\d+-foss-release.apk
+remote_metadata:
+  - github
+  - playstore

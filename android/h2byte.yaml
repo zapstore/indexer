@@ -1,0 +1,6 @@
+repository: https://github.com/TheByteArray/H2Byte
+assets:
+  - app-debug.apk
+remote_metadata:
+  - github
+  - playstore

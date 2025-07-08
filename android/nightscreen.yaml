@@ -1,0 +1,6 @@
+repository: https://github.com/SkyD666/NightScreen
+assets:
+  - app_release_github_.*.apk
+remote_metadata:
+  - github
+  - playstore

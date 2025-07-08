@@ -1,0 +1,6 @@
+repository: https://github.com/astubenbord/paperless-mobile
+assets:
+  - app-arm64-v8a-release.apk
+remote_metadata:
+  - github
+  - playstore

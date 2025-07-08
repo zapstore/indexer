@@ -1,0 +1,6 @@
+repository: https://github.com/simple-login/Simple-Login-Android
+assets:
+  - simplelogin-fdroid-.*.apk
+remote_metadata:
+  - github
+  - playstore

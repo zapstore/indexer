@@ -1,0 +1,6 @@
+repository: https://github.com/aniyomiorg/aniyomi
+assets:
+  - aniyomi-arm64-v8a-v.*.apk
+remote_metadata:
+  - github
+  - playstore

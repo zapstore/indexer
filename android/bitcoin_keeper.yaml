@@ -1,0 +1,6 @@
+repository: https://github.com/bithyve/bitcoin-keeper
+assets:
+  - Bitcoin_Keeper_v.*.apk
+remote_metadata:
+  - github
+  - playstore

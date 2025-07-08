@@ -1,0 +1,6 @@
+repository: https://github.com/blokadaorg/blokada
+assets:
+  - blokada5-android.v.*.apk
+remote_metadata:
+  - github
+  - playstore

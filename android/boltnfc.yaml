@@ -1,0 +1,6 @@
+repository: https://github.com/boltcard/bolt-nfc-android-app
+assets:
+  - app-release.apk
+remote_metadata:
+  - github
+  - playstore

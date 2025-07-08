@@ -1,0 +1,6 @@
+repository: https://github.com/bluesky-social/social-app
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

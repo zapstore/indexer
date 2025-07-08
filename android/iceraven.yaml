@@ -1,0 +1,6 @@
+repository: https://github.com/fork-maintainers/iceraven-browser
+assets:
+  - iceraven-.*-browser-arm64-v8a-forkRelease.apk
+remote_metadata:
+  - github
+  - playstore

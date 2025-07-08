@@ -1,0 +1,6 @@
+repository: https://github.com/Catfriend1/syncthing-android
+assets:
+  - .*github.*.apk
+remote_metadata:
+  - github
+  - playstore

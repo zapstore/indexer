@@ -1,0 +1,6 @@
+repository: https://github.com/libre-tube/LibreTube
+assets:
+  - app-arm64-v8a-release.apk
+remote_metadata:
+  - github
+  - playstore

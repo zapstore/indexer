@@ -1,0 +1,6 @@
+repository: https://github.com/duckduckgo/Android
+assets:
+  - duckduckgo-.*-play-release.apk
+remote_metadata:
+  - github
+  - playstore

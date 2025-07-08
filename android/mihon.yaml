@@ -1,0 +1,6 @@
+repository: https://github.com/mihonapp/mihon
+assets:
+  - mihon-arm64-v8a-v.*.apk
+remote_metadata:
+  - github
+  - playstore

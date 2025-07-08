@@ -1,0 +1,6 @@
+repository: https://github.com/standardnotes/app
+assets:
+  - app-prod-release.apk
+remote_metadata:
+  - github
+  - playstore

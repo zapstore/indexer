@@ -1,0 +1,6 @@
+repository: https://github.com/acristescu/OnlineGo
+assets:
+  - app-.*.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/kitsunyan/foxy-droid
+assets:
+  - foxy-droid-.*.apk
+remote_metadata:
+  - github
+  - playstore

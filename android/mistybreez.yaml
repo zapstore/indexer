@@ -1,0 +1,6 @@
+repository: https://github.com/breez/misty-breez
+assets:
+  - Misty.Breez.\d+.signed_by_breez.arm64-v8a.apk
+remote_metadata:
+  - github
+  - playstore

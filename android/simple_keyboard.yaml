@@ -1,0 +1,6 @@
+repository: https://github.com/rkkr/simple-keyboard
+assets:
+  - app-release.apk
+remote_metadata:
+  - github
+  - playstore

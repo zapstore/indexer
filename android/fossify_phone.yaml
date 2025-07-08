@@ -1,0 +1,6 @@
+repository: https://github.com/FossifyOrg/Phone
+assets:
+  - phone-\d+-foss-release.apk
+remote_metadata:
+  - github
+  - playstore

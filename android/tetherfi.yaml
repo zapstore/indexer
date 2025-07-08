@@ -1,0 +1,6 @@
+repository: https://github.com/pyamsoft/tetherfi
+assets:
+  - tetherfi-.*.apk
+remote_metadata:
+  - github
+  - playstore

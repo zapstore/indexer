@@ -1,0 +1,6 @@
+repository: https://github.com/cryptrr/AutoPie
+assets:
+  - AutoPie-.*.apk
+remote_metadata:
+  - github
+  - playstore

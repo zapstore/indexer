@@ -1,0 +1,6 @@
+repository: http://github.com/bitwarden/authenticator-android
+assets:
+  - com.bitwarden.authenticator.apk
+remote_metadata:
+  - github
+  - playstore

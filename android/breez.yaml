@@ -1,0 +1,6 @@
+repository: https://github.com/breez/breezmobile
+assets:
+  - .*.apk
+remote_metadata:
+  - github
+  - playstore

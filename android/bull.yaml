@@ -1,0 +1,6 @@
+repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
+assets:
+  - bullbitcoin-.*.apk
+remote_metadata:
+  - github
+  - playstore

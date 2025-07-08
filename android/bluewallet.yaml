@@ -1,0 +1,6 @@
+repository: https://github.com/bluewallet/bluewallet
+assets:
+  - BlueWallet-.*-\d+.apk
+remote_metadata:
+  - github
+  - playstore

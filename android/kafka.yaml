@@ -1,0 +1,6 @@
+repository: https://github.com/vipulyaara/Kafka
+assets:
+  - Kafka.for.Internet.Archive.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/element-hq/element-x-android
+assets:
+  - app-fdroid-arm64-v8a-release-signed.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/element-hq/element-android
+assets:
+  - vector-gplay-arm64-v8a-release-signed.apk
+remote_metadata:
+  - github
+  - playstore

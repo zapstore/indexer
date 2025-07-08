@@ -1,0 +1,6 @@
+repository: https://github.com/rdoeffinger/dictionary
+assets:
+  - Dictionary-v.*.apk
+remote_metadata:
+  - github
+  - playstore

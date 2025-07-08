@@ -1,0 +1,6 @@
+repository: https://github.com/d4rken-org/permission-pilot
+assets:
+  - eu.darken.myperm-v(\d+\.\d+\.\d+-rc\d+)-\d+-FOSS-RELEASE-[a-f0-9]+.apk
+remote_metadata:
+  - github
+  - playstore

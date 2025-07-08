@@ -1,0 +1,6 @@
+repository: https://github.com/Radiokot/photoprism-android-client
+assets:
+  - ua.com.radiokot.photoprism-.*.apk
+remote_metadata:
+  - github
+  - playstore

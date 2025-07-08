@@ -1,0 +1,6 @@
+repository: https://github.com/bepass-org/oblivion
+assets:
+  - oblivion-.*.apk
+remote_metadata:
+  - github
+  - playstore

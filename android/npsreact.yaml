@@ -1,0 +1,6 @@
+repository: https://github.com/100Daisy/NPSReact
+assets:
+  - app-.*.apk
+remote_metadata:
+  - github
+  - playstore

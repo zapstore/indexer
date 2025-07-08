@@ -1,0 +1,6 @@
+repository: https://github.com/dsolonenko/titanius-launcher
+assets:
+  - titanius-launcher-.*.apk
+remote_metadata:
+  - github
+  - playstore

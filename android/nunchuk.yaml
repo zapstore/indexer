@@ -1,0 +1,6 @@
+repository: https://github.com/nunchuk-io/nunchuk-android
+assets:
+  - .*.apk
+remote_metadata:
+  - github
+  - playstore

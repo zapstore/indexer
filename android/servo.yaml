@@ -1,0 +1,6 @@
+release_repository: https://github.com/servo/servo-nightly-builds
+assets:
+  - servo-latest.apk
+remote_metadata:
+  - github
+  - playstore

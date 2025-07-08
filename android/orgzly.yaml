@@ -1,0 +1,6 @@
+repository: https://github.com/orgzly-revived/orgzly-android-revived
+assets:
+  - orgzly-revived-fdroid-.*.apk
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/KaustubhPatange/Moviesy
+assets:
+  - Moviesy_.*.apk
+remote_metadata:
+  - github
+  - playstore

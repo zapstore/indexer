@@ -1,0 +1,6 @@
+repository: https://github.com/a-ghorbani/pocketpal-ai
+assets:
+  - app-release.apk
+remote_metadata:
+  - github
+  - playstore

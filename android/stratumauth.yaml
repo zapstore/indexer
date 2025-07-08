@@ -1,0 +1,6 @@
+repository: https://github.com/stratumauth/app
+assets:
+  - com.stratumauth.app-arm64-v8a.fdroid.apk
+remote_metadata:
+  - github
+  - playstore

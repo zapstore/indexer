@@ -1,0 +1,6 @@
+repository: https://github.com/langerhans/OdinTools
+assets:
+  - OdinTools-.*.apk
+remote_metadata:
+  - github
+  - playstore

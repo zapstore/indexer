@@ -1,0 +1,6 @@
+repository: https://github.com/ivpn/android-app
+assets:
+  - IVPNv.*site.apk
+remote_metadata:
+  - github
+  - playstore

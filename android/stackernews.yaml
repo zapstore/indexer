@@ -1,0 +1,6 @@
+repository: https://github.com/felipebueno/stacker_news
+assets:
+  - app-arm64-v8a-prod-release.apk
+remote_metadata:
+  - github
+  - playstore

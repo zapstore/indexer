@@ -1,0 +1,6 @@
+release_repository: https://github.com/obsidianmd/obsidian-releases
+assets:
+  - Obsidian-.*.apk
+remote_metadata:
+  - github
+  - playstore

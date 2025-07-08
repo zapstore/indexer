@@ -1,0 +1,6 @@
+repository: https://github.com/markqvist/Sideband
+assets:
+  - Sideband-.*.apk
+remote_metadata:
+  - github
+  - playstore
