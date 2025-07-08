@@ -1,6 +1,6 @@
 repository: https://github.com/aquawallet/aqua-wallet
 assets:
-  - .*.apk
+  - .*.apk$
 remote_metadata:
   - github
   - playstore

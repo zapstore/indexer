@@ -1,6 +1,6 @@
 repository: https://github.com/binwiederhier/ntfy-android
 assets:
-  - ntfy-.*-fdroid-release.apk
+  - ntfy-\d+\.\d+(\.\d+)?(\.\d+)?-fdroid-release.apk$
 remote_metadata:
   - github
   - playstore

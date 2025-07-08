@@ -1,6 +1,6 @@
 repository: https://github.com/zapstore/zapstore
 assets:
-  - zapstore-.*.apk
+  - zapstore-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

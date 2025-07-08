@@ -1,6 +1,6 @@
 repository: https://github.com/MrBoomDeveloper/Awery
 assets:
-  - app-prod-modern-release-signed.apk
+  - app-prod-modern-release-signed.apk$
 remote_metadata:
   - github
   - playstore

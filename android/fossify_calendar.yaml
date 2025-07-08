@@ -1,6 +1,6 @@
 repository: https://github.com/FossifyOrg/Calendar
 assets:
-  - calendar-\d+-foss-release.apk
+  - calendar-\d+-foss-release.apk$
 remote_metadata:
   - github
   - playstore

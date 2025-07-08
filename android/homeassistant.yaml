@@ -1,6 +1,6 @@
 repository: https://github.com/home-assistant/android
 assets:
-  - app-full-release.apk
+  - app-full-release.apk$
 remote_metadata:
   - github
   - playstore

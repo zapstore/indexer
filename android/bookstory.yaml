@@ -1,6 +1,6 @@
 repository: https://github.com/acclorite/book-story
 assets:
-  - .*.apk
+  - .*.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/GFW-knocker/MahsaNG
 assets:
-  - MahsaNG_.*_arm64-v8a.apk
+  - MahsaNG_.*_arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore

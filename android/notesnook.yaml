@@ -1,6 +1,6 @@
 repository: https://github.com/streetwriters/notesnook
 assets:
-  - notesnook-arm64-v8a.apk
+  - notesnook-arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/Automattic/pocket-casts-android
 assets:
-  - app-.*.apk
+  - app-.*.apk$
 remote_metadata:
   - github
   - playstore

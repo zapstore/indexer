@@ -1,6 +1,6 @@
 repository: https://github.com/wavlake/mobile
 assets:
-  - application-.*.apk
+  - application-.*.apk$
 remote_metadata:
   - github
   - playstore

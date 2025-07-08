@@ -1,6 +1,6 @@
 repository: https://github.com/M66B/FairEmail
 assets:
-  - FairEmail-v.*.apk
+  - FairEmail-v.*.apk$
 remote_metadata:
   - github
   - playstore

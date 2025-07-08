@@ -1,6 +1,6 @@
 repository: https://github.com/BitBoxSwiss/bitbox-wallet-app
 assets:
-  - BitBox-.*-android.apk
+  - BitBox-\d+\.\d+(\.\d+)?(\.\d+)?-android.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/niedev/RTranslator
 assets:
-  - RTranslator_.*.apk
+  - RTranslator_.*.apk$
 remote_metadata:
   - github
   - playstore

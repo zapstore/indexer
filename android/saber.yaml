@@ -1,6 +1,6 @@
 repository: https://github.com/adil192/saber
 assets:
-  - Saber_FOSS_v.*.apk
+  - Saber_FOSS_v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/gandlafbtc/nutstash-wallet
 assets:
-  - app-release.apk
+  - app-release.apk$
 remote_metadata:
   - github
   - playstore

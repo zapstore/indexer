@@ -1,6 +1,6 @@
 repository: https://github.com/nextcloud/talk-android
 assets:
-  - nextcloud-talk-20.1.0.apk
+  - nextcloud-talk-20.1.0.apk$
 remote_metadata:
   - github
   - playstore

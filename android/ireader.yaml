@@ -1,6 +1,6 @@
 repository: https://github.com/IReaderorg/IReader
 assets:
-  - android-standard-arm64-v8a-release-unsigned-signed.apk
+  - android-standard-arm64-v8a-release-unsigned-signed.apk$
 remote_metadata:
   - github
   - playstore

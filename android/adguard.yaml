@@ -1,6 +1,6 @@
 repository: https://github.com/AdguardTeam/AdguardForAndroid
 assets:
-  - adguard-.*-release.apk
+  - adguard-\d+\.\d+(\.\d+)?(\.\d+)?-release.apk$
 remote_metadata:
   - github
   - playstore

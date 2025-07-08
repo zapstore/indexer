@@ -1,6 +1,6 @@
 repository: https://github.com/FossifyOrg/Notes
 assets:
-  - notes-\d+-foss-release.apk
+  - notes-\d+-foss-release.apk$
 remote_metadata:
   - github
   - playstore

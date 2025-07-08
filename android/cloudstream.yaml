@@ -1,6 +1,6 @@
 repository: https://github.com/recloudstream/cloudstream
 assets:
-  - .*.apk
+  - .*.apk$
 remote_metadata:
   - github
   - playstore

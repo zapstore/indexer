@@ -1,6 +1,6 @@
 repository: https://github.com/mollyim/mollyim-android
 assets:
-  - Molly-v(\d+\.\d+\.\d+-\d+)-FOSS.apk
+  - Molly-v(\d+\.\d+\.\d+-\d+)-FOSS.apk$
 remote_metadata:
   - github
   - playstore

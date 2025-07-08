@@ -1,6 +1,6 @@
 repository: https://github.com/protonvpn/android-app
 assets:
-  - ProtonVPN-\d+\.\d+\.\d+\.\d+.apk
+  - ProtonVPN-\d+\.\d+\.\d+\.\d+.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/Arcticons-Team/Arcticons
 assets:
-  - Arcticons-.*-normal-release.apk
+  - Arcticons-\d+\.\d+(\.\d+)?(\.\d+)?-normal-release.apk$
 remote_metadata:
   - github
   - playstore

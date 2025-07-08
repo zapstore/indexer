@@ -1,6 +1,6 @@
 repository: https://github.com/polymorphicshade/Tubular
 assets:
-  - tubular_v.*.apk
+  - tubular_v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

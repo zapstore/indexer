@@ -1,6 +1,6 @@
 repository: https://github.com/FossifyOrg/Messages
 assets:
-  - messages-\d+-foss-release.apk
+  - messages-\d+-foss-release.apk$
 remote_metadata:
   - github
   - playstore

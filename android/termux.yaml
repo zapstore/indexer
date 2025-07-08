@@ -1,6 +1,6 @@
 repository: https://github.com/termux/termux-app
 assets:
-  - termux-app_v.*github-debug_arm64-v8a.apk
+  - termux-app_v.*github-debug_arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore

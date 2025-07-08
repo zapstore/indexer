@@ -1,6 +1,6 @@
 repository: https://github.com/deniscerri/ytdlnis
 assets:
-  - YTDLnis-.*-arm64-v8a-release.apk
+  - YTDLnis-.*-arm64-v8a-release.apk$
 remote_metadata:
   - github
   - playstore

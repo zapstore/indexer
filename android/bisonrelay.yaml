@@ -1,6 +1,6 @@
 repository: https://github.com/companyzero/bisonrelay
 assets:
-  - bisonrelay-android-v.*.apk
+  - bisonrelay-android-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

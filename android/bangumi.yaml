@@ -1,6 +1,6 @@
 repository: https://github.com/czy0729/Bangumi
 assets:
-  - bangumi_v.*_arm64-v8a.apk
+  - bangumi_v\d+\.\d+(\.\d+)?(\.\d+)?_arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore

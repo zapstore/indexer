@@ -1,6 +1,6 @@
 release_repository: https://github.com/holepunchto/keet-mobile-releases
 assets:
-  - keet-.*-\d+.apk
+  - keet-\d+\.\d+(\.\d+)?(\.\d+)?-\d+.apk$
 remote_metadata:
   - github
   - playstore

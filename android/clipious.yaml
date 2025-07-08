@@ -1,6 +1,6 @@
 repository: https://github.com/lamarios/clipious
 assets:
-  - app-arm64-v8a-release.apk
+  - app-arm64-v8a-release.apk$
 remote_metadata:
   - github
   - playstore

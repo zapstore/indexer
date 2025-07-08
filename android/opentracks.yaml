@@ -1,6 +1,6 @@
 repository: https://github.com/OpenTracksApp/OpenTracks
 assets:
-  - de.dennisguse.opentracks.playstore_v.*.apk
+  - de.dennisguse.opentracks.playstore_v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

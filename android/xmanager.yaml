@@ -1,6 +1,6 @@
 repository: https://github.com/Team-xManager/xManager
 assets:
-  - xManager.apk
+  - xManager.apk$
 remote_metadata:
   - github
   - playstore

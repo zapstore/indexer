@@ -1,6 +1,6 @@
 repository: https://github.com/KotatsuApp/Kotatsu
 assets:
-  - kotatsu-.*.apk
+  - kotatsu-.*.apk$
 remote_metadata:
   - github
   - playstore

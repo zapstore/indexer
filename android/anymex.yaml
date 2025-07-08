@@ -1,6 +1,6 @@
 repository: https://github.com/RyanYuuki/AnymeX
 assets:
-  - AnymeX-Android-arm64.apk
+  - AnymeX-Android-arm64.apk$
 remote_metadata:
   - github
   - playstore

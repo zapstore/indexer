@@ -1,6 +1,6 @@
 repository: https://github.com/tanujnotes/Olauncher
 assets:
-  - Olauncher-v.*.apk
+  - Olauncher-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/soupslurpr/Transcribro
 assets:
-  - Transcribro-.*.apk
+  - Transcribro-.*.apk$
 remote_metadata:
   - github
   - playstore

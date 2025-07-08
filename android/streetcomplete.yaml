@@ -1,6 +1,6 @@
 repository: https://github.com/streetcomplete/streetcomplete
 assets:
-  - StreetComplete-v.*.apk
+  - StreetComplete-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

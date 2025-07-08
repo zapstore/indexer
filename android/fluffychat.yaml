@@ -1,6 +1,6 @@
 repository: https://github.com/krille-chan/fluffychat
 assets:
-  - fluffychat.apk
+  - fluffychat.apk$
 remote_metadata:
   - github
   - playstore

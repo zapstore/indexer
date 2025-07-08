@@ -1,6 +1,6 @@
 repository: https://github.com/romanvht/ByeDPIAndroid
 assets:
-  - ByeByeDPI.v.*.apk
+  - ByeByeDPI.v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

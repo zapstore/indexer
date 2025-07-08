@@ -1,6 +1,6 @@
 repository: https://github.com/nostrband/nostr-universe
 assets:
-  - spring-nostr-browser-v.*.apk
+  - spring-nostr-browser-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

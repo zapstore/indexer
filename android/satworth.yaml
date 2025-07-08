@@ -1,7 +1,7 @@
 repository: https://github.com/0ceanslim/satworth
 description: How many sats in a dollar? Get real-time Bitcoin prices in fiat, effortlessly convert fiat to satoshis, and calculate Bitcoin values with ease.
 assets:
-  - SatWorth.v.*.apk
+  - SatWorth.v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

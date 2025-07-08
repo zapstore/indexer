@@ -1,6 +1,6 @@
 repository: https://github.com/Nain57/Smart-AutoClicker
 assets:
-  - smartautoclicker-fDroid-release.apk
+  - smartautoclicker-fDroid-release.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/LagradOst/QuickNovel
 assets:
-  - .*.apk
+  - .*.apk$
 remote_metadata:
   - github
   - playstore

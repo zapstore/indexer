@@ -1,6 +1,6 @@
 repository: https://github.com/Helium314/HeliBoard
 assets:
-  - HeliBoard_.*-release.apk
+  - HeliBoard_\d+\.\d+(\.\d+)?(\.\d+)?-release.apk$
 remote_metadata:
   - github
   - playstore

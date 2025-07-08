@@ -1,6 +1,6 @@
 repository: https://github.com/FossifyOrg/Gallery
 assets:
-  - gallery-\d+-foss-release.apk
+  - gallery-\d+-foss-release.apk$
 remote_metadata:
   - github
   - playstore

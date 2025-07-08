@@ -1,6 +1,6 @@
 repository: https://github.com/wanderingking072/sentinel-android
 assets:
-  - Sentinel_.*.apk
+  - Sentinel_.*.apk$
 remote_metadata:
   - github
   - playstore

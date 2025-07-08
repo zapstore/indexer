@@ -1,6 +1,6 @@
 repository: https://github.com/QuantumBadger/RedReader
 assets:
-  - RedReader-v.*.apk
+  - RedReader-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/vhaudiquet/BladePlayer
 assets:
-  - blade-.*.apk
+  - blade-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

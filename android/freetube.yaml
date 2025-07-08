@@ -1,6 +1,6 @@
 repository: https://github.com/MarmadileManteater/FreeTubeAndroid
 assets:
-  - freetube-.*.apk
+  - freetube-.*.apk$
 remote_metadata:
   - github
   - playstore

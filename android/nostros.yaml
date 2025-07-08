@@ -1,6 +1,6 @@
 repository: https://github.com/koalasat/nostros
 assets:
-  - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-arm64-v8a.apk
+  - nostros-v(\d+\.\d+\.\d+\.\d+-beta)-arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore

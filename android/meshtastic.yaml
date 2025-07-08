@@ -1,6 +1,6 @@
 repository: https://github.com/meshtastic/Meshtastic-Android
 assets:
-  - fdroidRelease-.*.apk
+  - fdroidRelease-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

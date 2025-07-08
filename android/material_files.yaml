@@ -1,6 +1,6 @@
 repository: https://github.com/zhanghai/MaterialFiles
 assets:
-  - app-release-universal.apk
+  - app-release-universal.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/organicmaps/organicmaps
 assets:
-  - OrganicMaps-\d+-web-release.apk
+  - OrganicMaps-\d+-web-release.apk$
 remote_metadata:
   - github
   - playstore

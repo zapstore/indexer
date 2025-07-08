@@ -1,6 +1,6 @@
 repository: https://github.com/deckerst/aves
 assets:
-  - app-izzy-arm64-v8a-release.apk
+  - app-izzy-arm64-v8a-release.apk$
 remote_metadata:
   - github
   - playstore

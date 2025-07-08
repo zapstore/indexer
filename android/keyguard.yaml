@@ -1,6 +1,6 @@
 repository: https://github.com/AChep/keyguard-app
 assets:
-  - androidApp-.*.apk
+  - androidApp-.*.apk$
 remote_metadata:
   - github
   - playstore

@@ -2,7 +2,7 @@ repository: https://github.com/laurent22/joplin
 release_repository: https://github.com/laurent22/joplin-android
 description: Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device.
 assets:
-  - joplin-v.*.apk
+  - joplin-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

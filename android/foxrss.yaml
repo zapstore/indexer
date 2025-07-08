@@ -1,6 +1,6 @@
 repository: https://github.com/16arpi/Fox-RSS
 assets:
-  - rss-.*.signed.apk
+  - rss-\d+\.\d+(\.\d+)?(\.\d+)?.signed.apk$
 remote_metadata:
   - github
   - playstore

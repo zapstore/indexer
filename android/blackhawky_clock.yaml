@@ -1,6 +1,6 @@
 repository: https://github.com/BlackyHawky/Clock
 assets:
-  - Clock_.*-release.apk
+  - Clock_\d+\.\d+(\.\d+)?(\.\d+)?-release.apk$
 remote_metadata:
   - github
   - playstore

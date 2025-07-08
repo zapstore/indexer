@@ -1,6 +1,6 @@
 repository: https://github.com/aeonBTC/Mempal
 assets:
-  - mempal-v.*.apk
+  - mempal-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

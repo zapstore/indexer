@@ -1,6 +1,6 @@
 repository: https://github.com/innomatica/loque
 assets:
-  - loque-.*.apk
+  - loque-.*.apk$
 remote_metadata:
   - github
   - playstore

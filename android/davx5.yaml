@@ -1,6 +1,6 @@
 repository: https://github.com/bitfireAT/davx5-ose
 assets:
-  - davx5-ose-.*-release.apk
+  - davx5-ose-.*-release.apk$
 remote_metadata:
   - github
   - playstore

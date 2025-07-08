@@ -1,6 +1,6 @@
 repository: https://github.com/deltachat/deltachat-android
 assets:
-  - deltachat-gplay-release-.*.apk
+  - deltachat-gplay-release-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/Tobi823/ffupdater
 assets:
-  - ffupdater-release.apk
+  - ffupdater-release.apk$
 remote_metadata:
   - github
   - playstore

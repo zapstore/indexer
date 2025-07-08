@@ -1,6 +1,6 @@
 repository: https://github.com/omgsoundboard/android-app
 assets:
-  - OMGSoundboard_Foss_.*.apk
+  - OMGSoundboard_Foss_.*.apk$
 remote_metadata:
   - github
   - playstore

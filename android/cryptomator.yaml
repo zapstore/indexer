@@ -1,6 +1,6 @@
 repository: https://github.com/cryptomator/android
 assets:
-  - Cryptomator-.*_lite_signed.apk
+  - Cryptomator-\d+\.\d+(\.\d+)?(\.\d+)?_lite_signed.apk$
 remote_metadata:
   - github
   - playstore

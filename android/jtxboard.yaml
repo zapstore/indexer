@@ -1,6 +1,6 @@
 repository: https://github.com/TechbeeAT/jtxBoard
 assets:
-  - jtxBoard-v.*.apk
+  - jtxBoard-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

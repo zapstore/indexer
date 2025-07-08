@@ -1,6 +1,6 @@
 repository: https://github.com/Darkempire78/OpenCalc
 assets:
-  - OpenCalc.v.*.apk
+  - OpenCalc.v.*.apk$
 remote_metadata:
   - github
   - playstore

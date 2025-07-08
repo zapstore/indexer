@@ -1,6 +1,6 @@
 repository: https://github.com/ashinch/readyou
 assets:
-  - ReadYou-.*.apk
+  - ReadYou-.*.apk$
 remote_metadata:
   - github
   - playstore

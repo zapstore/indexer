@@ -1,6 +1,6 @@
 repository: https://github.com/devhyper/open-video-editor
 assets:
-  - app-release.apk
+  - app-release.apk$
 remote_metadata:
   - github
   - playstore

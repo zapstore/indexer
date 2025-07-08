@@ -1,6 +1,6 @@
 repository: https://github.com/LNReader/lnreader
 assets:
-  - LNReader-.*.apk
+  - LNReader-.*.apk$
 remote_metadata:
   - github
   - playstore

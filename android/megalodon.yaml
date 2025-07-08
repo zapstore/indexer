@@ -1,6 +1,6 @@
 repository: https://github.com/sk22/megalodon
 assets:
-  - megalodon-fdroid.apk
+  - megalodon-fdroid.apk$
 remote_metadata:
   - github
   - playstore

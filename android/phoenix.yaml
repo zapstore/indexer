@@ -1,6 +1,6 @@
 repository: https://github.com/acinq/phoenix
 assets:
-  - phoenix-\d+-.*-mainnet.apk
+  - phoenix-\d+-\d+\.\d+(\.\d+)?(\.\d+)?-mainnet.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/florisboard/florisboard
 assets:
-  - florisboard-.*-stable.apk
+  - florisboard-\d+\.\d+(\.\d+)?(\.\d+)?-stable.apk$
 remote_metadata:
   - github
   - playstore

@@ -1,6 +1,6 @@
 repository: https://github.com/Akylas/OSS-DocumentScanner
 assets:
-  - app-arm64-v8a-release.apk
+  - app-arm64-v8a-release.apk$
 remote_metadata:
   - github
   - playstore

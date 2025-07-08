@@ -1,6 +1,6 @@
 repository: https://github.com/T8RIN/ImageToolbox
 assets:
-  - image-toolbox-.*-.*-arm64-v8a.apk
+  - image-toolbox-\d+\.\d+(\.\d+)?(\.\d+)?-.*-arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore

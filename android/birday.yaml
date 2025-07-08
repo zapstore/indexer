@@ -1,6 +1,6 @@
 repository: https://github.com/m-i-n-a-r/birday
 assets:
-  - Birday-\d+.apk
+  - Birday-\d+.apk$
 remote_metadata:
   - github
   - playstore

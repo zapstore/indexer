@@ -1,6 +1,6 @@
 repository: https://github.com/TeamNewPipe/NewPipe
 assets:
-  - NewPipe_v.*.apk
+  - NewPipe_v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

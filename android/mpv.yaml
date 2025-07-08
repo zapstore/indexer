@@ -1,6 +1,6 @@
 repository: https://github.com/mpv-android/mpv-android
 assets:
-  - app-default-arm64-v8a-release.apk
+  - app-default-arm64-v8a-release.apk$
 remote_metadata:
   - github
   - playstore

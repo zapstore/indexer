@@ -1,6 +1,6 @@
 repository: https://github.com/openboard-team/openboard
 assets:
-  - app-release.apk
+  - app-release.apk$
 remote_metadata:
   - github
   - playstore

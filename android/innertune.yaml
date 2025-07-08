@@ -1,6 +1,6 @@
 repository: https://github.com/z-huang/InnerTune
 assets:
-  - InnerTune_v.*_foss.apk
+  - InnerTune_v\d+\.\d+(\.\d+)?(\.\d+)?_foss.apk$
 remote_metadata:
   - github
   - playstore

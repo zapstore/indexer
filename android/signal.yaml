@@ -1,6 +1,6 @@
 repository: https://github.com/signalapp/Signal-Android
 assets:
-  - .*.apk
+  - .*.apk$
 remote_metadata:
   - github
   - playstore

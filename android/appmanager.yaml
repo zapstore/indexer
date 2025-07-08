@@ -1,6 +1,6 @@
 repository: https://github.com/MuntashirAkon/AppManager
 assets:
-  - AppManager_v.*.apk
+  - AppManager_v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

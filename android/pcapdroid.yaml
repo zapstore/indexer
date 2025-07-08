@@ -1,6 +1,6 @@
 repository: https://github.com/emanuele-f/PCAPdroid
 assets:
-  - PCAPdroid_v.*.apk
+  - PCAPdroid_v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

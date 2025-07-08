@@ -1,6 +1,6 @@
 repository: https://github.com/SkyTubeTeam/SkyTube
 assets:
-  - SkyTube-Oss-.*.apk
+  - SkyTube-Oss-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

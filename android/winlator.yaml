@@ -1,6 +1,6 @@
 repository: https://github.com/brunodev85/winlator
 assets:
-  - Winlator_.*.apk
+  - Winlator_.*.apk$
 remote_metadata:
   - github
   - playstore

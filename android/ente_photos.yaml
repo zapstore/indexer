@@ -1,6 +1,6 @@
 repository: https://github.com/ente-io/ente
 assets:
-  - ente-photos-v.*.apk
+  - ente-photos-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
 remote_metadata:
   - github
   - playstore

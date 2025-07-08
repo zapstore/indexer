@@ -1,6 +1,6 @@
 repository: https://github.com/AdAway/AdAway
 assets:
-  - AdAway-.*-\d+.apk
+  - AdAway-\d+\.\d+(\.\d+)?(\.\d+)?-\d+.apk$
 remote_metadata:
   - github
   - playstore

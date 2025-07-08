@@ -1,6 +1,6 @@
 repository: https://github.com/innomatica/carta
 assets:
-  - carta-.*.apk
+  - carta-.*.apk$
 remote_metadata:
   - github
   - playstore

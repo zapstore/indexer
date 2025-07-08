@@ -1,6 +1,6 @@
 repository: https://github.com/TrackerControl/tracker-control-android
 assets:
-  - TrackerControl-githubRelease-latest.apk
+  - TrackerControl-githubRelease-latest.apk$
 remote_metadata:
   - github
   - playstore

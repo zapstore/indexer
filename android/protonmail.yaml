@@ -1,6 +1,6 @@
 repository: https://github.com/protonmail/android-mail
 assets:
-  - ProtonMail-.*.apk
+  - ProtonMail-.*.apk$
 remote_metadata:
   - github
   - playstore
