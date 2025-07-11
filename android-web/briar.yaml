@@ -1,0 +1,11 @@
+repository: https://code.briarproject.org/briar/briar
+version:
+  - https://briarproject.org
+  - "#release-text"
+  - ""
+  - \d+\.\d+\.\d+
+assets:
+  - https://briarproject.org/apk/briar.apk
+remote_metadata:
+  - github
+  - playstore

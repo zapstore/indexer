@@ -26,6 +26,10 @@ function transformEntry(key, entry) {
     result.release_repository = androidData.release_repository;
   }
 
+  if (androidData.version) {
+    result.version = androidData.version;
+  }
+
   // Handle description if present
   if (androidData.description) {
     result.description = androidData.description;
@@ -35,7 +39,8 @@ function transformEntry(key, entry) {
   if (androidData.artifacts) {
     result.assets = androidData.artifacts
       .filter(artifact => !artifact.trim().startsWith('#')) // Skip commented artifacts
-      .map(artifact => artifact.replace(/%v/g, '\\d+\\.\\d+(\\.\\d+)?(\\.\\d+)?') + '$'); // Replace %v with .*
+      .map(artifact => artifact.replace(/%v/g, '\\d+\\.\\d+(\\.\\d+)?(\\.\\d+)?') + '$') // Replace %v with .*
+      .map(artifact => artifact.replace(/\$v/g, '$version')); // Replace %v with .*
   }
 
   // Add remote_metadata
@@ -45,8 +50,8 @@ function transformEntry(key, entry) {
 }
 
 function main() {
-  const inputFile = 'github-android.yaml';
-  const outputDir = 'android';
+  const inputFile = 'web-android.yaml';
+  const outputDir = 'web';
 
   // Check if input file exists
   if (!fs.existsSync(inputFile)) {

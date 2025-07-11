@@ -1,0 +1,11 @@
+repository: https://github.com/woheller69/ttsengine
+version:
+  - https://f-droid.org/packages/org.woheller69.ttsengine/
+  - .package-version-header a[name]:nth-child(2)
+  - name
+  - .*
+assets:
+  - https://f-droid.org/repo/org.woheller69.ttsengine_$version.apk
+remote_metadata:
+  - github
+  - playstore
