@@ -8,5 +8,4 @@ description: The Voice Input app that respects your privacy.
 assets:
   - https://voiceinput.futo.org/VoiceInput/standalone.apk
 remote_metadata:
-  - github
   - playstore
