@@ -3,6 +3,7 @@
 Queue of projects waiting for better support.
 
  - Whatsapp
+ - Bitrefill
  - https://github.com/borgbackup/borg/releases/tag/1.4.0
  - https://github.com/podverse/podverse-rn
  - https://gitlab.shinice.net/pixeldroid/bunny

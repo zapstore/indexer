@@ -6,7 +6,7 @@ Running `zapstore-cli` in a cronjob, automating checks for new releases of selec
 
 ## Suggesting updates
 
-Submit PRs to any of the YAML files.
+DO NOT submit pull requests. Contact Zapstore for guidance on how to add new packages.
 
 ## License
 
