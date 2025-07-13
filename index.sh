@@ -37,6 +37,9 @@ fi
 # If --continue is set and a YAML file is given, filter FILES_TO_PROCESS
 if [ "$CONTINUE_MODE" = true ] && [ -f "$CONTINUE_FILE" ]; then
   CONTINUE_BASENAME=$(basename "$CONTINUE_FILE")
+  CONTINUE_DIR=$(dirname "$CONTINUE_FILE")
+  # Get all YAML files in the same directory, sorted
+  mapfile -t FILES_TO_PROCESS < <(find "$CONTINUE_DIR" -maxdepth 1 -type f \( -name '*.yaml' -o -name '*.yml' \) | sort)
   FILTERED_FILES=()
   for f in "${FILES_TO_PROCESS[@]}"; do
     if [[ $(basename "$f") > "$CONTINUE_BASENAME" || $(basename "$f") == "$CONTINUE_BASENAME" ]]; then
