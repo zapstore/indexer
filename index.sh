@@ -59,6 +59,9 @@ fi
 # - If today is day G or G+15 of the month, run zapstore without --skip-remote-metadata
 # - On all other days, run zapstore with --skip-remote-metadata
 
+# Track if any file failed (for normal mode)
+ANY_FAILED=false
+
 for FILE_PATH in "${FILES_TO_PROCESS[@]}"; do
   FILENAME=$(basename "$FILE_PATH")
   echo "Processing $FILENAME"
@@ -86,14 +89,23 @@ for FILE_PATH in "${FILES_TO_PROCESS[@]}"; do
   if (( DAY_OF_MONTH == GROUP || DAY_OF_MONTH == GROUP + 15 )); then
     zapstore publish -c "$FILE_PATH" -d
   else
-    zapstore publish -c "$FILE_PATH" -d --skip-remote-metadata
+    zapstore publish -c "$FILE_PATH" -d --no-overwrite-app
   fi
   STATUS=$?
   if [ $STATUS -ne 0 ]; then
     echo "❌ Error processing $FILENAME:" >&2
     echo "Exit code: $STATUS" >&2
     echo "\n🛑 ABORTING: Failed to process $FILENAME" >&2
-    echo "Fix the YAML file and re-run the program." >&2
-    exit 1
+    if [ "$CONTINUE_MODE" = true ]; then
+      echo "Fix the YAML file and re-run the program." >&2
+      exit 1
+    else
+      ANY_FAILED=true
+    fi
   fi
-done 
+done
+
+# In normal mode, exit with code 1 if any file failed
+if [ "$CONTINUE_MODE" != true ] && [ "$ANY_FAILED" = true ]; then
+  exit 1
+fi 
