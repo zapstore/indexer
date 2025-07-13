@@ -5,11 +5,21 @@
 #          ./index.sh ./android/app.yaml
 
 INPUT_PATH="$1"
+CONTINUE_MODE=false
+CONTINUE_FILE=""
+
+# Check for --continue flag
+if [ "$1" == "--continue" ]; then
+  CONTINUE_MODE=true
+  CONTINUE_FILE="$2"
+  INPUT_PATH="$2"
+fi
 
 if [ -z "$INPUT_PATH" ]; then
-  echo "Usage: $0 <folder-path|yaml-file>" >&2
+  echo "Usage: $0 [--continue] <folder-path|yaml-file>" >&2
   echo "Example: $0 ./android" >&2
   echo "         $0 ./android/app.yaml" >&2
+  echo "         $0 --continue ./android/app.yaml" >&2
   exit 1
 fi
 
@@ -22,6 +32,18 @@ elif [ -d "$INPUT_PATH" ]; then
 else
   echo "Error: '$INPUT_PATH' is not a valid directory or YAML file" >&2
   exit 1
+fi
+
+# If --continue is set and a YAML file is given, filter FILES_TO_PROCESS
+if [ "$CONTINUE_MODE" = true ] && [ -f "$CONTINUE_FILE" ]; then
+  CONTINUE_BASENAME=$(basename "$CONTINUE_FILE")
+  FILTERED_FILES=()
+  for f in "${FILES_TO_PROCESS[@]}"; do
+    if [[ $(basename "$f") > "$CONTINUE_BASENAME" || $(basename "$f") == "$CONTINUE_BASENAME" ]]; then
+      FILTERED_FILES+=("$f")
+    fi
+  done
+  FILES_TO_PROCESS=("${FILTERED_FILES[@]}")
 fi
 
 if [ ${#FILES_TO_PROCESS[@]} -eq 0 ]; then
