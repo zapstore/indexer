@@ -42,7 +42,7 @@ if [ "$CONTINUE_MODE" = true ] && [ -f "$CONTINUE_FILE" ]; then
   mapfile -t FILES_TO_PROCESS < <(find "$CONTINUE_DIR" -maxdepth 1 -type f \( -name '*.yaml' -o -name '*.yml' \) | sort)
   FILTERED_FILES=()
   for f in "${FILES_TO_PROCESS[@]}"; do
-    if [[ $(basename "$f") > "$CONTINUE_BASENAME" || $(basename "$f") == "$CONTINUE_BASENAME" ]]; then
+    if [[ $(basename "$f") > "$CONTINUE_BASENAME" ]]; then
       FILTERED_FILES+=("$f")
     fi
   done
@@ -53,11 +53,11 @@ if [ ${#FILES_TO_PROCESS[@]} -eq 0 ]; then
   exit 0
 fi
 
-# For each YAML file, determine if --skip-remote-metadata should be used based on the following logic:
+# For each YAML file, determine if --no-overwrite-app should be used based on the following logic:
 # - Group the alphabet a-z in pairs: (a,b)=1, (c,d)=2, ..., (y,z)=13
 # - For each file, get the first letter of its name and determine its group number G
-# - If today is day G or G+15 of the month, run zapstore without --skip-remote-metadata
-# - On all other days, run zapstore with --skip-remote-metadata
+# - If today is day G or G+15 of the month, run zapstore with --overwrite-app (default)
+# - On all other days, run zapstore with --no-overwrite-app
 
 # Track if any file failed (for normal mode)
 ANY_FAILED=false
