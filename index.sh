@@ -29,7 +29,7 @@ fi
 for FILE_PATH in "${ALL_FILES[@]}"; do
   FILENAME=$(basename "$FILE_PATH")
   echo "Processing $FILENAME"
-  ../zapstore-cli/bin/zapstore-cli-0.2.1-macos-arm64 publish -c "$FILE_PATH" -d
+  zapstore publish -c "$FILE_PATH" -d
   STATUS=$?
   if [ $STATUS -ne 0 ]; then
     echo "❌ Error processing $FILENAME:" >&2
