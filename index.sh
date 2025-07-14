@@ -64,7 +64,6 @@ ANY_FAILED=false
 
 for FILE_PATH in "${FILES_TO_PROCESS[@]}"; do
   FILENAME=$(basename "$FILE_PATH")
-  echo "Processing $FILENAME"
   DAY_OF_MONTH=$(date +%d | sed 's/^0*//')
   # Get first letter, lowercase
   FIRST_LETTER=$(echo "$FILENAME" | cut -c1 | tr '[:upper:]' '[:lower:]')
