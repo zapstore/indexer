@@ -1,6 +1,6 @@
 repository: https://github.com/j-fbriere/squawker
 assets:
-  - squawker-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
+  - squawker-v\d+\.\d+(\.\d+)?(\.\d+)?
 remote_metadata:
   - github
   - playstore
