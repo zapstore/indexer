@@ -7,5 +7,4 @@ version:
 assets:
   - https://f-droid.org/repo/net.sourceforge.opencamera_$version.apk
 remote_metadata:
-  - github
-  - playstore
+  - fdroid

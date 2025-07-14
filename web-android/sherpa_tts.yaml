@@ -8,4 +8,4 @@ assets:
   - https://f-droid.org/repo/org.woheller69.ttsengine_$version.apk
 remote_metadata:
   - github
-  - playstore
+  - fdroid

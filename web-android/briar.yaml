@@ -7,5 +7,4 @@ version:
 assets:
   - https://briarproject.org/apk/briar.apk
 remote_metadata:
-  - github
   - playstore

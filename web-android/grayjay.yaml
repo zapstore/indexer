@@ -7,4 +7,4 @@ description: The FUTO media app endeavours creating infrastructure for creators 
 assets:
   - https://releases.grayjay.app/app-arm64-v8a-release.apk
 remote_metadata:
-  - playstore
+  - fdroid

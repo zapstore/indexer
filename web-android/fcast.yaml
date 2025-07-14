@@ -7,4 +7,5 @@ description: FCast is an open source protocol that enables wireless streaming of
 assets:
   - https://releases.grayjay.app/fcast-release.apk
 remote_metadata:
-  - playstore
+  - gitlab
+  - fdroid
