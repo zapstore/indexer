@@ -16,10 +16,10 @@ if [ "$1" == "--continue" ]; then
 fi
 
 if [ -z "$INPUT_PATH" ]; then
-  echo "Usage: $0 [--continue] <folder-path|yaml-file>" >&2
-  echo "Example: $0 ./android" >&2
-  echo "         $0 ./android/app.yaml" >&2
-  echo "         $0 --continue ./android/app.yaml" >&2
+  echo "$(date '+%Y-%m-%d %H:%M:%S') Usage: $0 [--continue] <folder-path|yaml-file>" >&2
+  echo "$(date '+%Y-%m-%d %H:%M:%S') Example: $0 ./android" >&2
+  echo "$(date '+%Y-%m-%d %H:%M:%S')          $0 ./android/app.yaml" >&2
+  echo "$(date '+%Y-%m-%d %H:%M:%S')          $0 --continue ./android/app.yaml" >&2
   exit 1
 fi
 
@@ -30,7 +30,7 @@ elif [ -d "$INPUT_PATH" ]; then
   # Directory: find all YAML files
   mapfile -t FILES_TO_PROCESS < <(find "$INPUT_PATH" -maxdepth 1 -type f \( -name '*.yaml' -o -name '*.yml' \) | sort)
 else
-  echo "Error: '$INPUT_PATH' is not a valid directory or YAML file" >&2
+  echo "$(date '+%Y-%m-%d %H:%M:%S') Error: '$INPUT_PATH' is not a valid directory or YAML file" >&2
   exit 1
 fi
 
@@ -92,11 +92,11 @@ for FILE_PATH in "${FILES_TO_PROCESS[@]}"; do
   fi
   STATUS=$?
   if [ $STATUS -ne 0 ]; then
-    echo "❌ Error processing $FILENAME:" >&2
-    echo "Exit code: $STATUS" >&2
-    echo "\n🛑 ABORTING: Failed to process $FILENAME" >&2
+    echo "$(date '+%Y-%m-%d %H:%M:%S') ❌ Error processing $FILENAME:" >&2
+    echo "$(date '+%Y-%m-%d %H:%M:%S') Exit code: $STATUS" >&2
+    echo "\n$(date '+%Y-%m-%d %H:%M:%S') 🛑 ABORTING: Failed to process $FILENAME" >&2
     if [ "$CONTINUE_MODE" = true ]; then
-      echo "Fix the YAML file and re-run the program." >&2
+      echo "$(date '+%Y-%m-%d %H:%M:%S') Fix the YAML file and re-run the program." >&2
       exit 1
     else
       ANY_FAILED=true
