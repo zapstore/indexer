@@ -1,3 +1,5 @@
 repository: https://gitlab.com/ngrob/bluemoon-android
 assets:
   - .*.apk$
+remote_metadata:
+  - fdroid
