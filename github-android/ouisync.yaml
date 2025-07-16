@@ -1,6 +1,6 @@
 repository: https://github.com/equalitie/ouisync-app
 assets:
-  - .*.apk$$
+  - .*.apk$
 remote_metadata:
   - github
   - playstore

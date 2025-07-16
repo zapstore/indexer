@@ -1,6 +1,6 @@
 repository: https://github.com/bitwarden/android
 assets:
-  - com.x8bit.bitwarden-fdroid.apk$$
+  - com.x8bit.bitwarden-fdroid.apk$
 remote_metadata:
   - github
   - playstore
