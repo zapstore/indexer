@@ -85,10 +85,11 @@ for FILE_PATH in "${FILES_TO_PROCESS[@]}"; do
     *) GROUP=0 ;;
   esac
   # Decide whether to skip remote metadata
+  # TODO: Same until overwrite apps separately
   if (( DAY_OF_MONTH == GROUP || DAY_OF_MONTH == GROUP + 15 )); then
-    zapstore publish -c "$FILE_PATH" -d
+    zapstore publish -c "$FILE_PATH" --indexer-mode --no-overwrite-app
   else
-    zapstore publish -c "$FILE_PATH" -d --no-overwrite-app
+    zapstore publish -c "$FILE_PATH" --indexer-mode --no-overwrite-app
   fi
   STATUS=$?
   if [ $STATUS -ne 0 ]; then
