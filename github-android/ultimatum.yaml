@@ -1,6 +1,0 @@
-repository: https://github.com/gonzazoid/ultimatum
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore
