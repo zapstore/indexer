@@ -1,0 +1,6 @@
+repository: https://github.com/Freedom-Guard/FG_MOBILE
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

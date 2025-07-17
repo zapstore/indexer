@@ -1,0 +1,6 @@
+repository: https://github.com/G-Ray/pikatorrent
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

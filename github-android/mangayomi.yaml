@@ -1,0 +1,5 @@
+repository: https://github.com/kodjodevf/mangayomi
+assets:
+  - .*.apk$
+remote_metadata:
+  - github

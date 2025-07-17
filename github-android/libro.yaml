@@ -1,0 +1,5 @@
+repository: https://github.com/innomatica/libro
+assets:
+  - .*.apk$
+remote_metadata:
+  - github

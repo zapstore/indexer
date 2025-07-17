@@ -1,0 +1,6 @@
+repository: https://github.com/innomatica/jacto
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

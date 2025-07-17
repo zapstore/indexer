@@ -1,0 +1,6 @@
+repository: https://github.com/m3sserschmitt/aenigma-android
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

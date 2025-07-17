@@ -1,0 +1,6 @@
+repository: https://github.com/jamessizeland/peer-to-peer
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

@@ -1,0 +1,6 @@
+repository: https://github.com/bisq-network/bisq-mobile
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore
