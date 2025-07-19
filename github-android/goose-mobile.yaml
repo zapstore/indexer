@@ -1,0 +1,6 @@
+repository: https://github.com/block/goose-mobile
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore
