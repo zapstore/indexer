@@ -1,10 +1,10 @@
 repository: https://codeberg.org/comaps/comaps
 version:
-  - https://codeberg.org/comaps/comaps/releases
-  - a[href$="apk"]
-  - href
-  - (\d+\.\d+\.\d+.*)\.
+  - https://f-droid.org/packages/app.comaps.fdroid/
+  - .package-version-header a[name]:nth-child(2)
+  - name
+  - .*
 assets:
-  - https://codeberg.org/comaps/comaps/releases/download/$version.apk
+  - https://f-droid.org/repo/app.comaps.fdroid_$version.apk
 remote_metadata:
   - fdroid
