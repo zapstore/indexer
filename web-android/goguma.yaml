@@ -1,0 +1,10 @@
+repository: https://codeberg.org/emersion/goguma
+version:
+  - https://f-droid.org/packages/fr.emersion.goguma/
+  - .package-version-header a[name]:nth-child(2)
+  - name
+  - .*
+assets:
+  - https://f-droid.org/repo/fr.emersion.goguma_$version.apk
+remote_metadata:
+  - fdroid
