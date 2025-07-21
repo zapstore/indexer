@@ -1,0 +1,6 @@
+repository: https://github.com/zood/george
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

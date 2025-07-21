@@ -1,0 +1,6 @@
+repository: https://github.com/erickok/transdroid
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore

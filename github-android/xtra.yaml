@@ -1,0 +1,6 @@
+repository: https://github.com/crackededed/Xtra
+assets:
+  - .*.apk$
+remote_metadata:
+  - github
+  - playstore
