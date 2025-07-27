@@ -1,0 +1,5 @@
+repository: https://github.com/openfoodfacts/smooth-app
+assets:
+  - .*fdroid.*apk
+remote_metadata:
+  - playstore
