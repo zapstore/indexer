@@ -1,0 +1,5 @@
+repository: https://github.com/gokadzev/Musify
+assets:
+  - .*.apk
+remote_metadata:
+  - fdroid
