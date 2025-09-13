@@ -1,6 +1,6 @@
 repository: https://github.com/IacobIonut01/Gallery
 assets:
-  - Gallery-\d+\.\d+(\.\d+)?(\.\d+)?-\d+.apk$
+  - Gallery-.*arm64-v8a.apk$
 remote_metadata:
   - github
   - playstore
