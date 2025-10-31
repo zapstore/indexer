@@ -1,6 +1,0 @@
-repository: https://github.com/xoureldeen/Vectras-VM-Android
-assets:
-  - app-release-universal.apk$
-remote_metadata:
-  - github
-  - playstore

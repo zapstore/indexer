@@ -1,6 +1,0 @@
-release_repository: https://github.com/obsidianmd/obsidian-releases
-assets:
-  - Obsidian-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

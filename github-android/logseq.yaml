@@ -1,6 +1,0 @@
-repository: https://github.com/logseq/logseq
-assets:
-  - Logseq-android-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

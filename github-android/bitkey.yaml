@@ -1,6 +1,0 @@
-repository: https://github.com/proto-at-block/bitkey
-assets:
-  - Bitkey-app-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

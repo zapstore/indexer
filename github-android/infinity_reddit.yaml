@@ -1,6 +1,0 @@
-repository: https://github.com/Docile-Alligator/Infinity-For-Reddit
-assets:
-  - Infinity-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

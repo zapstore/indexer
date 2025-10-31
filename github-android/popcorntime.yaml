@@ -1,6 +1,0 @@
-repository: https://github.com/popcorn-official/popcorn-android
-assets:
-  - mobile-arm-release-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

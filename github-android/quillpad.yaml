@@ -1,7 +1,0 @@
-repository: https://github.com/quillpad/quillpad
-description: Take beautiful markdown notes and stay organized with task lists
-assets:
-  - quillpad-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

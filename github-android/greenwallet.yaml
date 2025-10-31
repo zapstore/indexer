@@ -1,6 +1,0 @@
-repository: https://github.com/Blockstream/green_android
-assets:
-  - BlockstreamGreen-v\d+\.\d+(\.\d+)?(\.\d+)?-productionGoogle-release.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/AnySoftKeyboard/AnySoftKeyboard
-assets:
-  - ime-app-\d+.apk$
-remote_metadata:
-  - github
-  - playstore

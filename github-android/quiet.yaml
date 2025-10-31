@@ -1,6 +1,0 @@
-repository: https://github.com/TryQuiet/quiet
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

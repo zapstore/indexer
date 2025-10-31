@@ -1,6 +1,0 @@
-repository: https://github.com/helloworld1/FreeOTPPlus
-assets:
-  - app-release.apk$
-remote_metadata:
-  - github
-  - playstore

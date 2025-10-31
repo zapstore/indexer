@@ -1,5 +1,0 @@
-repository: https://github.com/gedoor/legado
-assets:
-  - .*.apk$
-remote_metadata:
-  - github

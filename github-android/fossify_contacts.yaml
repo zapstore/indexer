@@ -1,6 +1,0 @@
-repository: https://github.com/FossifyOrg/Contacts
-assets:
-  - contacts-\d+-foss-release.apk$
-remote_metadata:
-  - github
-  - playstore

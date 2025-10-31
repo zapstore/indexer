@@ -1,6 +1,0 @@
-repository: https://github.com/seazon/FeedMe
-assets:
-  - app-release-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

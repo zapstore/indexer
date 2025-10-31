@@ -1,6 +1,0 @@
-repository: https://github.com/thunderbird/thunderbird-android
-assets:
-  - thunderbird-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

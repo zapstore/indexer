@@ -1,6 +1,0 @@
-repository: https://github.com/Yubico/yubioath-flutter
-assets:
-  - yubico-authenticator-\d+\.\d+(\.\d+)?(\.\d+)?-android.apk$
-remote_metadata:
-  - github
-  - playstore

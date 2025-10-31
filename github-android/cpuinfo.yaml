@@ -1,6 +1,0 @@
-repository: https://github.com/kamgurgul/cpu-info
-assets:
-  - androidApp-release.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/edgeapp/edge-react-gui
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

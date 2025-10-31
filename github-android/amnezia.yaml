@@ -1,6 +1,0 @@
-repository: https://github.com/amnezia-vpn/amnezia-client
-assets:
-  - AmneziaVPN_.*_arm64-v8a.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/readest/readest
-assets:
-  - Readest_\d+\.\d+(\.\d+)?(\.\d+)?_arm64.apk$
-remote_metadata:
-  - github
-  - playstore

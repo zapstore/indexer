@@ -1,6 +1,0 @@
-repository: https://github.com/rdoeffinger/dictionary
-assets:
-  - Dictionary-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

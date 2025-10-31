@@ -1,6 +1,0 @@
-repository: https://github.com/pitonite/exch_cx
-assets:
-  - exch-cx-v.*.apk$
-remote_metadata:
-  - github
-  - playstore

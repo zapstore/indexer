@@ -1,6 +1,0 @@
-repository: https://github.com/stingle/stingle-photos-android
-assets:
-  - StinglePhotos-fdroid-release.apk$
-remote_metadata:
-  - github
-  - playstore

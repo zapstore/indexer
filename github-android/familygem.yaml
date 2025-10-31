@@ -1,6 +1,0 @@
-repository: https://github.com/michelesalvador/FamilyGem
-assets:
-  - Family_Gem_\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

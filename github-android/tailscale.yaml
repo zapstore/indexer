@@ -1,6 +1,0 @@
-repository: https://github.com/tailscale/tailscale-android
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

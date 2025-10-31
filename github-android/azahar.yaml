@@ -1,6 +1,0 @@
-repository: https://github.com/azahar-emu/azahar
-assets:
-  - azahar-\d+\.\d+(\.\d+)?(\.\d+)?-android-universal.apk$
-remote_metadata:
-  - github
-  - playstore

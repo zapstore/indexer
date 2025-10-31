@@ -1,6 +1,0 @@
-repository: https://github.com/zaneschepke/wgtunnel
-assets:
-  - wgtunnel-fdroid-release-\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

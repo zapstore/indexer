@@ -1,6 +1,0 @@
-repository: https://github.com/fast4x/RiMusic
-assets:
-  - app-foss-release.apk$
-remote_metadata:
-  - github
-  - playstore

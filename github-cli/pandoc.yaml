@@ -1,5 +1,0 @@
-repository: https://github.com/jgm/pandoc
-assets:
-  - pandoc-\d+.\d+.\d+-arm64-macOS.zip
-  - pandoc-\d+.\d+.\d+-linux-arm64.tar.gz
-  - pandoc-\d+.\d+.\d+-linux-amd64.tar.gz

@@ -1,6 +1,0 @@
-repository: https://github.com/MarcusWolschon/osmeditor4android
-assets:
-  - vespucci-.*-signed.apk$
-remote_metadata:
-  - github
-  - playstore

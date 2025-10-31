@@ -1,6 +1,0 @@
-repository: https://github.com/mastodon/mastodon-android
-assets:
-  - mastodon-githubRelease.apk$
-remote_metadata:
-  - github
-  - playstore

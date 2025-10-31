@@ -1,7 +1,0 @@
-repository: https://github.com/moffatman/chan
-description: Flutter imageboard browser for iOS and Android
-assets:
-  - app-arm64-v8a-release.apk$
-remote_metadata:
-  - github
-  - playstore

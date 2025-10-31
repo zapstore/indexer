@@ -1,6 +1,0 @@
-repository: https://github.com/floccusaddon/floccus
-assets:
-  - floccus-build-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

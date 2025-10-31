@@ -1,6 +1,0 @@
-repository: https://github.com/simplex-chat/simplex-chat
-assets:
-  - simplex.apk$
-remote_metadata:
-  - github
-  - playstore

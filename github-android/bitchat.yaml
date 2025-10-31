@@ -1,6 +1,0 @@
-repository: https://github.com/permissionlesstech/bitchat-android
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

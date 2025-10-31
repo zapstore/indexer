@@ -1,6 +1,0 @@
-repository: https://github.com/holesail/holesail
-assets:
-  - Holesail-go-android-v.*.apk$
-remote_metadata:
-  - github
-  - playstore

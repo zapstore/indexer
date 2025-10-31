@@ -1,6 +1,0 @@
-repository: https://github.com/lawnchairlauncher/lawnchair
-assets:
-  - Lawnchair.*.apk$
-remote_metadata:
-  - github
-  - playstore

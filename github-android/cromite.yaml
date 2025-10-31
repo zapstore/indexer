@@ -1,6 +1,0 @@
-repository: https://github.com/uazo/cromite
-assets:
-  - arm64_ChromePublic.apk$
-remote_metadata:
-  - github
-  - playstore

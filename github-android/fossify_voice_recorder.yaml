@@ -1,6 +1,0 @@
-repository: https://github.com/FossifyOrg/Voice-Recorder
-assets:
-  - voicerecorder-\d+-foss-release.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/amnesica/ClearClipboard
-assets:
-  - com.amnesica.clearclipboard_v\d+\.\d+(\.\d+)?(\.\d+)?-release.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/ranobe-org/ranobe
-assets:
-  - ranobe.apk$
-remote_metadata:
-  - github
-  - playstore

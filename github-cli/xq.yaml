@@ -1,5 +1,0 @@
-repository: https://github.com/sibprogrammer/xq
-assets:
-  - xq_\d+.\d+.\d+_darwin_arm64.tar.gz
-  - xq_\d+.\d+.\d+_linux_arm64.tar.gz
-  - xq_\d+.\d+.\d+_linux_amd64.tar.gz

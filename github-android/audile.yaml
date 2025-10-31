@@ -1,6 +1,0 @@
-repository: https://github.com/aleksey-saenko/MusicRecognizer
-assets:
-  - Audile_v\d+\.\d+(\.\d+)?(\.\d+)?_github.apk$
-remote_metadata:
-  - github
-  - playstore

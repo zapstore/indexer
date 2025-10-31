@@ -1,6 +1,0 @@
-repository: https://github.com/isoron/uhabits
-assets:
-  - loop-\d+\.\d+(\.\d+)?(\.\d+)?-release.apk$
-remote_metadata:
-  - github
-  - playstore

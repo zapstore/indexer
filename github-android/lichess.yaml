@@ -1,6 +1,0 @@
-repository: https://github.com/lichess-org/mobile
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

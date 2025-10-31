@@ -1,6 +1,0 @@
-repository: https://gitlab.com/ironfox-oss/IronFox
-assets:
-  - .*.apk
-remote_metadata:
-  - gitlab
-  - fdroid

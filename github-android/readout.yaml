@@ -1,6 +1,0 @@
-repository: https://github.com/tawhidmonowar/readout
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

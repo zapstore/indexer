@@ -1,6 +1,0 @@
-repository: https://github.com/TeamAmaze/AmazeFileManager
-assets:
-  - app-fdroid-release.apk$
-remote_metadata:
-  - github
-  - playstore

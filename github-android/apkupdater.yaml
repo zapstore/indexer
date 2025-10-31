@@ -1,6 +1,0 @@
-repository: https://github.com/rumboalla/apkupdater
-assets:
-  - com.apkupdater.ci-release.apk$
-remote_metadata:
-  - github
-  - playstore

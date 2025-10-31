@@ -1,6 +1,0 @@
-repository: https://github.com/mullvad/mullvadvpn-app
-assets:
-  - MullvadVPN-.*.apk$
-remote_metadata:
-  - github
-  - playstore

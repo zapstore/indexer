@@ -1,6 +1,0 @@
-repository: https://github.com/CatimaLoyalty/Android
-assets:
-  - app-release.apk$
-remote_metadata:
-  - github
-  - playstore

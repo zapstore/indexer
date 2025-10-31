@@ -1,6 +1,0 @@
-repository: https://github.com/Kunzisoft/KeePassDX
-assets:
-  - KeePassDX-\d+\.\d+(\.\d+)?(\.\d+)?-free.apk$
-remote_metadata:
-  - github
-  - playstore

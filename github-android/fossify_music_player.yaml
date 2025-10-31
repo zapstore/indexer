@@ -1,6 +1,0 @@
-repository: https://github.com/FossifyOrg/Music-Player
-assets:
-  - musicplayer-\d+-foss-release.apk$
-remote_metadata:
-  - github
-  - playstore

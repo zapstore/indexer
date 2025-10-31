@@ -1,7 +1,0 @@
-repository: https://github.com/nextcloud/news-android
-description: Android client for the Nextcloud news/feed reader app
-assets:
-  - News-Android-App-oss-release.apk$
-remote_metadata:
-  - github
-  - playstore

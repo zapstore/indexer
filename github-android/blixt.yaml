@@ -1,6 +1,0 @@
-repository: https://github.com/hsjoberg/blixt-wallet
-assets:
-  - blixt-wallet-mainnet-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

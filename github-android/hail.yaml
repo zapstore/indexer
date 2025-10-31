@@ -1,6 +1,0 @@
-repository: https://github.com/aistra0528/Hail
-assets:
-  - Hail-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

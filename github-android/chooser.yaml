@@ -1,6 +1,0 @@
-repository: https://github.com/UrAvgCode/Chooser
-assets:
-  - chooser-v\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

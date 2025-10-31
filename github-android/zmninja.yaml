@@ -1,6 +1,0 @@
-repository: https://github.com/ZoneMinder/zmNinja
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

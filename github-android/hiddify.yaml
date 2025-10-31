@@ -1,6 +1,0 @@
-repository: https://github.com/hiddify/hiddify-app
-assets:
-  - Hiddify-Android-arm64.apk$
-remote_metadata:
-  - github
-  - playstore

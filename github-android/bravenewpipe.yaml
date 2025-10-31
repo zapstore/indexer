@@ -1,6 +1,0 @@
-repository: https://github.com/bravenewpipe/NewPipe
-assets:
-  - BraveNewPipe_v.*.apk$
-remote_metadata:
-  - github
-  - playstore

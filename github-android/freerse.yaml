@@ -1,6 +1,0 @@
-repository: https://github.com/Freerse/Freerse
-assets:
-  - app-release_\d+\.\d+(\.\d+)?(\.\d+)?.apk$
-remote_metadata:
-  - github
-  - playstore

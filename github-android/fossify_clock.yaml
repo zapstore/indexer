@@ -1,6 +1,0 @@
-repository: https://github.com/FossifyOrg/Clock
-assets:
-  - clock-\d+-foss-release.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/Eukaryot/sonic3air
-assets:
-  - sonic3air_game.apk$
-remote_metadata:
-  - github
-  - playstore

@@ -1,6 +1,0 @@
-repository: https://github.com/stsaz/phiola
-assets:
-  - phiola-\d+\.\d+(\.\d+)?(\.\d+)?-android-arm64.apk$
-remote_metadata:
-  - github
-  - playstore

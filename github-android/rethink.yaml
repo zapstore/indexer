@@ -1,6 +1,0 @@
-repository: https://github.com/celzero/rethink-app
-assets:
-  - rethink-\d+.apk$
-remote_metadata:
-  - github
-  - playstore

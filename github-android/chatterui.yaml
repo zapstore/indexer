@@ -1,6 +1,0 @@
-repository: https://github.com/Vali-98/ChatterUI
-assets:
-  - .*.apk$
-remote_metadata:
-  - github
-  - playstore

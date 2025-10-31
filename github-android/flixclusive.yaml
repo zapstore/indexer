@@ -1,6 +1,0 @@
-repository: https://github.com/flixclusiveorg/Flixclusive
-assets:
-  - flixclusive-release.apk$
-remote_metadata:
-  - github
-  - playstore
